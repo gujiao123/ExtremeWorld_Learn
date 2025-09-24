@@ -1,0 +1,9 @@
+E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Protocol\bin\Debug\Protocol.dll
+E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Protocol\bin\Debug\Protocol.pdb
+E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Protocol\bin\Debug\protobuf-net.dll
+E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Protocol\bin\Debug\protobuf-net.xml
+E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Protocol\obj\Debug\Protocol.csproj.AssemblyReference.cache
+E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Protocol\obj\Debug\Protocol.csproj.CoreCompileInputs.cache
+E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Protocol\obj\Debug\Protocol.csproj.Up2Date
+E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Protocol\obj\Debug\Protocol.dll
+E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Protocol\obj\Debug\Protocol.pdb

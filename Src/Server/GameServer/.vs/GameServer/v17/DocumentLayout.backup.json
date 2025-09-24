@@ -1,0 +1,598 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF59EEE-D33E-41EE-B2F8-B59BCDBA856F}|..\\..\\Lib\\Protocol\\Protocol.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\lib\\protocol\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\gameserver\\gameserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\gameserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\gameserver\\services\\helloworldserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\services\\helloworldserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF59EEE-D33E-41EE-B2F8-B59BCDBA856F}|..\\..\\Lib\\Protocol\\Protocol.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\lib\\protocol\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\gameserver\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\gameserver\\commandhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\commandhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\gameserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\gameserver\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF59EEE-D33E-41EE-B2F8-B59BCDBA856F}|..\\..\\Lib\\Protocol\\Protocol.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\lib\\protocol\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\gameserver\\services\\dbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\services\\dbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\gameserver\\entities\\characterbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\entities\\characterbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\gameserver\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\gameserver\\network\\netservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\network\\netservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\gameserver\\network\\tcpsocketlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\network\\tcpsocketlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE169E52-A80E-4C19-B75B-823907B4ECEF}|..\\..\\Lib\\Common\\Common.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\lib\\common\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\gameserver\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\gameserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\gameserver\\entities.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\entities.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\gameserver\\network\\netconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\network\\netconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\gameserver\\network\\extensionmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\network\\extensionmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\gameserver\\network\\neteventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\network\\neteventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\gameserver\\network\\netsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\network\\netsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\gameserver\\entities\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\entities\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE169E52-A80E-4C19-B75B-823907B4ECEF}|..\\..\\Lib\\Common\\Common.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\lib\\common\\network\\messagedispatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE169E52-A80E-4C19-B75B-823907B4ECEF}|..\\..\\Lib\\Common\\Common.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\lib\\common\\network\\messagedistributer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE169E52-A80E-4C19-B75B-823907B4ECEF}|..\\..\\Lib\\Common\\Common.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\lib\\common\\network\\packagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE169E52-A80E-4C19-B75B-823907B4ECEF}|..\\..\\Lib\\Common\\Common.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\lib\\common\\bufferutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\gameserver\\core\\vector3int.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C54695D-AC9F-455B-846D-0E865991F681}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\core\\vector3int.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE169E52-A80E-4C19-B75B-823907B4ECEF}|..\\..\\Lib\\Common\\Common.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\lib\\common\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE169E52-A80E-4C19-B75B-823907B4ECEF}|..\\..\\Lib\\Common\\Common.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\lib\\common\\messageextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE169E52-A80E-4C19-B75B-823907B4ECEF}|..\\..\\Lib\\Common\\Common.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\lib\\common\\utils\\mathutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE169E52-A80E-4C19-B75B-823907B4ECEF}|..\\..\\Lib\\Common\\Common.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\lib\\common\\data\\teleporterdefine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE169E52-A80E-4C19-B75B-823907B4ECEF}|..\\..\\Lib\\Common\\Common.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\lib\\common\\data\\spawntype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE169E52-A80E-4C19-B75B-823907B4ECEF}|..\\..\\Lib\\Common\\Common.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\lib\\common\\data\\spawnruledefine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE169E52-A80E-4C19-B75B-823907B4ECEF}|..\\..\\Lib\\Common\\Common.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\lib\\common\\data\\spawnpointdefine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE169E52-A80E-4C19-B75B-823907B4ECEF}|..\\..\\Lib\\Common\\Common.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\lib\\common\\data\\mapdefine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE169E52-A80E-4C19-B75B-823907B4ECEF}|..\\..\\Lib\\Common\\Common.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\lib\\common\\data\\characterdefine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "message.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Protocol\\message.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lib\\Protocol\\message.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Protocol\\message.cs",
+              "RelativeToolTip": "..\\..\\Lib\\Protocol\\message.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAKwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T13:42:02.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Protocol\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lib\\Protocol\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Protocol\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "..\\..\\Lib\\Protocol\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T13:41:24.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HelloWorldServer.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\Services\\HelloWorldServer.cs",
+              "RelativeDocumentMoniker": "GameServer\\Services\\HelloWorldServer.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\Services\\HelloWorldServer.cs",
+              "RelativeToolTip": "GameServer\\Services\\HelloWorldServer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T13:27:01.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CommandHelper.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\CommandHelper.cs",
+              "RelativeDocumentMoniker": "GameServer\\CommandHelper.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\CommandHelper.cs",
+              "RelativeToolTip": "GameServer\\CommandHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:21:07.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "GameServer\\Services\\UserService.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\Services\\UserService.cs",
+              "RelativeToolTip": "GameServer\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T12:56:56.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameServer.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\GameServer.cs",
+              "RelativeDocumentMoniker": "GameServer\\GameServer.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\GameServer.cs",
+              "RelativeToolTip": "GameServer\\GameServer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:44:59.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\Program.cs",
+              "RelativeDocumentMoniker": "GameServer\\Program.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\Program.cs",
+              "RelativeToolTip": "GameServer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:44:39.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\Settings.cs",
+              "RelativeDocumentMoniker": "GameServer\\Settings.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\Settings.cs",
+              "RelativeToolTip": "GameServer\\Settings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:47:52.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "packages.config",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Protocol\\packages.config",
+              "RelativeDocumentMoniker": "..\\..\\Lib\\Protocol\\packages.config",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Protocol\\packages.config",
+              "RelativeToolTip": "..\\..\\Lib\\Protocol\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-24T13:31:35.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DBService.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\Services\\DBService.cs",
+              "RelativeDocumentMoniker": "GameServer\\Services\\DBService.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\Services\\DBService.cs",
+              "RelativeToolTip": "GameServer\\Services\\DBService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T12:56:30.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CharacterBase.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\entities\\CharacterBase.cs",
+              "RelativeDocumentMoniker": "GameServer\\entities\\CharacterBase.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\entities\\CharacterBase.cs",
+              "RelativeToolTip": "GameServer\\entities\\CharacterBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T13:06:20Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NetService.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\network\\NetService.cs",
+              "RelativeDocumentMoniker": "GameServer\\network\\NetService.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\network\\NetService.cs",
+              "RelativeToolTip": "GameServer\\network\\NetService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:26:24.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TcpSocketListener.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\network\\TcpSocketListener.cs",
+              "RelativeDocumentMoniker": "GameServer\\network\\TcpSocketListener.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\network\\TcpSocketListener.cs",
+              "RelativeToolTip": "GameServer\\network\\TcpSocketListener.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAhwJQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:27:20.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Character.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\entities\\Character.cs",
+              "RelativeDocumentMoniker": "GameServer\\entities\\Character.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\entities\\Character.cs",
+              "RelativeToolTip": "GameServer\\entities\\Character.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:26:17.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.config",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\App.config",
+              "RelativeDocumentMoniker": "GameServer\\App.config",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\App.config",
+              "RelativeToolTip": "GameServer\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-24T10:44:35.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Config.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\Config.cs",
+              "RelativeDocumentMoniker": "GameServer\\Config.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\Config.cs",
+              "RelativeToolTip": "GameServer\\Config.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:21:07.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Entities.edmx [Diagram1]",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\Entities.edmx",
+              "RelativeDocumentMoniker": "GameServer\\Entities.edmx",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\Entities.edmx [Diagram1]",
+              "RelativeToolTip": "GameServer\\Entities.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-09-24T10:44:27.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Log.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\Log.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lib\\Common\\Log.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\Log.cs",
+              "RelativeToolTip": "..\\..\\Lib\\Common\\Log.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:19:05.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NetConnection.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\network\\NetConnection.cs",
+              "RelativeDocumentMoniker": "GameServer\\network\\NetConnection.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\network\\NetConnection.cs",
+              "RelativeToolTip": "GameServer\\network\\NetConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:26:23.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ExtensionMethods.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\network\\ExtensionMethods.cs",
+              "RelativeDocumentMoniker": "GameServer\\network\\ExtensionMethods.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\network\\ExtensionMethods.cs",
+              "RelativeToolTip": "GameServer\\network\\ExtensionMethods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:27:15.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NetEventArgs.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\network\\NetEventArgs.cs",
+              "RelativeDocumentMoniker": "GameServer\\network\\NetEventArgs.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\network\\NetEventArgs.cs",
+              "RelativeToolTip": "GameServer\\network\\NetEventArgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:37:06.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NetSession.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\network\\NetSession.cs",
+              "RelativeDocumentMoniker": "GameServer\\network\\NetSession.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\network\\NetSession.cs",
+              "RelativeToolTip": "GameServer\\network\\NetSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:37:05.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\entities\\Entity.cs",
+              "RelativeDocumentMoniker": "GameServer\\entities\\Entity.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\entities\\Entity.cs",
+              "RelativeToolTip": "GameServer\\entities\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:26:18.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BufferUtility.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\BufferUtility.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lib\\Common\\BufferUtility.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\BufferUtility.cs",
+              "RelativeToolTip": "..\\..\\Lib\\Common\\BufferUtility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:19:07.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MessageDistributer.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\Network\\MessageDistributer.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lib\\Common\\Network\\MessageDistributer.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\Network\\MessageDistributer.cs",
+              "RelativeToolTip": "..\\..\\Lib\\Common\\Network\\MessageDistributer.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAYwKAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:11:10.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Vector3Int.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\Core\\Vector3Int.cs",
+              "RelativeDocumentMoniker": "GameServer\\Core\\Vector3Int.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Server\\GameServer\\GameServer\\Core\\Vector3Int.cs",
+              "RelativeToolTip": "GameServer\\Core\\Vector3Int.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvx4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:19:11.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "packages.config",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\packages.config",
+              "RelativeDocumentMoniker": "..\\..\\Lib\\Common\\packages.config",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\packages.config",
+              "RelativeToolTip": "..\\..\\Lib\\Common\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-24T10:19:09.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PackageHandler.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\Network\\PackageHandler.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lib\\Common\\Network\\PackageHandler.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\Network\\PackageHandler.cs",
+              "RelativeToolTip": "..\\..\\Lib\\Common\\Network\\PackageHandler.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAlwGgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:11:11.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MessageDispatch.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\Network\\MessageDispatch.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lib\\Common\\Network\\MessageDispatch.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\Network\\MessageDispatch.cs",
+              "RelativeToolTip": "..\\..\\Lib\\Common\\Network\\MessageDispatch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:11:11.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MessageExtend.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\MessageExtend.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lib\\Common\\MessageExtend.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\MessageExtend.cs",
+              "RelativeToolTip": "..\\..\\Lib\\Common\\MessageExtend.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:19:08.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MathUtil.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\Utils\\MathUtil.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lib\\Common\\Utils\\MathUtil.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\Utils\\MathUtil.cs",
+              "RelativeToolTip": "..\\..\\Lib\\Common\\Utils\\MathUtil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:19:07.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TeleporterDefine.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\Data\\TeleporterDefine.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lib\\Common\\Data\\TeleporterDefine.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\Data\\TeleporterDefine.cs",
+              "RelativeToolTip": "..\\..\\Lib\\Common\\Data\\TeleporterDefine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:19:03.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SpawnType.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\Data\\SpawnType.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lib\\Common\\Data\\SpawnType.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\Data\\SpawnType.cs",
+              "RelativeToolTip": "..\\..\\Lib\\Common\\Data\\SpawnType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:19:03.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SpawnRuleDefine.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\Data\\SpawnRuleDefine.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lib\\Common\\Data\\SpawnRuleDefine.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\Data\\SpawnRuleDefine.cs",
+              "RelativeToolTip": "..\\..\\Lib\\Common\\Data\\SpawnRuleDefine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:19:02.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SpawnPointDefine.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\Data\\SpawnPointDefine.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lib\\Common\\Data\\SpawnPointDefine.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\Data\\SpawnPointDefine.cs",
+              "RelativeToolTip": "..\\..\\Lib\\Common\\Data\\SpawnPointDefine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:19:02.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MapDefine.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\Data\\MapDefine.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lib\\Common\\Data\\MapDefine.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\Data\\MapDefine.cs",
+              "RelativeToolTip": "..\\..\\Lib\\Common\\Data\\MapDefine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:19:01.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CharacterDefine.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\Data\\CharacterDefine.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lib\\Common\\Data\\CharacterDefine.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Lib\\Common\\Data\\CharacterDefine.cs",
+              "RelativeToolTip": "..\\..\\Lib\\Common\\Data\\CharacterDefine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:19:01.159Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
