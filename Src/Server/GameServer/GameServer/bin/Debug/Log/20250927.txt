@@ -1,0 +1,56 @@
+
+2025-09-27 00:01:12,982 [1] [INFO ] [GameServer] £ºGame Server Init
+2025-09-27 00:01:13,033 [1] [WARN ] [GameServer] £ºStarting Listener...
+2025-09-27 00:01:13,036 [5] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:01:13,036 [13] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:01:13,036 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:01:13,036 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:01:13,036 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:01:13,036 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:01:13,036 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:01:13,036 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:01:13,142 [1] [WARN ] [GameServer] £ºNetService Started
+2025-09-27 00:01:36,878 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:3465]] Connected
+2025-09-27 00:01:36,907 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:28
+2025-09-27 00:01:36,965 [5] [INFO ] [GameServer] £ºUserRegisterRequest: User:asadashino  Pass:123456
+2025-09-27 00:01:52,088 [3] [WARN ] [GameServer] £ºClient[] Disconnected
+2025-09-27 00:37:41,112 [1] [INFO ] [GameServer] £ºGame Server Init
+2025-09-27 00:37:41,156 [1] [WARN ] [GameServer] £ºStarting Listener...
+2025-09-27 00:37:41,158 [5] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:37:41,158 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:37:41,158 [18] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:37:41,158 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:37:41,158 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:37:41,158 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:37:41,158 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:37:41,159 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:37:41,259 [1] [WARN ] [GameServer] £ºNetService Started
+2025-09-27 00:38:04,232 [1] [INFO ] [GameServer] £ºGame Server Init
+2025-09-27 00:38:04,274 [1] [WARN ] [GameServer] £ºStarting Listener...
+2025-09-27 00:38:04,277 [5] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:38:04,277 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:38:04,277 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:38:04,277 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:38:04,277 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:38:04,277 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:38:04,277 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:38:04,277 [16] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:38:04,380 [1] [WARN ] [GameServer] £ºNetService Started
+2025-09-27 00:38:22,771 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:8133]] Connected
+2025-09-27 00:38:22,799 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:28
+2025-09-27 00:38:34,916 [3] [WARN ] [GameServer] £ºClient[] Disconnected
+2025-09-27 00:41:56,431 [1] [INFO ] [GameServer] £ºGame Server Init
+2025-09-27 00:41:56,474 [1] [WARN ] [GameServer] £ºStarting Listener...
+2025-09-27 00:41:56,476 [5] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:41:56,476 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:41:56,476 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:41:56,476 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:41:56,476 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:41:56,476 [13] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:41:56,476 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:41:56,476 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-09-27 00:41:56,584 [1] [WARN ] [GameServer] £ºNetService Started
+2025-09-27 00:42:13,726 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:11226]] Connected
+2025-09-27 00:42:13,754 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:28
+2025-09-27 00:42:18,957 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:29
+2025-09-27 00:42:22,433 [3] [WARN ] [GameServer] £ºClient[] Disconnected

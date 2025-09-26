@@ -1,7 +1,6 @@
 ﻿using GameServer.Services;
 using Network;
 using System.Threading;
-
 namespace GameServer
 {
     class GameServer
@@ -17,7 +16,7 @@ namespace GameServer
             network.Init(Port);
 
             DBService.Instance.Init();
-            HelloWorldServer.Instance.Init();
+            UserService.Instance.Init();//初始化一个用于处理用户注册的服务
 
             thread = new Thread(new ThreadStart(this.Update));
             return true;
@@ -26,17 +25,18 @@ namespace GameServer
         public void Start()
         {
             network.Start();
-            HelloWorldServer.Instance.Start();
 
             running = true;
             thread.Start();
+
+
+
         }
 
 
         public void Stop()
         {
             network.Stop();
-            HelloWorldServer.Instance.Stop();
 
             running = false;
             thread.Join();

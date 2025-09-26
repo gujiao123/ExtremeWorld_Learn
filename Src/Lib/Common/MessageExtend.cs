@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace SkillBridge.Message
 {
@@ -49,7 +45,7 @@ namespace SkillBridge.Message
         }
 
 
-        public static Vector3Int FromNVector3(this Vector3Int self,NVector3 nVector)
+        public static Vector3Int FromNVector3(this Vector3Int self, NVector3 nVector)
         {
             return new Vector3Int(nVector.X, nVector.Y, nVector.Z);
         }

@@ -1,0 +1,115 @@
+
+2025-09-26 23:45:40,106 [1] [INFO ] [GameServer] ：Game Server Init
+2025-09-26 23:45:40,173 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-09-26 23:45:40,177 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:45:40,177 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:45:40,177 [16] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:45:40,177 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:45:40,177 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:45:40,177 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:45:40,177 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:45:40,177 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:45:40,284 [1] [WARN ] [GameServer] ：NetService Started
+2025-09-26 23:46:21,501 [21] [WARN ] [GameServer] ：Client[127.0.0.1:11751]] Connected
+2025-09-26 23:46:21,524 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2025-09-26 23:46:21,582 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:Asadashino  Pass:123456
+2025-09-26 23:46:31,785 [5] [ERROR] [GameServer] ：Message handler exception:System.Data.Entity.Core.EntityException: 基础提供程序在 Open 上失败。 ---> System.Data.Entity.Core.EntityException: 可能由于暂时性失败引发了异常。如果您在连接到 SQL Azure 数据库，请考虑使用 SqlAzureExecutionStrategy。 ---> System.Data.SqlClient.SqlException: 已成功与服务器建立连接，但是在登录前的握手期间发生错误。 (provider: TCP Provider, error: 0 - 远程主机强迫关闭了一个现有的连接。) ---> System.ComponentModel.Win32Exception: 远程主机强迫关闭了一个现有的连接。
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation), 可能由于暂时性失败引发了异常。如果您在连接到 SQL Azure 数据库，请考虑使用 SqlAzureExecutionStrategy。, EntityFramework.SqlServer,    在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 GameServer.Services.UserService.OnRegister(NetConnection`1 sender, UserRegisterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 44
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-09-26 23:51:31,998 [1] [INFO ] [GameServer] ：Game Server Init
+2025-09-26 23:51:32,042 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-09-26 23:51:32,044 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:51:32,044 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:51:32,044 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:51:32,044 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:51:32,044 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:51:32,044 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:51:32,044 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:51:32,045 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:51:32,157 [1] [WARN ] [GameServer] ：NetService Started
+2025-09-26 23:51:54,381 [1] [INFO ] [GameServer] ：Game Server Init
+2025-09-26 23:51:54,427 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-09-26 23:51:54,429 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:51:54,429 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:51:54,429 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:51:54,429 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:51:54,429 [16] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:51:54,429 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:51:54,429 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:51:54,429 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:51:54,542 [1] [WARN ] [GameServer] ：NetService Started
+2025-09-26 23:54:22,314 [1] [INFO ] [GameServer] ：Game Server Init
+2025-09-26 23:54:22,364 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-09-26 23:54:22,366 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:54:22,366 [17] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:54:22,366 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:54:22,366 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:54:22,367 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:54:22,367 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:54:22,367 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:54:22,367 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:54:22,479 [1] [WARN ] [GameServer] ：NetService Started
+2025-09-26 23:59:22,293 [1] [INFO ] [GameServer] ：Game Server Init
+2025-09-26 23:59:22,341 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-09-26 23:59:22,344 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:59:22,344 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:59:22,344 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:59:22,344 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:59:22,344 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:59:22,344 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:59:22,344 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:59:22,344 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:59:22,448 [1] [WARN ] [GameServer] ：NetService Started
+2025-09-26 23:59:36,996 [1] [INFO ] [GameServer] ：Game Server Exiting...
+2025-09-26 23:59:36,996 [1] [WARN ] [GameServer] ：Stop NetService...
+2025-09-26 23:59:36,997 [1] [WARN ] [GameServer] ：Stoping Message Handler...
+2025-09-26 23:59:36,997 [5] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-09-26 23:59:36,997 [12] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-09-26 23:59:36,997 [10] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-09-26 23:59:36,997 [11] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-09-26 23:59:36,997 [9] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-09-26 23:59:36,997 [6] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-09-26 23:59:36,997 [7] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-09-26 23:59:36,997 [8] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-09-26 23:59:37,170 [1] [INFO ] [GameServer] ：Game Server Exited
+2025-09-26 23:59:58,159 [1] [INFO ] [GameServer] ：Game Server Init
+2025-09-26 23:59:58,205 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-09-26 23:59:58,208 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:59:58,208 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:59:58,208 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:59:58,208 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:59:58,208 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:59:58,208 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:59:58,208 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:59:58,208 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-09-26 23:59:58,320 [1] [WARN ] [GameServer] ：NetService Started

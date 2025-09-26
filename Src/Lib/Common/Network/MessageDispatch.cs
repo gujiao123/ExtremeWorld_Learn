@@ -29,8 +29,6 @@ namespace Network
             if (message.mapEntitySync != null) { MessageDistributer<T>.Instance.RaiseEvent(sender, message.mapEntitySync); }
             if (message.mapTeleport != null) { MessageDistributer<T>.Instance.RaiseEvent(sender, message.mapTeleport); }
 
-            //每一次都要认为添加firstRequest 是我们在协议中添加的自己的协议 每一个协议都分发到不同的服务器里面处理
-            if (message.firstRequest != null) { MessageDistributer<T>.Instance.RaiseEvent(sender, message.firstRequest); }
         }
     }
 }
