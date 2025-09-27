@@ -13,7 +13,6 @@ public class UIRegister : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
     }
 
     // Update is called once per frame
@@ -52,4 +51,7 @@ public class UIRegister : MonoBehaviour
 
         UserService.Instance.SendRegister(this.username.text, this.password.text);
     }
+
+
+
 }

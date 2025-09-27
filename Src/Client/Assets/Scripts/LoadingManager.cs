@@ -8,7 +8,8 @@ using SkillBridge.Message;
 using ProtoBuf;
 using Services;
 
-public class LoadingManager : MonoBehaviour {
+public class LoadingManager : MonoBehaviour
+{
 
     public GameObject UITips;
     public GameObject UILoading;
@@ -33,7 +34,7 @@ public class LoadingManager : MonoBehaviour {
         UILoading.SetActive(true);
         yield return new WaitForSeconds(1f);
         UITips.SetActive(false);
-
+        //me 最早开始在游戏进入加载的时候就读取本地Data文件夹里面的配置数据
         yield return DataManager.Instance.LoadData();
 
         //Init basic services
@@ -56,7 +57,8 @@ public class LoadingManager : MonoBehaviour {
 
 
     // Update is called once per frame
-    void Update () {
+    void Update()
+    {
 
     }
 }

@@ -12,9 +12,11 @@ namespace Services
 {
     class UserService : Singleton<UserService>, IDisposable
     {
-
+        // 定义两个事件，供UI层订阅
         public UnityEngine.Events.UnityAction<Result, string> OnLogin;
         public UnityEngine.Events.UnityAction<Result, string> OnRegister;
+
+
         // 用于暂存一个待发送的网络消息。
         // 主要用在当用户点击登录/注册时网络还未连接的情况下，先把消息存起来，等连接成功后再发送。
         NetMessage pendingMessage = null;
@@ -23,6 +25,7 @@ namespace Services
 
         public UserService()
         {
+            //me这些订阅全部都是关于服务器之间的 与客户端的设计没有关系
             NetClient.Instance.OnConnect += OnGameServerConnect;
             NetClient.Instance.OnDisconnect += OnGameServerDisconnect;
             MessageDistributer.Instance.Subscribe<UserLoginResponse>(this.OnUserLogin);
@@ -159,10 +162,14 @@ namespace Services
             Debug.LogFormat("OnLogin:{0} [{1}]", response.Result, response.Errormsg);
 
             if (response.Result == Result.Success)
-            {//登陆成功逻辑
+            {
+                //登陆成功逻辑
+                //me 把服务器返回的用户信息存到本地
                 Models.User.Instance.SetupUserInfo(response.Userinfo);
             }
-            ;
+            //如果有订阅OnLogin事件的函数，调用它
+            //me 这里就是调用UI层订阅的UILogin.OnLogin函数
+            //me 实现UI层也能根据响应更新
             if (this.OnLogin != null)
             {
                 this.OnLogin(response.Result, response.Errormsg);
@@ -203,12 +210,13 @@ namespace Services
         void OnUserRegister(object sender, UserRegisterResponse response)
         {
             Debug.LogFormat("OnUserRegister:{0} [{1}]", response.Result, response.Errormsg);
-
+            //me 同理调用UI层订阅的注册相关函数
             if (this.OnRegister != null)
             {
                 this.OnRegister(response.Result, response.Errormsg);
 
             }
+
         }
     }
 }
