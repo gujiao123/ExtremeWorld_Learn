@@ -22,8 +22,71 @@ namespace GameServer.Services
             // 消息分发器会自动调用本类的 OnRegister 方法来处理。
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserRegisterRequest>(this.OnRegister);
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserLoginRequest>(this.OnLogin);
+            MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserCreateCharacterRequest>(this.OnUserCreateCharacter);
+
 
         }
+
+        /// <summary>
+        /// 当客户端发送创建角色请求时触发
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="message"></param>
+        private void OnUserCreateCharacter(NetConnection<NetSession> sender, UserCreateCharacterRequest request)
+        {
+
+            //角色名称和职业
+            Log.InfoFormat("UserRegisterRequest: Name:{0}  Class:{1}", request.Name, request.Class);
+
+
+            //创建一个角色数据 等会儿存到数据库
+            TCharacter character = new TCharacter()
+            {
+                Name = request.Name,
+                Class = (int)request.Class,
+                TID = (int)request.Class,
+                MapID = 1,
+                MapPosX = 5000,
+                MapPosY = 4000,
+                MapPosZ = 520,
+
+            };
+
+
+
+            //存一份到内存 就可以持久化存储
+            //me 这里是存储到服务器的session 里面 因为 一个用户只在session里面进行通信
+            //!! 这里的User 是登录成功后存储的
+            sender.Session.User.Player.Characters.Add(character);
+            //存档到数据库 然后保存
+            DBService.Instance.Entities.Characters.Add(character);
+            DBService.Instance.Entities.SaveChanges();
+
+            // 准备好要发给客户端的消息
+            NetMessage message = new NetMessage();
+            message.Response = new NetMessageResponse();
+            message.Response.createChar = new UserCreateCharacterResponse();
+
+            message.Response.createChar.Result = Result.Success;
+            message.Response.createChar.Errormsg = "None";
+
+            //该死啊 这里完善一下 服务器是把所有的角色信息都发过去
+            foreach (var c in sender.Session.User.Player.Characters)
+            {
+                NCharacterInfo info = new NCharacterInfo();
+                info.Id = c.ID;
+                info.Name = c.Name;
+                info.Type = CharacterType.Player;
+                info.Class = (CharacterClass)c.Class;
+                //me把所有角色信息添加到里面
+                message.Response.createChar.Characters.Add(info);
+            }
+
+            //打包为字节流
+            byte[] data = PackageHandler.PackMessage(message);
+            sender.SendData(data, 0, data.Length);
+        }
+
         public void Init()
         {
         }
@@ -93,6 +156,32 @@ namespace GameServer.Services
 
                     message.Response.userLogin.Result = Result.Success;
                     message.Response.userLogin.Errormsg = "None";
+
+                    //!!开始保存信息到服务器内存中 方便使用
+                    sender.Session.User = user;
+
+                    message.Response.userLogin.Userinfo = new NUserInfo();
+                    message.Response.userLogin.Userinfo.Id = 1;
+                    message.Response.userLogin.Userinfo.Player = new NPlayerInfo();
+                    message.Response.userLogin.Userinfo.Player.Id = user.Player.ID;
+
+
+                    //把用户的角色信息也发过去   从服务器发送到客户端
+                    //!! 这里的users 已经从数据库里面查出来了
+                    //客户端才能根据信息进行角色选择界面的编辑
+                    foreach (var c in user.Player.Characters)
+                    {
+
+
+                        NCharacterInfo info = new NCharacterInfo();
+
+                        info.Id = c.ID;
+                        info.Name = c.Name;
+                        info.Class = (CharacterClass)c.Class;
+                        //message.Response.userLogin.Userinfo.Player.Characters.Add(new NCharacterInfo());
+                        //SB啊 这里发了一个空包 卧槽呜呜呜呜
+                        message.Response.userLogin.Userinfo.Player.Characters.Add(info);
+                    }
                 }
                 else
                 {

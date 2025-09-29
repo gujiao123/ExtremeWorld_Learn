@@ -1,20 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Common;
+﻿using Common;
 using Network;
-using UnityEngine;
-
 using SkillBridge.Message;
+using System;
+using UnityEngine;
 
 namespace Services
 {
     class UserService : Singleton<UserService>, IDisposable
     {
-        // 定义两个事件，供UI层订阅
+        //me  定义事件，供UI层订阅
         public UnityEngine.Events.UnityAction<Result, string> OnLogin;
         public UnityEngine.Events.UnityAction<Result, string> OnRegister;
+        /// <summary>
+        /// 创建角色的回调事件
+        /// </summary>
+        public UnityEngine.Events.UnityAction<Result, string> OnCharacterCreate;
 
 
         // 用于暂存一个待发送的网络消息。
@@ -28,8 +28,11 @@ namespace Services
             //me这些订阅全部都是关于服务器之间的 与客户端的设计没有关系
             NetClient.Instance.OnConnect += OnGameServerConnect;
             NetClient.Instance.OnDisconnect += OnGameServerDisconnect;
+            //都是绑定的服务器发送过来后的回调函数
             MessageDistributer.Instance.Subscribe<UserLoginResponse>(this.OnUserLogin);
             MessageDistributer.Instance.Subscribe<UserRegisterResponse>(this.OnUserRegister);
+            MessageDistributer.Instance.Subscribe<UserCreateCharacterResponse>(this.OnUserCreateCharacter);
+
 
         }
 
@@ -37,6 +40,8 @@ namespace Services
         {
             MessageDistributer.Instance.Unsubscribe<UserLoginResponse>(this.OnUserLogin);
             MessageDistributer.Instance.Unsubscribe<UserRegisterResponse>(this.OnUserRegister);
+            MessageDistributer.Instance.Unsubscribe<UserCreateCharacterResponse>(this.OnUserCreateCharacter);
+
             NetClient.Instance.OnConnect -= OnGameServerConnect;
             NetClient.Instance.OnDisconnect -= OnGameServerDisconnect;
         }
@@ -165,7 +170,10 @@ namespace Services
             {
                 //登陆成功逻辑
                 //me 把服务器返回的用户信息存到本地
+                //!!重要包含用户里面的角色列表等数据
                 Models.User.Instance.SetupUserInfo(response.Userinfo);
+
+
             }
             //如果有订阅OnLogin事件的函数，调用它
             //me 这里就是调用UI层订阅的UILogin.OnLogin函数
@@ -218,5 +226,73 @@ namespace Services
             }
 
         }
+
+        /// <summary>
+        /// 客户端发送创建角色请求
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="charClass"></param>
+        public void SendCharacterCreate(string name, CharacterClass charClass)
+        {
+            Debug.LogFormat("CharacterCreateRequest::name :{0} class:{1}", name, charClass);
+
+            NetMessage message = new NetMessage();
+
+            message.Request = new NetMessageRequest();
+            message.Request.createChar = new UserCreateCharacterRequest();
+
+            message.Request.createChar.Name = name;
+            message.Request.createChar.Class = charClass;
+
+            if (this.connected && NetClient.Instance.Connected)
+            {
+                this.pendingMessage = null;
+                NetClient.Instance.SendMessage(message);
+            }
+            else
+            {
+                this.pendingMessage = message;
+                this.ConnectToServer();
+            }
+
+        }
+
+        /// <summary>
+        /// 响应服务器发送过来的回调函数
+        /// 角色创建
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="response">这里面就是全面的新的角色信息</param>
+        public void OnUserCreateCharacter(object sender, UserCreateCharacterResponse response)
+        {
+            Debug.LogFormat("OnUserCreateCharacter:{0} [{1}]", response.Result, response.Errormsg);
+            if (response.Result == Result.Success)
+            {
+                //me 把服务器返回的用户信息存到本地
+
+                //??你这里把内存中的角色列表清空了 然后再添加
+                Models.User.Instance.Info.Player.Characters.Clear();
+                //这里内存中添加角色列表  可是这里面不就才一个吗
+                Models.User.Instance.Info.Player.Characters.AddRange(response.Characters);
+
+
+                foreach (var a in Models.User.Instance.Info.Player.Characters)
+                {
+                    //看一下添加成功了没
+                    Debug.Log("哈哈哈哈哈" + a.Name);
+
+                }
+            }
+            //me 同理调用UI层订阅的注册相关函数
+            if (this.OnCharacterCreate != null)
+            {
+                //让UI层更新角色选择界面
+                this.OnCharacterCreate(response.Result, response.Errormsg);
+
+            }
+
+
+        }
     }
 }
+

@@ -8,6 +8,7 @@ using SkillBridge.Message;
 using ProtoBuf;
 using Services;
 
+//me 加载进度条和UI展示
 public class LoadingManager : MonoBehaviour
 {
 
@@ -38,7 +39,7 @@ public class LoadingManager : MonoBehaviour
         yield return DataManager.Instance.LoadData();
 
         //Init basic services
-        //MapService.Instance.Init();
+        //me MapService.Instance.Init();
         UserService.Instance.Init();
 
 
