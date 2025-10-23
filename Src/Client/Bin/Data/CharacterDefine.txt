@@ -1,0 +1,59 @@
+{
+  "1": {
+    "TID": 1,
+    "Name": "战士",
+    "Type": "Normal",
+    "Class": "WARRIOR",
+    "Resource": "Character/Warrior",
+    "Description": "这是战士懂吗",
+    "InitLevel": 1,
+    "Speed": 300
+  },
+  "2": {
+    "TID": 2,
+    "Name": "法师",
+    "Type": "Normal",
+    "Class": "WIZARD",
+    "Resource": "Character/Wizard",
+    "Description": "这是法师懂吗",
+    "InitLevel": 1,
+    "Speed": 300
+  },
+  "3": {
+    "TID": 3,
+    "Name": "弓箭手",
+    "Type": "Normal",
+    "Class": "ARCHER",
+    "Resource": "Character/Archer",
+    "Description": "这是弓箭手懂吗",
+    "InitLevel": 1,
+    "Speed": 300
+  },
+  "1001": {
+    "TID": 1001,
+    "Name": "恶鬼",
+    "Type": "Normal",
+    "Class": "WARRIOR",
+    "Resource": "Monster/M1001",
+    "InitLevel": 1,
+    "Speed": 300
+  },
+  "1002": {
+    "TID": 1002,
+    "Name": "-",
+    "Type": "Normal",
+    "Class": "WIZARD",
+    "Resource": "Monster/M1002",
+    "InitLevel": 1,
+    "Speed": 300
+  },
+  "1003": {
+    "TID": 1003,
+    "Name": "-",
+    "Type": "Normal",
+    "Class": "ARCHER",
+    "Resource": "Monster/M1003",
+    "InitLevel": 1,
+    "Speed": 300
+  }
+}

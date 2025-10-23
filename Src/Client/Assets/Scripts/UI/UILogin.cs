@@ -51,7 +51,8 @@ public class UILogin : MonoBehaviour
         if (result == Result.Success)
         {
             //进入下一个场景
-            UnityEngine.SceneManagement.SceneManager.LoadScene("SelectCharacter");
+            //UnityEngine.SceneManagement.SceneManager.LoadScene("SelectCharacter");
+            SceneManager.Instance.LoadScene("SelectCharacter");
         }
     }
 }

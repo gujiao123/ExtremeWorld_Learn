@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections;
+﻿using SkillBridge.Message;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.IO;
 using System.Net;
 using System.Net.Sockets;
-using System.IO;
 using UnityEngine;
-using SkillBridge.Message;
 
 namespace Network
 {
@@ -238,7 +235,7 @@ namespace Network
             }
 
             sendQueue.Enqueue(message);
-        
+
             if (this.lastSendTime == 0)
             {
                 this.lastSendTime = Time.time;
@@ -267,13 +264,13 @@ namespace Network
                     this.clientSocket.EndConnect(result);
                 }
             }
-            catch(SocketException ex)
+            catch (SocketException ex)
             {
-                if(ex.SocketErrorCode == SocketError.ConnectionRefused)
+                if (ex.SocketErrorCode == SocketError.ConnectionRefused)
                 {
                     this.CloseConnection(NET_ERROR_FAIL_TO_CONNECT);
                 }
-                Debug.LogErrorFormat("DoConnect SocketException:[{0},{1},{2}]{3} ", ex.ErrorCode,ex.SocketErrorCode,ex.NativeErrorCode, ex.ToString()); 
+                Debug.LogErrorFormat("DoConnect SocketException:[{0},{1},{2}]{3} ", ex.ErrorCode, ex.SocketErrorCode, ex.NativeErrorCode, ex.ToString());
             }
             catch (Exception e)
             {
@@ -415,7 +412,9 @@ namespace Network
 
             return true;
         }
-
+        /// <summary>
+        /// 就是根据服务器返回来的消息进行分发
+        /// </summary>
         void ProceeMessage()
         {
             MessageDistributer.Instance.Distribute();

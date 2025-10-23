@@ -716,7 +716,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &282562634
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2581,7 +2581,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1119638624
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4620,6 +4620,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Archer
       objectReference: {fileID: 0}
+    - target: {fileID: 316282163259482165, guid: 6387c0330695053458c23dcc91fbd4c1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1092255260118874767, guid: 6387c0330695053458c23dcc91fbd4c1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4692,7 +4697,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2091100768
 RectTransform:
   m_ObjectHideFlags: 0

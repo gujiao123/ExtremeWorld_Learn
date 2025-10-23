@@ -1,4 +1,5 @@
 ﻿using Common;
+using Models;
 using Network;
 using SkillBridge.Message;
 using System;
@@ -32,6 +33,10 @@ namespace Services
             MessageDistributer.Instance.Subscribe<UserLoginResponse>(this.OnUserLogin);
             MessageDistributer.Instance.Subscribe<UserRegisterResponse>(this.OnUserRegister);
             MessageDistributer.Instance.Subscribe<UserCreateCharacterResponse>(this.OnUserCreateCharacter);
+            MessageDistributer.Instance.Subscribe<UserGameEnterResponse>(this.OnGameEnter);
+            MessageDistributer.Instance.Subscribe<UserGameLeaveResponse>(this.OnGameLeave);
+
+
 
 
         }
@@ -41,7 +46,8 @@ namespace Services
             MessageDistributer.Instance.Unsubscribe<UserLoginResponse>(this.OnUserLogin);
             MessageDistributer.Instance.Unsubscribe<UserRegisterResponse>(this.OnUserRegister);
             MessageDistributer.Instance.Unsubscribe<UserCreateCharacterResponse>(this.OnUserCreateCharacter);
-
+            MessageDistributer.Instance.Unsubscribe<UserGameEnterResponse>(this.OnGameEnter);
+            MessageDistributer.Instance.Unsubscribe<UserGameLeaveResponse>(this.OnGameLeave);
             NetClient.Instance.OnConnect -= OnGameServerConnect;
             NetClient.Instance.OnDisconnect -= OnGameServerDisconnect;
         }
@@ -293,6 +299,68 @@ namespace Services
 
 
         }
+        /// <summary>
+        /// 发送给服务器选择好角色进入游戏的请求
+        /// </summary>
+        /// <param name="charidx"></param>
+        /// !!性能上可以对数据结构优化
+        public void SendGameEnter(int charidx)
+        {
+            //只需要告诉服务器你选择了哪个角色就行
+
+            NetMessage netMessage = new NetMessage();
+            netMessage.Request = new NetMessageRequest();
+            netMessage.Request.gameEnter = new UserGameEnterRequest();
+            netMessage.Request.gameEnter.characterIdx = charidx;
+            NetClient.Instance.SendMessage(netMessage);
+
+        }
+
+        /// <summary>
+        /// 接受服务器返回的进入游戏的响应
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="response"></param>
+        void OnGameEnter(object sender, UserGameEnterResponse response)
+        {
+            Debug.LogFormat("OnGameEnter:{0} [{1}]", response.Result, response.Errormsg);
+
+            if (response.Result == Result.Success)
+            {
+                //这个只需要知道是否成功就行,对应的运行全部交给mapservice去处理
+            }
+        }
+        /// <summary>
+        /// 发送离开游戏的请求
+        /// </summary>
+        public void SendGameLeave()
+        {
+            Debug.LogFormat("UserGameLeaveRequest");
+            NetMessage netMessage = new NetMessage();
+            netMessage.Request = new NetMessageRequest();
+            netMessage.Request.gameLeave = new UserGameLeaveRequest();
+            NetClient.Instance.SendMessage(netMessage);
+
+        }
+        /// <summary>
+        /// 接受服务器返回的离开游戏的响应
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="response"></param>
+        void OnGameLeave(object sender, UserGameLeaveResponse response)
+        {
+            Debug.LogFormat("OnGameLeave:{0} [{1}]", response.Result, response.Errormsg);
+
+            //退出游戏要清空当前地图ID 防止重新地图加载失败
+            MapService.Instance.CurrentMapId = 0;
+            //当前角色设为空
+            //选择角色的时候不会给你entityId 进入游戏才会给你id
+            //所以在进入游戏前的Id很随便
+            User.Instance.CurrentCharacter = null;
+        }
+
+
+
     }
 }
 

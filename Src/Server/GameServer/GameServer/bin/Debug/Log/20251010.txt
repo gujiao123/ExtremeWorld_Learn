@@ -1,0 +1,24 @@
+
+2025-10-10 22:59:45,287 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-10 22:59:45,400 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-10 22:59:45,493 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-10-10 22:59:45,495 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-10-10 22:59:45,495 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-10-10 22:59:45,495 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-10-10 22:59:45,495 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-10 22:59:45,497 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-10 22:59:45,497 [16] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-10 22:59:45,497 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-10 22:59:45,497 [20] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-10 22:59:45,498 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-10 22:59:45,498 [17] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-10 22:59:45,498 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-10 22:59:45,498 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-10 22:59:45,602 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-10 22:59:45,795 [1] [INFO ] [GameServer] ：X;5000Y:3000Z:850
+2025-10-10 23:00:28,670 [4] [WARN ] [GameServer] ：Client[127.0.0.1:8317]] Connected
+2025-10-10 23:00:28,704 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2025-10-10 23:00:30,955 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-10 23:00:30,959 [16] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-10 23:00:30,962 [16] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-10 23:01:01,011 [4] [WARN ] [GameServer] ：Client[] Disconnected

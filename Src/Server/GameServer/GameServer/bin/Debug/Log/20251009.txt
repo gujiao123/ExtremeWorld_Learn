@@ -1,0 +1,578 @@
+
+2025-10-09 17:36:12,928 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-09 17:36:13,063 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-09 17:37:12,822 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-09 17:37:12,865 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-09 17:38:45,962 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-09 17:38:46,007 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-09 17:38:46,087 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-10-09 17:38:46,088 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-10-09 17:38:46,088 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-10-09 17:38:46,089 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-10-09 17:38:46,089 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-09 17:38:46,092 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:38:46,092 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:38:46,092 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:38:46,092 [17] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:38:46,093 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:38:46,093 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:38:46,092 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:38:46,093 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:38:46,195 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-09 17:40:05,312 [3] [WARN ] [GameServer] ：Client[127.0.0.1:11454]] Connected
+2025-10-09 17:40:05,341 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-10-09 17:40:28,062 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2025-10-09 17:40:47,004 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-09 17:40:47,008 [12] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:0 
+2025-10-09 17:40:47,022 [12] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 19
+   在 GameServer.Manager.CharacterManager.AddCharacter(TCharacter id) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\CharacterManager.cs:行号 33
+   在 GameServer.Services.UserService.OnUserGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 229
+   在 Network.MessageDistributer`1.MessageHandler`1.Invoke(T sender, Tm message)
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-10-09 17:40:49,792 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-09 17:40:49,792 [8] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:0 
+2025-10-09 17:40:49,793 [8] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 19
+   在 GameServer.Manager.CharacterManager.AddCharacter(TCharacter id) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\CharacterManager.cs:行号 33
+   在 GameServer.Services.UserService.OnUserGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 229
+   在 Network.MessageDistributer`1.MessageHandler`1.Invoke(T sender, Tm message)
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-10-09 17:40:51,320 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-09 17:40:51,321 [9] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:0 
+2025-10-09 17:40:51,321 [9] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 19
+   在 GameServer.Manager.CharacterManager.AddCharacter(TCharacter id) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\CharacterManager.cs:行号 33
+   在 GameServer.Services.UserService.OnUserGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 229
+   在 Network.MessageDistributer`1.MessageHandler`1.Invoke(T sender, Tm message)
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-10-09 17:40:51,495 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-09 17:40:51,496 [17] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:0 
+2025-10-09 17:40:51,496 [17] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 19
+   在 GameServer.Manager.CharacterManager.AddCharacter(TCharacter id) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\CharacterManager.cs:行号 33
+   在 GameServer.Services.UserService.OnUserGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 229
+   在 Network.MessageDistributer`1.MessageHandler`1.Invoke(T sender, Tm message)
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-10-09 17:40:51,643 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-09 17:40:51,645 [7] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:0 
+2025-10-09 17:40:51,645 [7] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 19
+   在 GameServer.Manager.CharacterManager.AddCharacter(TCharacter id) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\CharacterManager.cs:行号 33
+   在 GameServer.Services.UserService.OnUserGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 229
+   在 Network.MessageDistributer`1.MessageHandler`1.Invoke(T sender, Tm message)
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-10-09 17:40:51,807 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-09 17:40:51,808 [6] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:0 
+2025-10-09 17:40:51,808 [6] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 19
+   在 GameServer.Manager.CharacterManager.AddCharacter(TCharacter id) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\CharacterManager.cs:行号 33
+   在 GameServer.Services.UserService.OnUserGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 229
+   在 Network.MessageDistributer`1.MessageHandler`1.Invoke(T sender, Tm message)
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-10-09 17:40:55,242 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-09 17:40:55,242 [5] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:0 
+2025-10-09 17:40:55,243 [5] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 19
+   在 GameServer.Manager.CharacterManager.AddCharacter(TCharacter id) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\CharacterManager.cs:行号 33
+   在 GameServer.Services.UserService.OnUserGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 229
+   在 Network.MessageDistributer`1.MessageHandler`1.Invoke(T sender, Tm message)
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-10-09 17:40:55,414 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-09 17:40:55,415 [10] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:0 
+2025-10-09 17:40:55,416 [10] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 19
+   在 GameServer.Manager.CharacterManager.AddCharacter(TCharacter id) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\CharacterManager.cs:行号 33
+   在 GameServer.Services.UserService.OnUserGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 229
+   在 Network.MessageDistributer`1.MessageHandler`1.Invoke(T sender, Tm message)
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-10-09 17:40:55,579 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-09 17:40:55,580 [12] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:0 
+2025-10-09 17:40:55,581 [12] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 19
+   在 GameServer.Manager.CharacterManager.AddCharacter(TCharacter id) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\CharacterManager.cs:行号 33
+   在 GameServer.Services.UserService.OnUserGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 229
+   在 Network.MessageDistributer`1.MessageHandler`1.Invoke(T sender, Tm message)
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-10-09 17:40:55,750 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-09 17:40:55,751 [8] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:0 
+2025-10-09 17:40:55,752 [8] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 19
+   在 GameServer.Manager.CharacterManager.AddCharacter(TCharacter id) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\CharacterManager.cs:行号 33
+   在 GameServer.Services.UserService.OnUserGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 229
+   在 Network.MessageDistributer`1.MessageHandler`1.Invoke(T sender, Tm message)
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-10-09 17:40:55,902 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-09 17:40:55,903 [9] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:0 
+2025-10-09 17:40:55,904 [9] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 19
+   在 GameServer.Manager.CharacterManager.AddCharacter(TCharacter id) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\CharacterManager.cs:行号 33
+   在 GameServer.Services.UserService.OnUserGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 229
+   在 Network.MessageDistributer`1.MessageHandler`1.Invoke(T sender, Tm message)
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-10-09 17:40:56,065 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-09 17:40:56,066 [17] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:0 
+2025-10-09 17:40:56,066 [17] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 19
+   在 GameServer.Manager.CharacterManager.AddCharacter(TCharacter id) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\CharacterManager.cs:行号 33
+   在 GameServer.Services.UserService.OnUserGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 229
+   在 Network.MessageDistributer`1.MessageHandler`1.Invoke(T sender, Tm message)
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-10-09 17:40:56,231 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-09 17:40:56,232 [7] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:0 
+2025-10-09 17:40:56,232 [7] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 19
+   在 GameServer.Manager.CharacterManager.AddCharacter(TCharacter id) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\CharacterManager.cs:行号 33
+   在 GameServer.Services.UserService.OnUserGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 229
+   在 Network.MessageDistributer`1.MessageHandler`1.Invoke(T sender, Tm message)
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-10-09 17:40:56,389 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-09 17:40:56,390 [6] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:0 
+2025-10-09 17:40:56,390 [6] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 19
+   在 GameServer.Manager.CharacterManager.AddCharacter(TCharacter id) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\CharacterManager.cs:行号 33
+   在 GameServer.Services.UserService.OnUserGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 229
+   在 Network.MessageDistributer`1.MessageHandler`1.Invoke(T sender, Tm message)
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-10-09 17:40:56,538 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-09 17:40:56,539 [5] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:0 
+2025-10-09 17:40:56,540 [5] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 19
+   在 GameServer.Manager.CharacterManager.AddCharacter(TCharacter id) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\CharacterManager.cs:行号 33
+   在 GameServer.Services.UserService.OnUserGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 229
+   在 Network.MessageDistributer`1.MessageHandler`1.Invoke(T sender, Tm message)
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-10-09 17:40:56,704 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-09 17:40:56,705 [10] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:0 
+2025-10-09 17:40:56,706 [10] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 19
+   在 GameServer.Manager.CharacterManager.AddCharacter(TCharacter id) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\CharacterManager.cs:行号 33
+   在 GameServer.Services.UserService.OnUserGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 229
+   在 Network.MessageDistributer`1.MessageHandler`1.Invoke(T sender, Tm message)
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-10-09 17:40:59,627 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-09 17:40:59,628 [12] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:0 
+2025-10-09 17:40:59,629 [12] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 19
+   在 GameServer.Manager.CharacterManager.AddCharacter(TCharacter id) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\CharacterManager.cs:行号 33
+   在 GameServer.Services.UserService.OnUserGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 229
+   在 Network.MessageDistributer`1.MessageHandler`1.Invoke(T sender, Tm message)
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-10-09 17:40:59,790 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-09 17:40:59,792 [8] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:0 
+2025-10-09 17:40:59,792 [8] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 19
+   在 GameServer.Manager.CharacterManager.AddCharacter(TCharacter id) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\CharacterManager.cs:行号 33
+   在 GameServer.Services.UserService.OnUserGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 229
+   在 Network.MessageDistributer`1.MessageHandler`1.Invoke(T sender, Tm message)
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-10-09 17:40:59,942 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-09 17:40:59,943 [9] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:0 
+2025-10-09 17:40:59,943 [9] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 19
+   在 GameServer.Manager.CharacterManager.AddCharacter(TCharacter id) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\CharacterManager.cs:行号 33
+   在 GameServer.Services.UserService.OnUserGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 229
+   在 Network.MessageDistributer`1.MessageHandler`1.Invoke(T sender, Tm message)
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-10-09 17:41:01,784 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-09 17:48:58,034 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-09 17:48:58,100 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-09 17:48:58,196 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-10-09 17:48:58,197 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-10-09 17:48:58,197 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-10-09 17:48:58,197 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-10-09 17:48:58,197 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-09 17:48:58,239 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:48:58,239 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:48:58,239 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:48:58,239 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:48:58,239 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:48:58,239 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:48:58,239 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:48:58,239 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:48:58,314 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-09 17:50:04,026 [3] [WARN ] [GameServer] ：Client[127.0.0.1:6126]] Connected
+2025-10-09 17:50:04,057 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2025-10-09 17:50:10,540 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 17:50:10,556 [5] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:2 
+2025-10-09 17:50:42,567 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 17:51:16,562 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-09 17:51:16,623 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-09 17:51:16,705 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-10-09 17:51:16,707 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-10-09 17:51:16,707 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-10-09 17:51:16,707 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-10-09 17:51:16,707 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-09 17:51:16,712 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:51:16,713 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:51:16,713 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:51:16,713 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:51:16,739 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:51:16,739 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:51:16,739 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:51:16,739 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:51:16,815 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-09 17:51:17,083 [3] [WARN ] [GameServer] ：Client[127.0.0.1:12817]] Connected
+2025-10-09 17:51:21,021 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 17:51:21,248 [5] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:2 
+2025-10-09 17:52:17,777 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-09 17:52:17,823 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-09 17:52:17,907 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-10-09 17:52:17,908 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-10-09 17:52:17,908 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-10-09 17:52:17,909 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-10-09 17:52:17,909 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-09 17:52:17,912 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:52:17,912 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:52:17,912 [18] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:52:17,912 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:52:17,912 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:52:17,912 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:52:17,913 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:52:17,914 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 17:52:18,018 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-09 17:52:37,334 [3] [WARN ] [GameServer] ：Client[127.0.0.1:7598]] Connected
+2025-10-09 17:52:37,363 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2025-10-09 17:52:42,574 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 17:52:42,580 [7] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 17:52:42,582 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 17:52:56,234 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 17:52:56,235 [10] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 17:52:56,235 [10] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 17:52:56,549 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 17:52:56,550 [11] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 17:52:56,550 [11] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 17:52:56,722 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 17:52:56,724 [18] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 17:52:56,724 [18] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 17:52:56,922 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 17:52:56,923 [9] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 17:52:56,924 [9] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 17:52:57,088 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 17:52:57,089 [6] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 17:52:57,089 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 18:05:40,094 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-09 18:06:00,725 [3] [WARN ] [GameServer] ：Client[127.0.0.1:1826]] Connected
+2025-10-09 18:06:00,765 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2025-10-09 18:06:03,029 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 18:06:03,032 [5] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 18:06:03,032 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 18:06:05,435 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 18:06:05,435 [7] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 18:06:05,436 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 18:06:55,999 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-09 18:08:53,018 [3] [WARN ] [GameServer] ：Client[127.0.0.1:3003]] Connected
+2025-10-09 18:08:53,055 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2025-10-09 18:08:54,541 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 18:08:54,552 [11] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 18:08:54,552 [11] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 18:09:12,331 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 18:09:12,332 [18] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 18:09:12,333 [18] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 18:10:29,312 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 18:10:29,322 [9] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 18:10:29,322 [9] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 18:12:03,017 [41] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-09 18:12:18,050 [41] [WARN ] [GameServer] ：Client[127.0.0.1:11735]] Connected
+2025-10-09 18:12:18,080 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2025-10-09 18:12:20,359 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 18:12:20,362 [8] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 18:12:20,362 [8] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 18:13:24,296 [41] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-09 18:13:44,054 [41] [WARN ] [GameServer] ：Client[127.0.0.1:12362]] Connected
+2025-10-09 18:13:44,084 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2025-10-09 18:13:46,368 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 18:13:46,370 [7] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 18:13:46,371 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 18:22:33,322 [41] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-09 18:25:35,136 [41] [WARN ] [GameServer] ：Client[127.0.0.1:12964]] Connected
+2025-10-09 18:25:35,170 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2025-10-09 18:25:36,685 [41] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 18:25:36,688 [11] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 18:25:36,688 [11] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 18:34:58,424 [41] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-09 18:35:16,023 [84] [WARN ] [GameServer] ：Client[127.0.0.1:12745]] Connected
+2025-10-09 18:35:16,058 [84] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2025-10-09 18:35:17,758 [84] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 18:35:17,766 [9] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 18:35:17,767 [9] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 18:37:28,786 [84] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-09 18:37:41,176 [84] [WARN ] [GameServer] ：Client[127.0.0.1:10867]] Connected
+2025-10-09 18:37:41,209 [84] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2025-10-09 18:37:42,571 [84] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 18:37:42,579 [8] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 18:37:42,580 [8] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 18:38:52,493 [84] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-09 18:39:45,906 [84] [WARN ] [GameServer] ：Client[127.0.0.1:12134]] Connected
+2025-10-09 18:39:45,937 [84] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2025-10-09 18:39:49,050 [84] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 18:39:49,053 [7] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 18:39:49,053 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 18:39:57,058 [84] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-09 20:36:41,349 [84] [WARN ] [GameServer] ：Client[127.0.0.1:6068]] Connected
+2025-10-09 20:36:41,378 [84] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2025-10-09 20:36:42,714 [84] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 20:36:42,723 [11] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 20:36:42,723 [11] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 20:38:36,162 [84] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-09 20:39:40,214 [84] [WARN ] [GameServer] ：Client[127.0.0.1:14107]] Connected
+2025-10-09 20:39:40,244 [84] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2025-10-09 20:39:42,437 [84] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 20:39:42,440 [9] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 20:39:42,440 [9] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 20:40:08,033 [84] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-09 20:42:23,041 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-09 20:42:23,084 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-09 20:42:23,167 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-10-09 20:42:23,168 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-10-09 20:42:23,169 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-10-09 20:42:23,169 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-10-09 20:42:23,170 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-09 20:42:23,171 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:42:23,171 [17] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:42:23,171 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:42:23,171 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:42:23,172 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:42:23,172 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:42:23,172 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:42:23,172 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:42:23,273 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-09 20:42:25,411 [3] [WARN ] [GameServer] ：Client[127.0.0.1:4939]] Connected
+2025-10-09 20:42:25,442 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2025-10-09 20:42:28,760 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 20:42:28,772 [10] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 20:42:28,774 [10] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 20:43:31,763 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-09 20:44:14,881 [3] [WARN ] [GameServer] ：Client[127.0.0.1:10364]] Connected
+2025-10-09 20:44:14,913 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2025-10-09 20:44:16,645 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 20:44:16,654 [13] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 20:44:16,654 [13] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 20:44:52,435 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-09 20:49:21,328 [18] [WARN ] [GameServer] ：Client[127.0.0.1:9002]] Connected
+2025-10-09 20:49:21,361 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2025-10-09 20:49:22,830 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 20:49:22,839 [9] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 20:49:22,839 [9] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 20:49:28,524 [18] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-09 20:50:15,076 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-09 20:50:15,119 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-09 20:50:15,197 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-10-09 20:50:15,198 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-10-09 20:50:15,198 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-10-09 20:50:15,198 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-10-09 20:50:15,199 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-09 20:50:15,200 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:50:15,200 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:50:15,201 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:50:15,201 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:50:15,201 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:50:15,201 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:50:15,201 [17] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:50:15,201 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:50:15,306 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-09 20:50:29,434 [3] [WARN ] [GameServer] ：Client[127.0.0.1:7851]] Connected
+2025-10-09 20:50:29,465 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2025-10-09 20:50:31,234 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 20:50:31,240 [11] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 20:50:31,242 [11] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 20:53:14,211 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-09 20:53:14,255 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-09 20:53:14,333 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-10-09 20:53:14,334 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-10-09 20:53:14,334 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-10-09 20:53:14,334 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-10-09 20:53:14,335 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-09 20:53:14,336 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:53:14,336 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:53:14,336 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:53:14,336 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:53:14,336 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:53:14,337 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:53:14,337 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:53:14,337 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:53:14,448 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-09 20:53:34,215 [3] [WARN ] [GameServer] ：Client[127.0.0.1:3172]] Connected
+2025-10-09 20:53:34,246 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2025-10-09 20:53:38,361 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 20:53:38,367 [11] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 20:53:38,369 [11] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 20:53:53,608 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-09 20:55:08,158 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-09 20:55:08,201 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-09 20:55:08,277 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-10-09 20:55:08,278 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-10-09 20:55:08,278 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-10-09 20:55:08,278 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-10-09 20:55:08,278 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-09 20:55:08,280 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:55:08,280 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:55:08,280 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:55:08,280 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:55:08,280 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:55:08,281 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:55:08,280 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:55:08,281 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:55:08,382 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-09 20:55:28,243 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-09 20:55:28,285 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-09 20:55:28,360 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-10-09 20:55:28,361 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-10-09 20:55:28,362 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-10-09 20:55:28,362 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-10-09 20:55:28,362 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-09 20:55:28,364 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:55:28,364 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:55:28,365 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:55:28,364 [16] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:55:28,365 [17] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:55:28,364 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:55:28,364 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:55:28,365 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:55:28,466 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-09 20:55:43,608 [3] [WARN ] [GameServer] ：Client[127.0.0.1:2210]] Connected
+2025-10-09 20:55:43,641 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2025-10-09 20:55:52,088 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 20:55:52,095 [9] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 20:55:52,097 [9] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 20:56:35,939 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-09 20:57:09,432 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-09 20:57:09,475 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-09 20:57:09,549 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-10-09 20:57:09,550 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-10-09 20:57:09,550 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-10-09 20:57:09,550 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-10-09 20:57:09,551 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-09 20:57:09,553 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:57:09,553 [18] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:57:09,553 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:57:09,553 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:57:09,553 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:57:09,553 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:57:09,553 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:57:09,553 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:57:09,657 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-09 20:57:24,625 [3] [WARN ] [GameServer] ：Client[127.0.0.1:13468]] Connected
+2025-10-09 20:57:24,655 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2025-10-09 20:57:26,627 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 20:57:26,634 [11] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 20:57:26,636 [11] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 20:57:44,278 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-09 20:57:57,756 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-09 20:57:57,796 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-09 20:57:57,872 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-10-09 20:57:57,873 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-10-09 20:57:57,873 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-10-09 20:57:57,873 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-10-09 20:57:57,874 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-09 20:57:57,876 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:57:57,876 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:57:57,876 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:57:57,876 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:57:57,876 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:57:57,876 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:57:57,876 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:57:57,876 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 20:57:57,979 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-09 21:01:07,686 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-09 21:01:07,725 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-09 21:01:07,800 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-10-09 21:01:07,800 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-10-09 21:01:07,801 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-10-09 21:01:07,801 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-10-09 21:01:07,801 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-09 21:01:07,802 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:01:07,802 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:01:07,802 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:01:07,802 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:01:07,802 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:01:07,802 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:01:07,802 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:01:07,803 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:01:07,909 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-09 21:01:08,046 [1] [INFO ] [GameServer] ：X;5000Y:8500Z:3000
+2025-10-09 21:01:19,054 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-09 21:01:19,094 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-09 21:01:19,170 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-10-09 21:01:19,171 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-10-09 21:01:19,171 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-10-09 21:01:19,171 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-10-09 21:01:19,172 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-09 21:01:19,173 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:01:19,173 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:01:19,173 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:01:19,173 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:01:19,173 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:01:19,174 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:01:19,174 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:01:19,174 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:01:19,275 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-09 21:01:36,498 [3] [WARN ] [GameServer] ：Client[127.0.0.1:9707]] Connected
+2025-10-09 21:01:36,529 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2025-10-09 21:01:38,231 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 21:01:38,237 [6] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:3 
+2025-10-09 21:01:38,240 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 21:04:52,818 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-09 21:04:52,862 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-09 21:04:52,945 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-10-09 21:04:52,946 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-10-09 21:04:52,946 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-10-09 21:04:52,947 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-10-09 21:04:52,947 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-09 21:04:52,949 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:04:52,949 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:04:52,949 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:04:52,949 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:04:52,949 [16] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:04:52,949 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:04:52,950 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:04:52,950 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:04:53,055 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-09 21:05:17,895 [3] [WARN ] [GameServer] ：Client[127.0.0.1:5076]] Connected
+2025-10-09 21:05:17,926 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2025-10-09 21:05:21,001 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-09 21:05:21,007 [6] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:0 
+2025-10-09 21:05:21,019 [6] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 19
+   在 GameServer.Manager.CharacterManager.AddCharacter(TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\CharacterManager.cs:行号 34
+   在 GameServer.Services.UserService.OnUserGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 230
+   在 Network.MessageDistributer`1.MessageHandler`1.Invoke(T sender, Tm message)
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-10-09 21:05:24,043 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-09 21:05:24,043 [8] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:0 
+2025-10-09 21:05:24,044 [8] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 19
+   在 GameServer.Manager.CharacterManager.AddCharacter(TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\CharacterManager.cs:行号 34
+   在 GameServer.Services.UserService.OnUserGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 230
+   在 Network.MessageDistributer`1.MessageHandler`1.Invoke(T sender, Tm message)
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-10-09 21:05:25,002 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-09 21:05:25,003 [7] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:0 
+2025-10-09 21:05:25,004 [7] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 19
+   在 GameServer.Manager.CharacterManager.AddCharacter(TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\CharacterManager.cs:行号 34
+   在 GameServer.Services.UserService.OnUserGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 230
+   在 Network.MessageDistributer`1.MessageHandler`1.Invoke(T sender, Tm message)
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-10-09 21:05:27,424 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 21:05:27,426 [11] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:2 
+2025-10-09 21:05:27,428 [11] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 21:05:50,835 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-09 21:07:01,551 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-09 21:07:01,589 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-09 21:07:01,665 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-10-09 21:07:01,666 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-10-09 21:07:01,667 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-10-09 21:07:01,667 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-10-09 21:07:01,667 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-09 21:07:01,668 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:07:01,668 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:07:01,668 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:07:01,668 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:07:01,668 [17] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:07:01,669 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:07:01,669 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:07:01,669 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:07:01,782 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-09 21:07:01,915 [1] [INFO ] [GameServer] ：X;5000Y:850Z:3000
+2025-10-09 21:07:21,869 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-09 21:07:21,908 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-09 21:07:21,983 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-10-09 21:07:21,984 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-10-09 21:07:21,984 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-10-09 21:07:21,984 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-10-09 21:07:21,984 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-09 21:07:21,986 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:07:21,986 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:07:21,986 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:07:21,986 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:07:21,986 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:07:21,986 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:07:21,986 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:07:21,987 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-09 21:07:22,091 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-09 21:07:22,216 [1] [INFO ] [GameServer] ：X;5000Y:850Z:3000
+2025-10-09 21:07:38,240 [3] [WARN ] [GameServer] ：Client[127.0.0.1:8114]] Connected
+2025-10-09 21:07:38,271 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2025-10-09 21:07:40,507 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-09 21:07:40,511 [12] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:1 
+2025-10-09 21:07:40,513 [12] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-10-09 21:09:58,162 [3] [WARN ] [GameServer] ：Client[] Disconnected

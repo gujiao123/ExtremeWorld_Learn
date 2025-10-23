@@ -42,6 +42,7 @@ public class UICharacterSelect : MonoBehaviour
     public Text[] names;
     /// <summary>
     /// 从0开始角色列表索引
+    /// 说明当前选择的角色
     /// </summary>
     private int selectCharacterIdx = 0;
 
@@ -151,7 +152,9 @@ public class UICharacterSelect : MonoBehaviour
         }
     }
 
-
+    /// <summary>
+    /// 给外部按钮使用的
+    /// </summary>
     public void InitCharacterCreate()
     {
         panelCreate.SetActive(true);
@@ -193,12 +196,15 @@ public class UICharacterSelect : MonoBehaviour
     /// </summary>
     /// <param name="charClass"></param>
     /// 
-    //!!缺少内部排序 必须靠外部才能维持顺序,就是说外部要存储顺序
+    //!!缺少内部排序 必须靠外部才能维持顺序,就是说外部要存储顺序每个按钮都有 1 2 3 4排序
     public void OnSelectClass(int charClass)
     {
         this.charClass = (CharacterClass)charClass;
         //这个是因为 我们在点击职业按钮的时候传递的是从1 开始 ,而服务器的协议是从0开始
+        //me 可以从场景UI上看
         characterView.CurrentCharacter = charClass - 1;
+
+
         //目前只有三个职业哈
         for (int i = 0; i < 3; i++)
         {
@@ -217,10 +223,16 @@ public class UICharacterSelect : MonoBehaviour
     /// </summary>
     public void OnClickPlay()
     {
-
+        Debug.LogFormat("OnClickPlay:{0} - Time:{1}", selectCharacterIdx, Time.time);
+        Debug.LogWarningFormat("OnClickPlay 调用堆栈:\n{0}", System.Environment.StackTrace);
+        //me 这里是告诉服务器
         if (selectCharacterIdx >= 0)
         {
+            //告诉服务器我们要选择哪个角色进入游戏
 
+            //???你他妈就发送一个序号吗第几个游戏角色 
+            //@隔壁服务器直接把你用户的所有创建角色拿出来一个列表即可
+            UserService.Instance.SendGameEnter(selectCharacterIdx);
         }
     }
 }

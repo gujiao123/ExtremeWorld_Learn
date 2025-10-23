@@ -6,7 +6,9 @@ namespace GameServer.Entities
 {
     class CharacterBase : Entity
     {
-
+        /// <summary>
+        /// 这里的ID完全是entityID 由内存创建 1+1+1的逐渐递增 控制所有实体的唯一标识
+        /// </summary>
         public int Id
         {
             get
@@ -15,6 +17,9 @@ namespace GameServer.Entities
             }
         }
         public NCharacterInfo Info;
+        /// <summary>
+        /// 配置信息
+        /// </summary>
         public CharacterDefine Define;
 
         public CharacterBase(Vector3Int pos, Vector3Int dir) : base(pos, dir)

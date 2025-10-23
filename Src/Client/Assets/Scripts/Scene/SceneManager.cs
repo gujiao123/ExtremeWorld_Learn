@@ -10,19 +10,24 @@ public class SceneManager : MonoSingleton<SceneManager>
     // Use this for initialization
     protected override void OnStart()
     {
-        
+
     }
 
     // Update is called once per frame
-    void Update () {
-		
-	}
+    void Update()
+    {
+
+    }
 
     public void LoadScene(string name)
     {
         StartCoroutine(LoadLevel(name));
     }
-
+    /// <summary>
+    /// 注意这个是异步加载 有点问题配合持久化单例使用
+    /// </summary>
+    /// <param name="name"></param>
+    /// <returns></returns>
     IEnumerator LoadLevel(string name)
     {
         Debug.LogFormat("LoadLevel: {0}", name);

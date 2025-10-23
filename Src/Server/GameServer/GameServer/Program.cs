@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using SkillBridge.Message;
-using ProtoBuf;
+﻿using Common;
+using GameServer.Services;
+using System;
 using System.IO;
-using Common;
-using System.Threading;
+using System.Linq;
 
 namespace GameServer
 {
@@ -22,6 +18,10 @@ namespace GameServer
             GameServer server = new GameServer();
             server.Init();
             server.Start();
+
+            TCharacter dbchar = DBService.Instance.Entities.Characters.Where(c => c.ID == 1).FirstOrDefault();
+            Log.InfoFormat("X;{0}Y:{1}Z:{2}", dbchar.MapPosX, dbchar.MapPosY, dbchar.MapPosZ);
+
             Console.WriteLine("Game Server Running......");
             CommandHelper.Run();
             Log.Info("Game Server Exiting...");
