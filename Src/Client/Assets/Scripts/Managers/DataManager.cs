@@ -81,6 +81,7 @@ public class DataManager : Singleton<DataManager>
 #if UNITY_EDITOR
     /// <summary>
     /// (仅在编辑器中可用) 保存传送点数据到文件。
+    /// 这样传送点的数据修改后可以持久化保存下来。不必要手动在excel配置表里面修改
     /// </summary>
     public void SaveTeleporters()
     {

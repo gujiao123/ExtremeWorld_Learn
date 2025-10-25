@@ -1,0 +1,8 @@
+
+2025-10-25 15:34:30,980 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-25 15:34:31,037 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-25 15:34:31,121 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-10-25 15:34:31,122 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-10-25 15:34:31,122 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-10-25 15:34:31,122 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-10-25 15:34:31,123 [1] [WARN ] [GameServer] ：Starting Listener...

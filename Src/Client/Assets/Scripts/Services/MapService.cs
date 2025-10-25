@@ -169,8 +169,18 @@ namespace Services
             }
             Debug.Log(sb.ToString());
         }
-
-
+        /// <summary>
+        /// 发送传送请求
+        /// </summary>
+        /// <param name="ID">当前传送点的ID</param>
+        internal void SendMapTeleport(int ID)
+        {
+            NetMessage message = new NetMessage();
+            message.Request = new NetMessageRequest();
+            message.Request.mapTeleport = new MapTeleportRequest();
+            message.Request.mapTeleport.teleporterId = ID;
+            NetClient.Instance.SendMessage(message);
+        }
     }
 }
 

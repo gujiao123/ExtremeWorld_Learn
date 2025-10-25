@@ -1,13 +1,13 @@
 using UnityEngine;
 using UnityEngine.UI;
+//me 说是UIMainCity实际上每个地图都会用到 改为持久单例最好
 
-
-public class UIMainCity : MonoBehaviour
+public class UIMainCity : MonoSingleton<UIMainCity>
 {
     public Text textName;
     public Text textLevel;
 
-    void Start()
+    protected override void OnStart()
     {
         Init();
     }

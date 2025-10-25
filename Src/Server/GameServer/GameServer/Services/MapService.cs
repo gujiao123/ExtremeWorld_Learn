@@ -1,4 +1,5 @@
 ﻿using Common;
+using Common.Data;
 using GameServer.Entities;
 using GameServer.Managers;
 using Network;
@@ -15,7 +16,10 @@ namespace GameServer.Services
         public MapService()
         {
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<MapEntitySyncRequest>(this.OnMapEntitySync);
+            MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<MapTeleportRequest>(this.OnMapTeleport);
+
         }
+
 
         public void Init()
         {
@@ -51,6 +55,40 @@ namespace GameServer.Services
             message.Response.mapEntitySync.entitySyncs.Add(entity);
             byte[] data = PackageHandler.PackMessage(message);
             connection.SendData(data, 0, data.Length);
+        }
+        /// <summary>
+        /// 客户端传入的是 自己离开的传送点ID  
+        //  服务器检验 进来和出去的传送点是否合法
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="message"></param>
+        private void OnMapTeleport(NetConnection<NetSession> sender, MapTeleportRequest message)
+        {
+            Character character = sender.Session.Character;
+            Log.InfoFormat("OnMapTeleport:characterID:{0}{1}to Map:{2}", character.Id, character.Info.Name, message.teleporterId);
+            //检查传送点是否合法
+            //从哪个点进来 使用否合法
+            if (!DataManager.Instance.Teleporters.ContainsKey(message.teleporterId))
+            {
+                Log.WarningFormat("OnMapTeleport:characterID:{0}{1} to invalid Teleporters:{2}", character.Id, character.Info.Name, message.teleporterId);
+                return;
+            }
+            TeleporterDefine teleporterDefine = DataManager.Instance.Teleporters[message.teleporterId];
+            //检查传送点的目标是否合法 
+            if (teleporterDefine.LinkTo == 0 || !DataManager.Instance.Teleporters.ContainsKey(teleporterDefine.LinkTo))
+            {
+                //提醒一下 这个传送点没有链接目标 这是正常的 出生点就没有链接目标 不应该返回
+                Log.WarningFormat("OnMapTeleport:characterID:{0}{1} to invalid LinkTo Map:{2}", character.Id, character.Info.Name, teleporterDefine.LinkTo);
+            }
+            //对对对对 linkto不存在会报错
+            TeleporterDefine targetTeleporter = DataManager.Instance.Teleporters[teleporterDefine.LinkTo];
+
+            //这里才拿到最后地图ID
+            MapManager.Instance[teleporterDefine.MapID].CharacterLeave(character);
+            character.Position = targetTeleporter.Position;
+            character.Direction = targetTeleporter.Direction;
+            MapManager.Instance[targetTeleporter.MapID].CharacterEnter(sender, character);
+
         }
     }
 }
