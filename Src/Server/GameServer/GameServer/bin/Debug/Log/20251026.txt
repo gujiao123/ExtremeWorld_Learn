@@ -1,0 +1,144 @@
+
+2025-10-26 22:09:51,890 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-26 22:09:52,001 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-26 22:10:15,207 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-26 22:10:15,252 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-26 22:10:58,185 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-26 22:10:58,276 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-26 22:12:08,136 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-26 22:12:08,182 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-26 22:15:45,472 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-26 22:15:45,520 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-26 22:15:45,609 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-10-26 22:15:45,610 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-10-26 22:15:45,610 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-10-26 22:15:45,611 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-10-26 22:15:45,611 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-26 22:15:45,614 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-26 22:15:45,614 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-26 22:15:45,615 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-26 22:15:45,615 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-26 22:15:45,614 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-26 22:15:45,615 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-26 22:15:45,615 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-26 22:15:45,615 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-26 22:15:45,728 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-26 22:15:45,899 [1] [INFO ] [GameServer] ：X;5000Y:3000Z:850
+2025-10-26 22:15:55,985 [3] [WARN ] [GameServer] ：Client[127.0.0.1:1253]] Connected
+2025-10-26 22:15:56,030 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2025-10-26 22:15:58,049 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-26 22:15:58,051 [11] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:0 
+2025-10-26 22:15:58,054 [11] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1characterName神
+2025-10-26 22:16:32,766 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-26 22:16:32,767 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2025-10-26 22:20:30,025 [3] [WARN ] [GameServer] ：Client[127.0.0.1:8206]] Connected
+2025-10-26 22:20:30,055 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2025-10-26 22:20:30,726 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-26 22:20:30,726 [7] [INFO ] [GameServer] ：OnUserGameEnter: characterIdx:0 
+2025-10-26 22:20:30,726 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2characterName神
+2025-10-26 22:20:31,443 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-26 22:20:31,446 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtMoveFwdEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:31,558 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-26 22:20:31,558 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:31,653 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-26 22:20:31,654 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:31,739 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-26 22:20:31,739 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:31,838 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-26 22:20:31,839 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:31,922 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-26 22:20:31,923 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:32,024 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-26 22:20:32,025 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:32,107 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-26 22:20:32,107 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:32,208 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-26 22:20:32,209 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:32,292 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-26 22:20:32,293 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:32,395 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-26 22:20:32,395 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:32,497 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-26 22:20:32,498 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:32,594 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-26 22:20:32,595 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:32,676 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-26 22:20:32,677 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:32,775 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-26 22:20:32,776 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:32,862 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-26 22:20:32,862 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:32,968 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-26 22:20:32,968 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:33,047 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-26 22:20:33,047 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:33,148 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-26 22:20:33,148 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:33,309 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-26 22:20:33,309 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:33,809 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-26 22:20:33,809 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:33,920 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-26 22:20:33,921 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:34,014 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-26 22:20:34,015 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:34,914 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-26 22:20:34,914 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:35,683 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-26 22:20:35,683 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtIdleEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:36,071 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-26 22:20:36,071 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:37,148 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-10-26 22:20:37,148 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtMoveFwdEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:37,182 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-26 22:20:37,182 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:37,970 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-26 22:20:37,970 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtIdleEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:38,092 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-26 22:20:38,092 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:38,252 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-26 22:20:38,253 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:38,368 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-26 22:20:38,368 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:43,464 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2025-10-26 22:20:43,464 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtMoveBackEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:44,498 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-10-26 22:20:44,498 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:44,601 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-10-26 22:20:44,601 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:44,733 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-10-26 22:20:44,733 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:45,371 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-10-26 22:20:45,371 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:46,100 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-26 22:20:46,101 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtIdleEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:46,305 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-26 22:20:46,306 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:51,383 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-10-26 22:20:51,383 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtMoveFwdEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:51,966 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-26 22:20:51,967 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:51,981 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-26 22:20:51,981 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:52,063 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-26 22:20:52,063 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:52,236 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-26 22:20:52,236 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:54,136 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-26 22:20:54,136 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:54,269 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-26 22:20:54,269 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:54,387 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-26 22:20:54,387 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:54,521 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-26 22:20:54,521 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:54,639 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-26 22:20:54,639 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:55,422 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-10-26 22:20:55,423 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtIdleEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:55,517 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:46
+2025-10-26 22:20:55,518 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtMoveBackEntitySkillBridge.Message.NEntity
+2025-10-26 22:20:55,870 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-10-26 22:20:55,870 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2神Entity.Id2EvtIdleEntitySkillBridge.Message.NEntity
+2025-10-26 22:22:31,466 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-26 22:22:31,466 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2

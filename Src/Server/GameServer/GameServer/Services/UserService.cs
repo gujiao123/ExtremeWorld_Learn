@@ -274,10 +274,7 @@ namespace GameServer.Services
             Character character = sender.Session.Character;
 
             Log.InfoFormat("");
-            //从服务器的内存中的在线角色列表移除
-            CharacterManager.Instance.RemoveCharacter(character.Id);
-            //通知地图管理器 有一个角色离开了
-            MapManager.Instance[character.Info.mapId].CharacterLeave(character);
+            CharacterLeave(character);
 
             NetMessage netMessage = new NetMessage();
             netMessage.Response = new NetMessageResponse();
@@ -287,6 +284,14 @@ namespace GameServer.Services
             byte[] data = PackageHandler.PackMessage(netMessage);
             sender.SendData(data, 0, data.Length);
 
+        }
+
+        public void CharacterLeave(Character character)
+        {
+            //从服务器的内存中的在线角色列表移除
+            CharacterManager.Instance.RemoveCharacter(character.Id);
+            //通知地图管理器 有一个角色离开了
+            MapManager.Instance[character.Info.mapId].CharacterLeave(character);
         }
     }
 }

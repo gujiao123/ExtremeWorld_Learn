@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using GameServer;
+﻿using GameServer;
 using GameServer.Entities;
+using GameServer.Services;
 using SkillBridge.Message;
 
 namespace Network
@@ -15,5 +10,15 @@ namespace Network
         public TUser User { get; set; }
         public Character Character { get; set; }
         public NEntity Entity { get; set; }
+        /// <summary>
+        /// session断开连接时调用
+        /// </summary>
+        internal void Disconneted()
+        {
+            if (Character != null)
+            {
+                UserService.Instance.CharacterLeave(Character);
+            }
+        }
     }
 }

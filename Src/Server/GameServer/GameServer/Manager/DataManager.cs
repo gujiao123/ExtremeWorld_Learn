@@ -16,6 +16,8 @@ namespace GameServer.Managers
         internal Dictionary<int, MapDefine> Maps = null;
         internal Dictionary<int, CharacterDefine> Characters = null;
         internal Dictionary<int, TeleporterDefine> Teleporters = null;
+        internal Dictionary<int, NpcDefine> NPCs = null;
+
 
 
         public DataManager()
@@ -34,6 +36,9 @@ namespace GameServer.Managers
 
             json = File.ReadAllText(this.DataPath + "TeleporterDefine.txt");
             this.Teleporters = JsonConvert.DeserializeObject<Dictionary<int, TeleporterDefine>>(json);
+
+            json = File.ReadAllText(this.DataPath + "NpcDefine.txt");
+            this.NPCs = JsonConvert.DeserializeObject<Dictionary<int, NpcDefine>>(json);
 
 
 

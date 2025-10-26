@@ -2,7 +2,7 @@ using Managers;
 using Models;
 using UnityEngine;
 using UnityEngine.UI;
-
+//me 通过向 manager请求数据来更新UI
 public class UIMiniMap : MonoBehaviour
 {
     public Image miniMap;
@@ -14,21 +14,35 @@ public class UIMiniMap : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InitMap();
+
+        //把自己注册到manager里面去
+        MiniMapManager.Instance.minimap = this;
+
+        UpdateMap();
+
     }
 
     //小地图切换都要初始化 就提取出来
 
-    //TODO 后续优化UI和资源加载的逻辑 
-    void InitMap()
+    public void UpdateMap()
     {
+
         this.mapName.text = User.Instance.CurrentMapData.Name;
+
         //这里吧小地图的加载逻辑放在manager里面去了
         this.miniMap.sprite = MiniMapManager.Instance.LoadCurrentSprite();
 
         miniMap.SetNativeSize();//设置图片的原始大小 我们使用的小地图的原始大小
         miniMap.transform.localPosition = Vector3.zero;//把小地图放在中心点  先重置一下
 
+        //me 通过manager获取小地图的碰撞体
+
+        if (MiniMapManager.Instance != null)
+        {
+            this.miniMapCollider = MiniMapManager.Instance.MiniMapCollider;
+        }
+        //让切换地图后的玩家位置刷新  也不必要吧 反正会更新
+        this.playerTransform = null;
         //别人人物没有加载完你就拿他的Transform是不行的
         //this.playerTransform = User.Instance.CurrentCharacterObject.transform;
     }
@@ -58,6 +72,23 @@ public class UIMiniMap : MonoBehaviour
         {
             return;
         }
+
+        // 检查 miniMapCollider 是否有效
+        //TODO 还不知道为什么miniMapCollider 会空 能用就行哎
+        if (this.miniMapCollider == null)
+        {
+            Debug.LogWarning("⚠️ miniMapCollider 为 null，尝试重新获取...");
+
+            if (MiniMapManager.Instance != null)
+            {
+                this.miniMapCollider = MiniMapManager.Instance.MiniMapCollider;
+                Debug.LogFormat("重新获取结果: {0}", this.miniMapCollider != null ? "成功" : "仍为空");
+
+            }
+
+        }
+
+
 
         //!! 世界坐标转换到小地图的坐标
         float realWidth = miniMapCollider.bounds.size.x;

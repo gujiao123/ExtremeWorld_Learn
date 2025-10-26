@@ -7,6 +7,7 @@ using System.IO;
 using SkillBridge.Message;
 using ProtoBuf;
 using Services;
+using Managers;
 
 //me 加载进度条和UI展示
 public class LoadingManager : MonoBehaviour
@@ -41,6 +42,9 @@ public class LoadingManager : MonoBehaviour
         //Init basic services
         UserService.Instance.Init();
         MapService.Instance.Init();
+
+        //me 用于测试 Init Test Manager
+        TestManager.Instance.Init();
 
 
         // Fake Loading Simulate

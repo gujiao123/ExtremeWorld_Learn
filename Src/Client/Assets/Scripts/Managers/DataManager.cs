@@ -1,14 +1,9 @@
-using UnityEngine;
+using Common.Data;
+using Newtonsoft.Json;//就是把C#转化为Json格式的一个插件
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.Events;
-using System.Text;
-using System;
 using System.IO;
-
-using Common.Data;
-
-using Newtonsoft.Json;//就是把C#转化为Json格式的一个插件
+using UnityEngine;
 /// <summary>
 /// 这个文件很重要 必须最早开始加载
 /// </summary>
@@ -24,6 +19,9 @@ public class DataManager : Singleton<DataManager>
     public Dictionary<int, TeleporterDefine> Teleporters = null;
     // 存储所有出生点定义数据。这是一个嵌套字典，第一层key是地图ID，第二层key是出生点ID
     public Dictionary<int, Dictionary<int, SpawnPointDefine>> SpawnPoints = null;
+
+    public Dictionary<int, NpcDefine> NPCs = null;
+
     //me 注意这里面的数据都是写死在本地文件Data里面的
     public DataManager()
     {
@@ -46,6 +44,13 @@ public class DataManager : Singleton<DataManager>
 
         json = File.ReadAllText(this.DataPath + "SpawnPointDefine.txt");
         this.SpawnPoints = JsonConvert.DeserializeObject<Dictionary<int, Dictionary<int, SpawnPointDefine>>>(json);
+
+        json = File.ReadAllText(this.DataPath + "SpawnPointDefine.txt");
+        this.SpawnPoints = JsonConvert.DeserializeObject<Dictionary<int, Dictionary<int, SpawnPointDefine>>>(json);
+
+        json = File.ReadAllText(this.DataPath + "NpcDefine.txt");
+        this.NPCs = JsonConvert.DeserializeObject<Dictionary<int, NpcDefine>>(json);
+
     }
 
     /// <summary>
@@ -74,6 +79,12 @@ public class DataManager : Singleton<DataManager>
         json = File.ReadAllText(this.DataPath + "SpawnPointDefine.txt");
         this.SpawnPoints = JsonConvert.DeserializeObject<Dictionary<int, Dictionary<int, SpawnPointDefine>>>(json);
         yield return null; // 等待下一帧
+
+        // 读取NPC数据
+        json = File.ReadAllText(this.DataPath + "NpcDefine.txt");
+        this.NPCs = JsonConvert.DeserializeObject<Dictionary<int, NpcDefine>>(json);
+        yield return null; // 等待下一帧
+
     }
 
     // 这是一个预处理指令，#if 和 #endif 之间的代码只会在 Unity 编辑器模式下被编译。

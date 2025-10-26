@@ -62,14 +62,17 @@ namespace Network
 
 
         /// <summary>
-        /// 连接断开回调
+        /// 连接断开回调 这里搞事情
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         static void Disconnected(NetConnection<NetSession> sender, SocketAsyncEventArgs e)
         {
+            //!!开始防护 客户端断开链接后的一系列处理
             //Performance.ServerConnect = Interlocked.Decrement(ref Performance.ServerConnect);
             Log.WarningFormat("Client[{0}] Disconnected", e.RemoteEndPoint);
+            sender.Session.Disconneted();//
+
         }
 
 

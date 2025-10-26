@@ -1,13 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-using Entities;
-using SkillBridge.Message;
+﻿using Entities;
 using Services;
-using UnityEngine.AI;
-using System;
-using Models;
+using SkillBridge.Message;
+using UnityEngine;
 
 public class PlayerInputController : MonoBehaviour
 {
@@ -32,6 +26,7 @@ public class PlayerInputController : MonoBehaviour
         state = SkillBridge.Message.CharacterState.Idle;
         if (this.character == null)
         {
+            //这里的load有用吗 应该是没有用的
             DataManager.Instance.Load();
             NCharacterInfo cinfo = new NCharacterInfo();
             cinfo.Id = 1;
