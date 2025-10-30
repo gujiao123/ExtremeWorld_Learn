@@ -21,7 +21,7 @@ public class NPCController : MonoBehaviour
     {
         render = this.gameObject.GetComponentInChildren<SkinnedMeshRenderer>();
         anim = this.gameObject.GetComponent<Animator>();
-        npc = NpcManager.Instance.GetNpcDefine(npcID);
+        npc = NPCManager.Instance.GetNpcDefine(npcID);
         orignColor = render.sharedMaterial.color;
         this.StartCoroutine(Actions());
     }
@@ -53,7 +53,7 @@ public class NPCController : MonoBehaviour
     {
         yield return FaceTolayer();
         //把交互请求发给manager
-        if (NpcManager.Instance.Interactive(npc))
+        if (NPCManager.Instance.Interactive(npc))
         {
             anim.SetTrigger("Talk");
         }

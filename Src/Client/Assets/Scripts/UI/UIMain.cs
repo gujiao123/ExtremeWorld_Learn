@@ -41,7 +41,11 @@ public class UIMain : MonoSingleton<UIMain>
     public void OnClickTest()
     {
         Debug.Log("点击了测试按钮");
-        UIManager.Instance.show<UITest>();
+        UIManager.Instance.Show<UITest>();
 
+    }
+    public void OnClickBag()
+    {
+        UIManager.Instance.Show<UIBag>();
     }
 }

@@ -20,7 +20,12 @@ public class DataManager : Singleton<DataManager>
     // 存储所有出生点定义数据。这是一个嵌套字典，第一层key是地图ID，第二层key是出生点ID
     public Dictionary<int, Dictionary<int, SpawnPointDefine>> SpawnPoints = null;
 
-    public Dictionary<int, NpcDefine> NPCs = null;
+    public Dictionary<int, NpcDefine> Npcs = null;
+
+    public Dictionary<int, ItemDefine> Items = null;
+    public Dictionary<int, ShopDefine> Shops = null;
+    public Dictionary<int, Dictionary<int, ShopItemDefine>> ShopItems = null;
+
 
     //me 注意这里面的数据都是写死在本地文件Data里面的
     public DataManager()
@@ -49,8 +54,16 @@ public class DataManager : Singleton<DataManager>
         this.SpawnPoints = JsonConvert.DeserializeObject<Dictionary<int, Dictionary<int, SpawnPointDefine>>>(json);
 
         json = File.ReadAllText(this.DataPath + "NpcDefine.txt");
-        this.NPCs = JsonConvert.DeserializeObject<Dictionary<int, NpcDefine>>(json);
+        this.Npcs = JsonConvert.DeserializeObject<Dictionary<int, NpcDefine>>(json);
+        json = File.ReadAllText(this.DataPath + "ItemDefine.txt");
+        this.Items = JsonConvert.DeserializeObject<Dictionary<int, ItemDefine>>(json);
 
+
+        json = File.ReadAllText(this.DataPath + "ShopDefine.txt");
+        this.Shops = JsonConvert.DeserializeObject<Dictionary<int, ShopDefine>>(json);
+
+        json = File.ReadAllText(this.DataPath + "ShopItemDefine.txt");
+        this.ShopItems = JsonConvert.DeserializeObject<Dictionary<int, Dictionary<int, ShopItemDefine>>>(json);
     }
 
     /// <summary>
@@ -82,9 +95,17 @@ public class DataManager : Singleton<DataManager>
 
         // 读取NPC数据
         json = File.ReadAllText(this.DataPath + "NpcDefine.txt");
-        this.NPCs = JsonConvert.DeserializeObject<Dictionary<int, NpcDefine>>(json);
+        this.Npcs = JsonConvert.DeserializeObject<Dictionary<int, NpcDefine>>(json);
         yield return null; // 等待下一帧
 
+        json = File.ReadAllText(this.DataPath + "ItemDefine.txt");
+        this.Items = JsonConvert.DeserializeObject<Dictionary<int, ItemDefine>>(json);
+
+        json = File.ReadAllText(this.DataPath + "ShopDefine.txt");
+        this.Shops = JsonConvert.DeserializeObject<Dictionary<int, ShopDefine>>(json);
+
+        json = File.ReadAllText(this.DataPath + "ShopItemDefine.txt");
+        this.ShopItems = JsonConvert.DeserializeObject<Dictionary<int, Dictionary<int, ShopItemDefine>>>(json);
     }
 
     // 这是一个预处理指令，#if 和 #endif 之间的代码只会在 Unity 编辑器模式下被编译。

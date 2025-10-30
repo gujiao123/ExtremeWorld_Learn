@@ -388,6 +388,7 @@
 "Assets/Editor/MapTools.cs"
 "Assets/Editor/SceneToolMenu.cs"
 -langversion:9.0
+/unsafe+
 /deterministic
 /optimize-
 /debug:portable

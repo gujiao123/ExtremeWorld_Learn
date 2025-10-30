@@ -29,6 +29,65 @@
           <ScalarProperty Name="MapPosX" ColumnName="MapPosX" />
           <ScalarProperty Name="MapPosY" ColumnName="MapPosY" />
           <ScalarProperty Name="MapPosZ" ColumnName="MapPosZ" />
+          <ScalarProperty Name="Gold" ColumnName="Gold" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TCharacterItems">
+      <EntityTypeMapping TypeName="IsTypeOf(ExtremeWorldModel.TCharacterItem)">
+        <MappingFragment StoreEntitySet="TCharacterItems">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CharacterID" ColumnName="CharacterID" />
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="ItemCount" ColumnName="ItemCount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GuildApplies">
+      <EntityTypeMapping TypeName="IsTypeOf(ExtremeWorldModel.GuildApply)">
+        <MappingFragment StoreEntitySet="GuildApplies">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CharacterId" ColumnName="CharacterId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Class" ColumnName="Class" />
+          <ScalarProperty Name="Level" ColumnName="Level" />
+          <ScalarProperty Name="Result" ColumnName="Result" />
+          <ScalarProperty Name="ApplyTime" ColumnName="ApplyTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GuildMembers">
+      <EntityTypeMapping TypeName="IsTypeOf(ExtremeWorldModel.GuildMember)">
+        <MappingFragment StoreEntitySet="GuildMembers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CharacterId" ColumnName="CharacterId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Class" ColumnName="Class" />
+          <ScalarProperty Name="Level" ColumnName="Level" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="JoinTime" ColumnName="JoinTime" />
+          <ScalarProperty Name="LastTime" ColumnName="LastTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Guilds">
+      <EntityTypeMapping TypeName="IsTypeOf(ExtremeWorldModel.Guild)">
+        <MappingFragment StoreEntitySet="Guilds">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="LeaderID" ColumnName="LeaderID" />
+          <ScalarProperty Name="LeaderName" ColumnName="LeaderName" />
+          <ScalarProperty Name="Notice" ColumnName="Notice" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CharacterBags">
+      <EntityTypeMapping TypeName="IsTypeOf(ExtremeWorldModel.TCharacterBag)">
+        <MappingFragment StoreEntitySet="CharacterBags">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Items" ColumnName="Items" />
+          <ScalarProperty Name="Unlocked" ColumnName="Unlocked" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -45,6 +104,30 @@
         <ScalarProperty Name="ID" ColumnName="Player_ID" />
       </EndProperty>
       <EndProperty Name="Character">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK_TGuildTGuildApply" TypeName="ExtremeWorldModel.FK_TGuildTGuildApply" StoreEntitySet="GuildApplies">
+      <EndProperty Name="Guild">
+        <ScalarProperty Name="Id" ColumnName="Guild_Id" />
+      </EndProperty>
+      <EndProperty Name="GuildApply">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK_TGuildTGuildMember" TypeName="ExtremeWorldModel.FK_TGuildTGuildMember" StoreEntitySet="GuildMembers">
+      <EndProperty Name="Guild">
+        <ScalarProperty Name="Id" ColumnName="Guild_Id" />
+      </EndProperty>
+      <EndProperty Name="GuildMember">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="CharacterBag" TypeName="ExtremeWorldModel.CharacterBag" StoreEntitySet="Characters">
+      <EndProperty Name="TCharacterBag">
+        <ScalarProperty Name="Id" ColumnName="Bag_Id" />
+      </EndProperty>
+      <EndProperty Name="TCharacter">
         <ScalarProperty Name="ID" ColumnName="ID" />
       </EndProperty>
     </AssociationSetMapping>

@@ -1,0 +1,1339 @@
+
+2025-10-30 19:13:13,733 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-30 19:13:13,781 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-30 19:13:13,866 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2025-10-30 19:13:13,867 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2025-10-30 19:13:13,867 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2025-10-30 19:13:13,867 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2025-10-30 19:13:13,867 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-30 19:13:13,869 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:13:13,869 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:13:13,869 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:13:13,869 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:13:13,869 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:13:13,870 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:13:13,870 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:13:13,869 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:13:13,979 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-30 19:13:51,494 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-30 19:13:51,535 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-30 19:13:51,618 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2025-10-30 19:13:51,619 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2025-10-30 19:13:51,619 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2025-10-30 19:13:51,619 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2025-10-30 19:13:51,619 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-30 19:13:51,621 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:13:51,621 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:13:51,621 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:13:51,621 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:13:51,621 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:13:51,621 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:13:51,621 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:13:51,621 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:13:51,731 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-30 19:23:16,463 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-30 19:23:16,504 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-30 19:23:16,591 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2025-10-30 19:23:16,592 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2025-10-30 19:23:16,592 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2025-10-30 19:23:16,592 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2025-10-30 19:23:16,593 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-30 19:23:16,595 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:23:16,595 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:23:16,595 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:23:16,595 [17] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:23:16,595 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:23:16,595 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:23:16,595 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:23:16,595 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:23:16,708 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-30 19:23:16,851 [1] [INFO ] [GameServer] ：X;5000Y:3000Z:850
+2025-10-30 19:54:44,502 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-30 19:54:44,545 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-30 19:54:44,629 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2025-10-30 19:54:44,630 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2025-10-30 19:54:44,630 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2025-10-30 19:54:44,630 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2025-10-30 19:54:44,630 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-30 19:54:44,632 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:54:44,632 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:54:44,632 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:54:44,632 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:54:44,632 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:54:44,632 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:54:44,633 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:54:44,633 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:54:44,744 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-30 19:54:44,899 [1] [INFO ] [GameServer] ：X;5000Y:3000Z:850
+2025-10-30 19:58:17,594 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-30 19:58:17,644 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-30 19:58:17,735 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2025-10-30 19:58:17,736 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2025-10-30 19:58:17,737 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2025-10-30 19:58:17,737 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2025-10-30 19:58:17,737 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-30 19:58:17,740 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:58:17,740 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:58:17,740 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:58:17,740 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:58:17,740 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:58:17,740 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:58:17,740 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:58:17,740 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 19:58:17,852 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-30 19:58:18,012 [1] [INFO ] [GameServer] ：X;5000Y:3000Z:850
+2025-10-30 19:58:24,561 [3] [WARN ] [GameServer] ：Client[127.0.0.1:3799]] Connected
+2025-10-30 19:58:24,595 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:21
+2025-10-30 19:58:24,658 [5] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:123456
+2025-10-30 19:58:26,049 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-30 19:58:26,051 [11] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:伞兵一号 Map:1
+2025-10-30 19:58:26,072 [11] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 29
+   在 GameServer.Manager.CharacterManager.AddCharacter(TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\CharacterManager.cs:行号 33
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 163
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-10-30 20:01:39,166 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-30 20:01:39,213 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-30 20:01:39,307 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2025-10-30 20:01:39,308 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2025-10-30 20:01:39,308 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2025-10-30 20:01:39,308 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2025-10-30 20:01:39,308 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-30 20:01:39,311 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:01:39,311 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:01:39,311 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:01:39,311 [17] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:01:39,311 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:01:39,311 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:01:39,311 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:01:39,311 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:01:39,423 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-30 20:01:39,588 [1] [INFO ] [GameServer] ：X;5000Y:3000Z:850
+2025-10-30 20:01:49,536 [3] [WARN ] [GameServer] ：Client[127.0.0.1:2407]] Connected
+2025-10-30 20:01:49,567 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:21
+2025-10-30 20:01:49,625 [5] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:123456
+2025-10-30 20:01:50,639 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-30 20:01:50,641 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:伞兵一号 Map:1
+2025-10-30 20:01:50,660 [6] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 29
+   在 GameServer.Manager.CharacterManager.AddCharacter(TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\CharacterManager.cs:行号 33
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 163
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-10-30 20:03:01,349 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-30 20:03:01,412 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-30 20:03:01,518 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2025-10-30 20:03:01,519 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2025-10-30 20:03:01,519 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2025-10-30 20:03:01,519 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2025-10-30 20:03:01,519 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-30 20:03:01,566 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:03:01,566 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:03:01,567 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:03:01,567 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:03:01,567 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:03:01,567 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:03:01,568 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:03:01,568 [16] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:03:01,626 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-30 20:03:01,849 [1] [INFO ] [GameServer] ：X;5000Y:3000Z:850
+2025-10-30 20:03:07,713 [3] [WARN ] [GameServer] ：Client[127.0.0.1:2124]] Connected
+2025-10-30 20:03:07,744 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:21
+2025-10-30 20:03:07,804 [5] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:123456
+2025-10-30 20:03:09,546 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-30 20:03:09,547 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:伞兵一号 Map:1
+2025-10-30 20:05:19,865 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-30 20:05:19,929 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-30 20:05:20,033 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2025-10-30 20:05:20,034 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2025-10-30 20:05:20,034 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2025-10-30 20:05:20,034 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2025-10-30 20:05:20,034 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-30 20:05:20,048 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:05:20,048 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:05:20,048 [16] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:05:20,048 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:05:20,049 [17] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:05:20,049 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:05:20,049 [19] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:05:20,049 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:05:20,139 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-30 20:05:20,407 [1] [INFO ] [GameServer] ：X;5000Y:3000Z:850
+2025-10-30 20:06:20,634 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-30 20:06:20,691 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-30 20:06:20,792 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2025-10-30 20:06:20,793 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2025-10-30 20:06:20,793 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2025-10-30 20:06:20,794 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2025-10-30 20:06:20,794 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-30 20:06:20,797 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:06:20,797 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:06:20,797 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:06:20,797 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:06:20,797 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:06:20,797 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:06:20,797 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:06:20,797 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:06:20,900 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-30 20:06:21,070 [1] [INFO ] [GameServer] ：X;5000Y:3000Z:850
+2025-10-30 20:06:33,911 [3] [WARN ] [GameServer] ：Client[127.0.0.1:3408]] Connected
+2025-10-30 20:06:33,942 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:21
+2025-10-30 20:06:33,995 [5] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:132456
+2025-10-30 20:06:39,878 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:21
+2025-10-30 20:06:39,878 [12] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:123456
+2025-10-30 20:06:40,707 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-30 20:06:40,708 [10] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:伞兵一号 Map:1
+2025-10-30 20:06:40,735 [10] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 对象名 'dbo.TCharacterItems' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:af96b006-e0a1-4b22-8502-2dfecb2098d1
+Error Number:208,State:1,Class:16, 执行命令定义时出错。有关详细信息，请参阅内部异常。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.DataClasses.EntityCollection`1.Load(List`1 collection, MergeOption mergeOption)
+   在 System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.DeferredLoad()
+   在 System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.LoadProperty[TItem](TItem propertyValue, String relationshipName, String targetRoleName, Boolean mustBeNull, Object wrapperObject)
+   在 System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.<>c__DisplayClass7`2.<GetInterceptorDelegate>b__1(TProxy proxy, TItem item)
+   在 System.Data.Entity.DynamicProxies.TCharacter_AFE1D37EF9FC540584F28AC6FF079E6F7A349C1E0AAEA3C0581C6395F393AC9E.get_Items()
+   在 GameServer.Managers.ItemManager..ctor(Character owner) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\ItemManager.cs:行号 25
+   在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 31
+   在 GameServer.Manager.CharacterManager.AddCharacter(TCharacter cha) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Manager\CharacterManager.cs:行号 33
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 163
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\ExtremeWorld\mmorpg\ExtremeWorld_Learn\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-10-30 20:09:53,355 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-30 20:09:53,398 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-30 20:09:53,485 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2025-10-30 20:09:53,486 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2025-10-30 20:09:53,487 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2025-10-30 20:09:53,487 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2025-10-30 20:09:53,487 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-30 20:09:53,489 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:09:53,489 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:09:53,489 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:09:53,489 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:09:53,489 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:09:53,489 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:09:53,489 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:09:53,489 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:09:53,593 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-30 20:09:53,738 [1] [INFO ] [GameServer] ：X;5000Y:3000Z:850
+2025-10-30 20:10:11,262 [3] [WARN ] [GameServer] ：Client[127.0.0.1:5398]] Connected
+2025-10-30 20:10:11,293 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:21
+2025-10-30 20:10:11,348 [5] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:123456
+2025-10-30 20:10:18,202 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:21
+2025-10-30 20:10:18,203 [12] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:123456
+2025-10-30 20:10:20,024 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-30 20:14:31,658 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-30 20:14:31,703 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-30 20:14:31,788 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2025-10-30 20:14:31,789 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2025-10-30 20:14:31,789 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2025-10-30 20:14:31,789 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2025-10-30 20:14:31,790 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-30 20:14:31,792 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:14:31,792 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:14:31,792 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:14:31,792 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:14:31,792 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:14:31,792 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:14:31,792 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:14:31,792 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:14:31,898 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-30 20:14:54,264 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-30 20:14:54,304 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-30 20:14:54,389 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2025-10-30 20:14:54,389 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2025-10-30 20:14:54,390 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2025-10-30 20:14:54,390 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2025-10-30 20:14:54,390 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-30 20:14:54,392 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:14:54,393 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:14:54,393 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:14:54,393 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:14:54,393 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:14:54,393 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:14:54,393 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:14:54,393 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:14:54,497 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-30 20:15:06,276 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-30 20:15:06,320 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-30 20:15:06,406 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2025-10-30 20:15:06,407 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2025-10-30 20:15:06,407 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2025-10-30 20:15:06,407 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2025-10-30 20:15:06,407 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-30 20:15:06,409 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:15:06,409 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:15:06,409 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:15:06,409 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:15:06,409 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:15:06,409 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:15:06,410 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:15:06,410 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:15:06,510 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-30 20:15:44,763 [3] [WARN ] [GameServer] ：Client[127.0.0.1:5470]] Connected
+2025-10-30 20:15:44,795 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2025-10-30 20:15:44,851 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:asd  Pass:123
+2025-10-30 20:15:51,863 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2025-10-30 20:15:51,864 [10] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:123
+2025-10-30 20:15:58,321 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-10-30 20:15:58,323 [6] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:伞兵医保  Class:Warrior
+2025-10-30 20:15:59,236 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-30 20:15:59,237 [9] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:伞兵医保 Map:1
+2025-10-30 20:15:59,240 [9] [INFO ] [GameServer] ：HasItem:[8]False
+2025-10-30 20:15:59,240 [9] [INFO ] [GameServer] ：[1]GetItem[8:]
+2025-10-30 20:15:59,240 [9] [INFO ] [GameServer] ：Item:[8][]
+2025-10-30 20:15:59,252 [9] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1characterName伞兵医保
+2025-10-30 20:16:00,436 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 20:16:00,438 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:16:00,533 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 20:16:00,533 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:16:00,630 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 20:16:00,631 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:16:00,718 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 20:16:00,719 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:16:00,814 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 20:16:00,815 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:16:00,899 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 20:16:00,900 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:16:00,985 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 20:16:00,985 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:16:01,081 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 20:16:01,082 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:16:01,179 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-10-30 20:16:01,179 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtMoveFwdEntitySkillBridge.Message.NEntity
+2025-10-30 20:16:01,196 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:16:01,196 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:16:01,270 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:16:01,271 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:16:01,367 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:16:01,368 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:16:01,539 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:16:01,539 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:16:02,490 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-10-30 20:16:02,490 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtIdleEntitySkillBridge.Message.NEntity
+2025-10-30 20:17:10,828 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-30 20:17:10,829 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2025-10-30 20:21:44,684 [3] [WARN ] [GameServer] ：Client[127.0.0.1:6092]] Connected
+2025-10-30 20:21:44,716 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2025-10-30 20:21:44,716 [6] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:123
+2025-10-30 20:21:45,446 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-30 20:21:45,446 [9] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:伞兵医保 Map:1
+2025-10-30 20:21:45,446 [9] [INFO ] [GameServer] ：HasItem:[8]False
+2025-10-30 20:21:45,447 [9] [INFO ] [GameServer] ：[1]GetItem[8:]
+2025-10-30 20:21:45,447 [9] [INFO ] [GameServer] ：Item:[8][]
+2025-10-30 20:21:45,448 [9] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2characterName伞兵医保
+2025-10-30 20:21:46,106 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 20:21:46,106 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:21:46,206 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 20:21:46,206 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:21:46,303 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 20:21:46,304 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:21:46,404 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 20:21:46,404 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:21:46,490 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 20:21:46,490 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:21:46,574 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 20:21:46,575 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:21:46,614 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-10-30 20:21:46,614 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtMoveFwdEntitySkillBridge.Message.NEntity
+2025-10-30 20:21:46,657 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:21:46,657 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:21:46,761 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:21:46,761 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:21:46,860 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:21:46,860 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:21:47,480 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-10-30 20:21:47,480 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtIdleEntitySkillBridge.Message.NEntity
+2025-10-30 20:23:04,554 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-30 20:23:04,555 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2025-10-30 20:23:30,733 [3] [WARN ] [GameServer] ：Client[127.0.0.1:12865]] Connected
+2025-10-30 20:23:30,817 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2025-10-30 20:23:30,817 [11] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:123
+2025-10-30 20:23:31,468 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-30 20:23:31,468 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:伞兵医保 Map:1
+2025-10-30 20:23:31,469 [5] [INFO ] [GameServer] ：HasItem:[8]False
+2025-10-30 20:23:31,469 [5] [INFO ] [GameServer] ：[1]GetItem[8:]
+2025-10-30 20:23:31,469 [5] [INFO ] [GameServer] ：Item:[8][]
+2025-10-30 20:23:31,469 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:3characterName伞兵医保
+2025-10-30 20:24:37,977 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-30 20:24:37,978 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:3
+2025-10-30 20:42:52,628 [3] [WARN ] [GameServer] ：Client[127.0.0.1:4819]] Connected
+2025-10-30 20:42:52,661 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2025-10-30 20:42:52,661 [10] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:123
+2025-10-30 20:42:53,494 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-30 20:42:53,495 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:伞兵医保 Map:1
+2025-10-30 20:42:53,495 [6] [INFO ] [GameServer] ：HasItem:[8]False
+2025-10-30 20:42:53,495 [6] [INFO ] [GameServer] ：[1]GetItem[8:]
+2025-10-30 20:42:53,495 [6] [INFO ] [GameServer] ：Item:[8][]
+2025-10-30 20:42:53,495 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:4characterName伞兵医保
+2025-10-30 20:43:30,526 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 20:43:30,527 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:4伞兵医保Entity.Id4EvtMoveFwdEntitySkillBridge.Message.NEntity
+2025-10-30 20:43:31,475 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:43:31,476 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:4伞兵医保Entity.Id4EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:43:31,575 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:43:31,576 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:4伞兵医保Entity.Id4EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:43:31,675 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:43:31,675 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:4伞兵医保Entity.Id4EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:43:31,773 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:43:31,774 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:4伞兵医保Entity.Id4EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:43:31,907 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:43:31,908 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:4伞兵医保Entity.Id4EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:43:32,054 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:43:32,055 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:4伞兵医保Entity.Id4EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:43:32,154 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:43:32,154 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:4伞兵医保Entity.Id4EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:43:32,259 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:43:32,259 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:4伞兵医保Entity.Id4EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:43:32,364 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:43:32,364 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:4伞兵医保Entity.Id4EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:43:32,476 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:43:32,477 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:4伞兵医保Entity.Id4EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:43:33,198 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:43:33,198 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:4伞兵医保Entity.Id4EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:43:33,543 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:43:33,543 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:4伞兵医保Entity.Id4EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:43:33,594 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-10-30 20:43:33,594 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:4伞兵医保Entity.Id4EvtIdleEntitySkillBridge.Message.NEntity
+2025-10-30 20:43:33,612 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2025-10-30 20:43:33,613 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:4伞兵医保Entity.Id4EvtMoveFwdEntitySkillBridge.Message.NEntity
+2025-10-30 20:43:34,040 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-10-30 20:43:34,040 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:4伞兵医保Entity.Id4EvtIdleEntitySkillBridge.Message.NEntity
+2025-10-30 20:44:54,546 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-30 20:44:54,546 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:4
+2025-10-30 20:46:47,764 [66] [WARN ] [GameServer] ：Client[127.0.0.1:11345]] Connected
+2025-10-30 20:46:47,795 [66] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2025-10-30 20:46:47,796 [9] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:123
+2025-10-30 20:46:48,701 [66] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-30 20:46:48,701 [12] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:伞兵医保 Map:1
+2025-10-30 20:46:48,701 [12] [INFO ] [GameServer] ：HasItem:[8]False
+2025-10-30 20:46:48,702 [12] [INFO ] [GameServer] ：[1]GetItem[8:]
+2025-10-30 20:46:48,702 [12] [INFO ] [GameServer] ：Item:[8][]
+2025-10-30 20:46:48,703 [12] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:5characterName伞兵医保
+2025-10-30 20:47:33,777 [66] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-30 20:47:33,778 [66] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:5
+2025-10-30 20:48:38,533 [72] [WARN ] [GameServer] ：Client[127.0.0.1:3073]] Connected
+2025-10-30 20:48:38,617 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2025-10-30 20:48:38,617 [7] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:123
+2025-10-30 20:48:39,355 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-30 20:48:39,356 [8] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:伞兵医保 Map:1
+2025-10-30 20:48:39,356 [8] [INFO ] [GameServer] ：HasItem:[8]False
+2025-10-30 20:48:39,356 [8] [INFO ] [GameServer] ：[1]GetItem[8:]
+2025-10-30 20:48:39,356 [8] [INFO ] [GameServer] ：Item:[8][]
+2025-10-30 20:48:39,357 [8] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:6characterName伞兵医保
+2025-10-30 20:49:56,427 [72] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-30 20:49:56,428 [72] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:6
+2025-10-30 20:50:39,386 [72] [WARN ] [GameServer] ：Client[127.0.0.1:3676]] Connected
+2025-10-30 20:50:39,418 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2025-10-30 20:50:39,419 [11] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:123
+2025-10-30 20:50:40,290 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-30 20:50:40,290 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:伞兵医保 Map:1
+2025-10-30 20:50:40,290 [5] [INFO ] [GameServer] ：HasItem:[8]False
+2025-10-30 20:50:40,290 [5] [INFO ] [GameServer] ：[1]GetItem[8:]
+2025-10-30 20:50:40,290 [5] [INFO ] [GameServer] ：Item:[8][]
+2025-10-30 20:50:40,291 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:7characterName伞兵医保
+2025-10-30 20:51:13,872 [72] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-30 20:51:13,873 [72] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:7
+2025-10-30 20:51:27,644 [72] [WARN ] [GameServer] ：Client[127.0.0.1:1066]] Connected
+2025-10-30 20:51:27,684 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2025-10-30 20:51:27,684 [10] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:123
+2025-10-30 20:51:28,435 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-30 20:51:28,435 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:伞兵医保 Map:1
+2025-10-30 20:51:28,435 [6] [INFO ] [GameServer] ：HasItem:[8]False
+2025-10-30 20:51:28,435 [6] [INFO ] [GameServer] ：[1]GetItem[8:]
+2025-10-30 20:51:28,435 [6] [INFO ] [GameServer] ：Item:[8][]
+2025-10-30 20:51:28,436 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:8characterName伞兵医保
+2025-10-30 20:51:36,059 [72] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-30 20:51:36,060 [72] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:8
+2025-10-30 20:51:56,959 [72] [WARN ] [GameServer] ：Client[127.0.0.1:1132]] Connected
+2025-10-30 20:51:56,989 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2025-10-30 20:51:56,989 [9] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:123
+2025-10-30 20:51:57,877 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-30 20:51:57,878 [12] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:伞兵医保 Map:1
+2025-10-30 20:51:57,878 [12] [INFO ] [GameServer] ：HasItem:[8]False
+2025-10-30 20:51:57,878 [12] [INFO ] [GameServer] ：[1]GetItem[8:]
+2025-10-30 20:51:57,878 [12] [INFO ] [GameServer] ：Item:[8][]
+2025-10-30 20:51:57,878 [12] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:9characterName伞兵医保
+2025-10-30 20:54:28,778 [72] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-30 20:54:28,778 [72] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:9
+2025-10-30 20:54:42,297 [72] [WARN ] [GameServer] ：Client[127.0.0.1:6549]] Connected
+2025-10-30 20:54:42,329 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2025-10-30 20:54:42,330 [7] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:123
+2025-10-30 20:54:43,018 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-30 20:54:43,018 [8] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:伞兵医保 Map:1
+2025-10-30 20:54:43,018 [8] [INFO ] [GameServer] ：HasItem:[8]False
+2025-10-30 20:54:43,018 [8] [INFO ] [GameServer] ：[1]GetItem[8:]
+2025-10-30 20:54:43,018 [8] [INFO ] [GameServer] ：Item:[8][]
+2025-10-30 20:54:43,019 [8] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:10characterName伞兵医保
+2025-10-30 20:56:25,423 [72] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-30 20:56:25,424 [72] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:10
+2025-10-30 20:58:14,535 [72] [WARN ] [GameServer] ：Client[127.0.0.1:6204]] Connected
+2025-10-30 20:58:29,411 [72] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-30 20:58:44,840 [72] [WARN ] [GameServer] ：Client[127.0.0.1:6410]] Connected
+2025-10-30 20:58:44,871 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2025-10-30 20:58:44,871 [11] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:123
+2025-10-30 20:58:46,179 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-30 20:58:46,179 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:伞兵医保 Map:1
+2025-10-30 20:58:46,179 [5] [INFO ] [GameServer] ：HasItem:[8]False
+2025-10-30 20:58:46,179 [5] [INFO ] [GameServer] ：[1]GetItem[8:]
+2025-10-30 20:58:46,179 [5] [INFO ] [GameServer] ：Item:[8][]
+2025-10-30 20:58:46,180 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:11characterName伞兵医保
+2025-10-30 20:59:10,837 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 20:59:10,837 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:10,939 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 20:59:10,939 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:11,022 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 20:59:11,022 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:11,119 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 20:59:11,119 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:11,139 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-10-30 20:59:11,140 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtMoveFwdEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:11,202 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:59:11,203 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:11,286 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:59:11,286 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:11,369 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:59:11,369 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:11,455 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:59:11,456 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:11,547 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:11,548 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:11,637 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:11,637 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:11,739 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:11,739 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:11,820 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:11,820 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:11,941 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:11,941 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:13,989 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:13,989 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:14,112 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:14,113 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:14,943 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:14,943 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:14,964 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:14,964 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:15,091 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:59:15,091 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:15,284 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:59:15,285 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:15,634 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:59:15,635 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:15,663 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:15,663 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:15,762 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:15,762 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:15,841 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:15,841 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:15,932 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:15,932 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:15,975 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:15,975 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:16,007 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:16,007 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:16,112 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:16,113 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:16,212 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:16,212 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:16,399 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:16,399 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:16,749 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:16,750 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:16,850 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:16,851 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:16,924 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:16,924 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:17,019 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:17,020 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:17,096 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:17,097 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:17,195 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:17,195 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:17,283 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:17,283 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:17,387 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 20:59:17,388 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:17,470 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:59:17,471 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:17,562 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:59:17,562 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:17,666 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:59:17,667 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:17,764 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:59:17,765 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:17,788 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 20:59:17,789 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtIdleEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:17,887 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 20:59:17,888 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:17,956 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-10-30 20:59:17,956 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtMoveFwdEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:18,662 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:59:18,663 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:18,769 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:59:18,769 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:18,892 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:59:18,892 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:19,133 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:59:19,133 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:19,253 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:59:19,254 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:20,390 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:59:20,390 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:20,551 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:59:20,552 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:20,691 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 20:59:20,691 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:21,036 [72] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 20:59:21,036 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:11伞兵医保Entity.Id11EvtIdleEntitySkillBridge.Message.NEntity
+2025-10-30 20:59:34,947 [72] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-30 20:59:34,947 [72] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:11
+2025-10-30 20:59:58,981 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-30 20:59:59,020 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-30 20:59:59,104 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2025-10-30 20:59:59,105 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2025-10-30 20:59:59,105 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2025-10-30 20:59:59,105 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2025-10-30 20:59:59,105 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-30 20:59:59,107 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:59:59,107 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:59:59,107 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:59:59,107 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:59:59,107 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:59:59,107 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:59:59,107 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:59:59,107 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 20:59:59,211 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-30 21:00:12,762 [3] [WARN ] [GameServer] ：Client[127.0.0.1:14325]] Connected
+2025-10-30 21:00:12,793 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2025-10-30 21:00:12,849 [5] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:123
+2025-10-30 21:00:13,945 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-30 21:00:13,946 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:伞兵医保 Map:1
+2025-10-30 21:00:13,974 [7] [INFO ] [GameServer] ：HasItem:[8]False
+2025-10-30 21:00:13,975 [7] [INFO ] [GameServer] ：[1]GetItem[8:]
+2025-10-30 21:00:13,975 [7] [INFO ] [GameServer] ：Item:[8][]
+2025-10-30 21:00:13,980 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1characterName伞兵医保
+2025-10-30 21:00:15,322 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:00:15,324 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:00:15,426 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:00:15,426 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:00:15,514 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:00:15,514 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:00:15,534 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-10-30 21:00:15,535 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtMoveFwdEntitySkillBridge.Message.NEntity
+2025-10-30 21:00:15,605 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:00:15,605 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:00:15,689 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:00:15,690 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:00:15,778 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:00:15,778 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:00:15,870 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:00:15,871 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:00:16,038 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:00:16,039 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:00:16,621 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:00:16,621 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:00:16,736 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:00:16,737 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:00:16,874 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:00:16,874 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:00:17,575 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:00:17,575 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:00:18,340 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:00:18,341 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:00:18,849 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-10-30 21:00:18,850 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtIdleEntitySkillBridge.Message.NEntity
+2025-10-30 21:00:21,103 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-30 21:00:21,104 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2025-10-30 21:02:13,556 [3] [WARN ] [GameServer] ：Client[127.0.0.1:6082]] Connected
+2025-10-30 21:02:13,599 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2025-10-30 21:02:13,599 [7] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:123
+2025-10-30 21:02:14,766 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-30 21:02:14,767 [9] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:伞兵医保 Map:1
+2025-10-30 21:02:14,767 [9] [INFO ] [GameServer] ：HasItem:[8]False
+2025-10-30 21:02:14,767 [9] [INFO ] [GameServer] ：[1]GetItem[8:]
+2025-10-30 21:02:14,767 [9] [INFO ] [GameServer] ：Item:[8][]
+2025-10-30 21:02:14,767 [9] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2characterName伞兵医保
+2025-10-30 21:04:16,309 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-30 21:04:16,358 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-30 21:04:16,443 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2025-10-30 21:04:16,444 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2025-10-30 21:04:16,444 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2025-10-30 21:04:16,445 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2025-10-30 21:04:16,445 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-30 21:04:16,447 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 21:04:16,447 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 21:04:16,447 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 21:04:16,447 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 21:04:16,447 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 21:04:16,448 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 21:04:16,448 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 21:04:16,447 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 21:04:16,458 [3] [WARN ] [GameServer] ：Client[127.0.0.1:4422]] Connected
+2025-10-30 21:04:16,550 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-30 21:04:21,037 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-30 21:04:31,972 [3] [WARN ] [GameServer] ：Client[127.0.0.1:10782]] Connected
+2025-10-30 21:04:32,005 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2025-10-30 21:04:32,061 [5] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:132
+2025-10-30 21:04:36,879 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2025-10-30 21:04:36,879 [6] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:123
+2025-10-30 21:04:37,902 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-30 21:04:37,903 [10] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:伞兵医保 Map:1
+2025-10-30 21:04:37,936 [10] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1characterName伞兵医保
+2025-10-30 21:04:38,667 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:04:38,670 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:04:38,766 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:04:38,766 [13] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:04:38,852 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:04:38,852 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:04:38,933 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:04:38,933 [15] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:04:39,018 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:04:39,018 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:04:39,116 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:04:39,116 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:04:39,222 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:04:39,223 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:04:39,302 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:04:39,302 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:04:39,390 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-10-30 21:04:39,391 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtMoveFwdEntitySkillBridge.Message.NEntity
+2025-10-30 21:04:39,403 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:04:39,403 [13] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:04:39,500 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:04:39,500 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:04:39,687 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:04:39,687 [15] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:04:41,052 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:04:41,053 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:04:41,855 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-10-30 21:04:41,855 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtIdleEntitySkillBridge.Message.NEntity
+2025-10-30 21:04:59,651 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2025-10-30 21:04:59,651 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtMoveFwdEntitySkillBridge.Message.NEntity
+2025-10-30 21:04:59,668 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:04:59,668 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:04:59,799 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:04:59,799 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:04:59,975 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:04:59,975 [13] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:00,314 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:05:00,314 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:00,411 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:00,411 [15] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:00,509 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:00,510 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:00,819 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:00,819 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:01,151 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:01,151 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:01,268 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:01,269 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:01,363 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:05:01,363 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:01,463 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:05:01,463 [13] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:01,488 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:05:01,488 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:01,563 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:05:01,564 [15] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:01,667 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:05:01,667 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:01,768 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:05:01,768 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:01,840 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:05:01,840 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:01,947 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:05:01,947 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:02,599 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:05:02,599 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:02,700 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:05:02,701 [13] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:02,780 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:05:02,780 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:02,882 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:05:02,882 [15] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:02,987 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:05:02,988 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:03,084 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:03,084 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:03,183 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:03,183 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:03,349 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:03,349 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:03,871 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:03,871 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:04,254 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:04,255 [13] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:05,538 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:05,538 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:05,637 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:05,637 [15] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:05,735 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:05,735 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:05,836 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:05,837 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:07,408 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:07,408 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:08,307 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:05:08,307 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:08,659 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:05:08,659 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:10,318 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:05:10,318 [13] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:11,131 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:05:11,131 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:11,229 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:11,230 [15] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:11,329 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:11,329 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:11,414 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:11,414 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:11,534 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:11,534 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:11,785 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:11,785 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:11,898 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:11,899 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:13,650 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 21:05:13,650 [13] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtIdleEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:14,402 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:05:14,402 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:14,710 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:05:14,711 [15] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:17,212 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:05:17,212 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:21,180 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:05:21,181 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:24,921 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:05:24,922 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:28,656 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:05:28,656 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:32,404 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:05:32,405 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:36,262 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:05:36,262 [13] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:40,019 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:05:40,019 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:43,756 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:05:43,757 [15] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:44,554 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-10-30 21:05:44,555 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtMoveFwdEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:45,235 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 21:05:45,235 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtIdleEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:48,194 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-10-30 21:05:48,194 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtMoveFwdEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:48,827 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:48,827 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:48,980 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:48,980 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:49,078 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:49,078 [13] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:49,189 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:49,189 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:50,259 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 21:05:50,259 [15] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtIdleEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:51,815 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:05:51,816 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:51,948 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-10-30 21:05:51,948 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:52,033 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2025-10-30 21:05:52,033 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtMoveFwdEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:52,053 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:05:52,054 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:52,135 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:05:52,135 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:52,214 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:05:52,214 [13] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:52,320 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:05:52,321 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:52,421 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:05:52,422 [15] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:52,515 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:05:52,515 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:52,618 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:05:52,618 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:52,641 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-10-30 21:05:52,642 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtIdleEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:52,702 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:40
+2025-10-30 21:05:52,703 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:52,768 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:52,769 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtMoveFwdEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:52,800 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:52,800 [13] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:52,933 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:52,933 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:53,253 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 21:05:53,253 [15] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtIdleEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:53,471 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:05:53,471 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:53,565 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-10-30 21:05:53,565 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:53,672 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-10-30 21:05:53,672 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:53,761 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-10-30 21:05:53,762 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:53,861 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-10-30 21:05:53,861 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:53,953 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-10-30 21:05:53,954 [13] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:54,038 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-10-30 21:05:54,038 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:54,122 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-10-30 21:05:54,123 [15] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:54,224 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-10-30 21:05:54,225 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:54,315 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:05:54,315 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:54,417 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:05:54,417 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:54,505 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:05:54,506 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:54,599 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:05:54,600 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:54,700 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:05:54,701 [13] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:54,792 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:05:54,792 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:54,885 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:05:54,885 [15] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:54,972 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-10-30 21:05:54,973 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtMoveFwdEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:55,028 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:05:55,028 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:55,507 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 21:05:55,508 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtIdleEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:55,874 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2025-10-30 21:05:55,875 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtMoveBackEntitySkillBridge.Message.NEntity
+2025-10-30 21:05:56,061 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 21:05:56,062 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1伞兵医保Entity.Id1EvtIdleEntitySkillBridge.Message.NEntity
+2025-10-30 21:08:37,117 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-30 21:08:37,118 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2025-10-30 21:09:20,767 [14] [WARN ] [GameServer] ：Client[127.0.0.1:1735]] Connected
+2025-10-30 21:09:20,800 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2025-10-30 21:09:20,800 [13] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:123
+2025-10-30 21:09:21,458 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-30 21:09:21,458 [8] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:伞兵医保 Map:1
+2025-10-30 21:09:21,458 [8] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2characterName伞兵医保
+2025-10-30 21:09:21,923 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:09:21,923 [15] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtMoveFwdEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:21,944 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:21,945 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:22,024 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:22,024 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:22,126 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:22,126 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:22,210 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:22,211 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:22,310 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:22,311 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:22,404 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:22,404 [13] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:22,482 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:22,482 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:22,589 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:22,589 [15] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:22,661 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:09:22,661 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:22,762 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:09:22,762 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:22,854 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:09:22,854 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:22,932 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:09:22,933 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:23,033 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:09:23,033 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:23,183 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:09:23,184 [13] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:25,808 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:09:25,808 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:26,305 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:09:26,306 [15] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:26,433 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:09:26,433 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:26,775 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:09:26,775 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:26,813 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:09:26,813 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:26,906 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:09:26,906 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:26,997 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:09:26,997 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:27,097 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:09:27,097 [13] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:27,120 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:09:27,120 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:27,173 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:09:27,174 [15] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:27,273 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:09:27,273 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:27,406 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:09:27,406 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:27,896 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:09:27,896 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:27,991 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:09:27,991 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:28,092 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:09:28,093 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:28,178 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:09:28,179 [13] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:28,276 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:09:28,276 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:28,372 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:09:28,373 [15] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:28,460 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:09:28,461 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:28,558 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:28,559 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:28,665 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:28,665 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:28,742 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:28,742 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:28,853 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:28,853 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:28,946 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:28,946 [13] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:29,325 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:29,325 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:30,980 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:30,980 [15] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:31,530 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:31,531 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:31,713 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:31,714 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:31,818 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:31,818 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:31,930 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:09:31,930 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:35,684 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:35,685 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:35,786 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:35,786 [13] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:35,894 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:35,895 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:36,289 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:36,290 [15] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:36,388 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:36,388 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:36,494 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2025-10-30 21:09:36,495 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:36,864 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2025-10-30 21:09:36,865 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:37,744 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:37,745 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:37,842 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:37,842 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:37,994 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:09:37,995 [13] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtNoneEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:38,633 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 21:09:38,634 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:2伞兵医保Entity.Id2EvtIdleEntitySkillBridge.Message.NEntity
+2025-10-30 21:09:41,494 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2025-10-30 21:09:45,472 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2025-10-30 21:09:52,221 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2025-10-30 21:12:16,318 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-30 21:12:16,365 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-30 21:12:16,462 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2025-10-30 21:12:16,462 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2025-10-30 21:12:16,463 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2025-10-30 21:12:16,463 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2025-10-30 21:12:16,463 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-30 21:12:16,465 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 21:12:16,465 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 21:12:16,465 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 21:12:16,465 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 21:12:16,465 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 21:12:16,465 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 21:12:16,466 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 21:12:16,466 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 21:12:16,580 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-30 21:12:27,891 [3] [WARN ] [GameServer] ：Client[127.0.0.1:7358]] Connected
+2025-10-30 21:12:27,921 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2025-10-30 21:12:27,976 [5] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:123
+2025-10-30 21:12:31,285 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-30 21:12:31,286 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:伞兵医保 Map:1
+2025-10-30 21:12:31,320 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1characterName伞兵医保
+2025-10-30 21:12:42,066 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-30 21:12:42,066 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2025-10-30 21:12:53,139 [3] [WARN ] [GameServer] ：Client[127.0.0.1:7590]] Connected
+2025-10-30 21:12:53,171 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2025-10-30 21:12:53,172 [7] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:123
+2025-10-30 21:12:54,137 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-10-30 21:12:54,137 [8] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:伞兵医保 Map:1
+2025-10-30 21:12:54,138 [8] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2characterName伞兵医保
+2025-10-30 21:12:54,612 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:12:54,710 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-10-30 21:12:54,719 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:12:54,808 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:12:54,891 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:12:54,977 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:12:55,078 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:12:55,179 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:12:55,276 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2025-10-30 21:12:55,390 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:12:55,626 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:12:55,746 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:12:55,881 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:12:57,716 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:12:57,861 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:12:59,215 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:12:59,335 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:12:59,433 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:12:59,568 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:12:59,649 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:12:59,750 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:12:59,882 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:13:00,007 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:13:01,290 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:13:02,009 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:13:02,106 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:13:02,220 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:13:02,322 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:13:02,442 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:13:02,959 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:13:03,057 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:13:03,143 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:13:03,227 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:13:03,309 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:13:03,407 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:13:03,573 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:13:03,727 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:13:03,845 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:13:07,366 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:13:08,567 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:13:08,668 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:13:08,787 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:13:09,388 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:13:10,455 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 21:13:12,626 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2025-10-30 21:13:12,627 [5] [INFO ] [GameServer] ：OnItemBuy: :character:2:Shhop:2ShopItem:6
+2025-10-30 21:13:12,628 [5] [INFO ] [GameServer] ：BuyItem: :character:2:Item:6 Count:1 Price:200
+2025-10-30 21:13:12,628 [5] [INFO ] [GameServer] ：[1]AddItem[ID: 6, Count: 1] addCount:1
+2025-10-30 21:15:00,556 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2025-10-30 21:15:00,556 [6] [INFO ] [GameServer] ：OnItemBuy: :character:2:Shhop:2ShopItem:6
+2025-10-30 21:15:00,557 [6] [INFO ] [GameServer] ：BuyItem: :character:2:Item:6 Count:1 Price:200
+2025-10-30 21:15:00,557 [6] [INFO ] [GameServer] ：[1]AddItem[ID: 6, Count: 2] addCount:1
+2025-10-30 21:15:07,518 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2025-10-30 21:15:07,519 [7] [INFO ] [GameServer] ：OnItemBuy: :character:2:Shhop:2ShopItem:6
+2025-10-30 21:15:07,519 [7] [INFO ] [GameServer] ：BuyItem: :character:2:Item:6 Count:1 Price:200
+2025-10-30 21:15:07,519 [7] [INFO ] [GameServer] ：[1]AddItem[ID: 6, Count: 3] addCount:1
+2025-10-30 21:15:09,087 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2025-10-30 21:15:09,087 [8] [INFO ] [GameServer] ：OnItemBuy: :character:2:Shhop:2ShopItem:6
+2025-10-30 21:15:09,087 [8] [INFO ] [GameServer] ：BuyItem: :character:2:Item:6 Count:1 Price:200
+2025-10-30 21:15:09,087 [8] [INFO ] [GameServer] ：[1]AddItem[ID: 6, Count: 4] addCount:1
+2025-10-30 21:15:15,754 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2025-10-30 21:15:16,453 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 21:15:16,688 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2025-10-30 21:15:16,940 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 21:15:16,957 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2025-10-30 21:15:17,204 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 21:15:17,239 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2025-10-30 21:15:17,438 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 21:15:17,488 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2025-10-30 21:15:17,756 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 21:15:17,789 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2025-10-30 21:15:18,041 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 21:15:18,192 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2025-10-30 21:15:18,322 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 21:15:19,010 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:15:19,077 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-10-30 21:15:19,107 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:15:19,210 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:15:19,311 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:15:19,393 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:15:19,493 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:15:19,593 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:15:19,693 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:15:19,814 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:15:24,635 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:15:25,088 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-10-30 21:15:25,137 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-10-30 21:15:25,273 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:46
+2025-10-30 21:15:25,522 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-10-30 21:15:26,057 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:46
+2025-10-30 21:15:26,238 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-10-30 21:15:26,442 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-10-30 21:15:26,526 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2025-10-30 21:15:26,576 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:15:26,858 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-10-30 21:15:31,635 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:46
+2025-10-30 21:15:31,936 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 21:15:32,058 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 21:15:32,137 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 21:15:32,185 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-10-30 21:15:32,218 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-10-30 21:15:32,226 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:15:32,301 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:15:32,403 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:15:32,506 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:15:32,586 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:15:32,688 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:15:32,772 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:15:32,874 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:15:32,972 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:15:33,143 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:15:33,559 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-10-30 21:15:41,684 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-30 21:15:41,684 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2025-10-30 21:16:44,735 [1] [INFO ] [GameServer] ：Game Server Init
+2025-10-30 21:16:44,780 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-10-30 21:16:44,872 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2025-10-30 21:16:44,873 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2025-10-30 21:16:44,873 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2025-10-30 21:16:44,874 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2025-10-30 21:16:44,874 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-10-30 21:16:44,876 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 21:16:44,876 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 21:16:44,876 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 21:16:44,876 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 21:16:44,876 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 21:16:44,876 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 21:16:44,877 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 21:16:44,876 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-10-30 21:16:44,990 [1] [WARN ] [GameServer] ：NetService Started
+2025-10-30 21:16:46,687 [3] [WARN ] [GameServer] ：Client[127.0.0.1:12006]] Connected
+2025-10-30 21:16:46,726 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2025-10-30 21:16:46,783 [5] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:123
+2025-10-30 21:16:53,102 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2025-10-30 21:16:53,103 [12] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:test  Class:Wizard
+2025-10-30 21:16:54,745 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-30 21:16:54,746 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:test Map:1
+2025-10-30 21:16:54,751 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1characterNametest
+2025-10-30 21:16:55,481 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:16:55,582 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:16:55,648 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-10-30 21:16:55,665 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:16:55,747 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:16:55,831 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:16:55,932 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:16:56,030 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:16:56,114 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:16:56,218 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:16:56,303 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:16:56,383 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:16:56,484 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:16:56,669 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:16:57,903 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-10-30 21:16:57,919 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:64
+2025-10-30 21:16:58,320 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:62
+2025-10-30 21:16:58,422 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:62
+2025-10-30 21:16:58,519 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:62
+2025-10-30 21:16:58,601 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-10-30 21:16:58,701 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-10-30 21:16:58,772 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 21:16:58,788 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-10-30 21:16:58,799 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:16:58,891 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:16:58,970 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:16:59,057 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:16:59,157 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:16:59,237 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:16:59,323 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:16:59,421 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:16:59,589 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:17:00,373 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:17:00,573 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:17:01,110 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:17:01,294 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:17:01,944 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:17:02,041 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:17:02,175 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:17:02,961 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:17:03,845 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:17:04,214 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:17:05,735 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-10-30 21:17:07,594 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2025-10-30 21:17:07,595 [11] [INFO ] [GameServer] ：OnItemBuy: :character:1:Shhop:1ShopItem:1
+2025-10-30 21:17:07,596 [11] [INFO ] [GameServer] ：BuyItem: :character:1:Item:1 Count:1 Price:200
+2025-10-30 21:17:07,597 [11] [INFO ] [GameServer] ：[2]AddItem[ID: 1, Count: 1] addCount:1
+2025-10-30 21:17:25,818 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-30 21:17:25,819 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2025-10-30 21:17:38,091 [3] [WARN ] [GameServer] ：Client[127.0.0.1:12525]] Connected
+2025-10-30 21:17:38,122 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2025-10-30 21:17:38,122 [10] [INFO ] [GameServer] ：UserLoginRequest: User:asd  Pass:123
+2025-10-30 21:17:44,667 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2025-10-30 21:17:44,668 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:a  Class:Wizard
+2025-10-30 21:17:46,453 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-10-30 21:17:46,453 [12] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:3:a Map:1
+2025-10-30 21:17:46,453 [12] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2characterNamea
+2025-10-30 21:17:47,081 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 21:17:47,460 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-10-30 21:17:47,712 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 21:17:48,127 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-10-30 21:17:49,048 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2025-10-30 21:17:49,060 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:17:49,145 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:17:49,233 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:17:49,328 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:17:49,450 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:17:50,047 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:17:50,180 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:17:50,282 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:17:50,416 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:17:50,738 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 21:18:14,783 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-10-30 21:18:14,882 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-10-30 21:18:14,966 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-10-30 21:18:15,066 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-10-30 21:18:15,150 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-10-30 21:18:15,249 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-10-30 21:18:15,352 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-10-30 21:18:15,447 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-10-30 21:18:15,530 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:18:15,618 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-10-30 21:18:15,633 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:18:15,718 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:18:15,819 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:18:15,899 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:18:15,999 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:18:16,102 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:18:16,203 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:18:16,401 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-10-30 21:18:16,654 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:18:16,751 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:18:16,842 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:18:16,920 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:18:16,936 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 21:18:17,018 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:18:17,117 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:18:17,203 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:18:17,286 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-10-30 21:18:17,386 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-10-30 21:18:17,469 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-10-30 21:18:17,570 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2025-10-30 21:18:17,579 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:18:17,654 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:18:17,755 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:18:17,837 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:18:17,936 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:18:18,020 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:18:18,106 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:18:18,190 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:18:18,573 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:18:18,676 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:18:18,822 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:18:19,593 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-10-30 21:18:19,693 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:18:19,792 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:18:19,893 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:18:20,075 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:18:20,626 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:18:20,815 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:18:21,597 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:18:22,011 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-10-30 21:18:22,381 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-10-30 21:18:26,088 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2025-10-30 21:18:26,089 [6] [INFO ] [GameServer] ：OnItemBuy: :character:2:Shhop:1ShopItem:1
+2025-10-30 21:18:26,089 [6] [INFO ] [GameServer] ：BuyItem: :character:2:Item:1 Count:1 Price:200
+2025-10-30 21:18:26,089 [6] [INFO ] [GameServer] ：[3]AddItem[ID: 1, Count: 1] addCount:1
+2025-10-30 21:20:51,005 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-10-30 21:20:51,005 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2

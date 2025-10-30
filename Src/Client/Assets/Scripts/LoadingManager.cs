@@ -1,13 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Managers;
+using Services;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
-using System.IO;
-
-using SkillBridge.Message;
-using ProtoBuf;
-using Services;
-using Managers;
 
 //me 加载进度条和UI展示
 public class LoadingManager : MonoBehaviour
@@ -42,9 +37,11 @@ public class LoadingManager : MonoBehaviour
         //Init basic services
         UserService.Instance.Init();
         MapService.Instance.Init();
+        StatusService.Instance.Init();
+        ShopManager.Instance.Init();
 
         //me 用于测试 Init Test Manager
-        TestManager.Instance.Init();
+        //TestManager.Instance.Init();
 
 
         // Fake Loading Simulate

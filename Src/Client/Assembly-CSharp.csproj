@@ -27,7 +27,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;USG0001</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -36,7 +36,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;USG0001</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <NoConfig>true</NoConfig>
@@ -64,21 +64,25 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\Scripts\UI\UICharacterSelect.cs" />
     <Compile Include="Assets\Scripts\Network\NetClient.cs" />
+    <Compile Include="Assets\Scripts\Models\BagItem.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\Scripts\UI\UIWorldElement.cs" />
     <Compile Include="Assets\Scripts\GameObject\TeleporterObject.cs" />
     <Compile Include="Assets\Scripts\Managers\DataManager.cs" />
     <Compile Include="Assets\Scripts\UI\UIWorldElementManager.cs" />
-    <Compile Include="Assets\Scripts\Managers\GameObjectManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\FX\Scripts\DelayActiveChild.cs" />
+    <Compile Include="Assets\Scripts\UI\Shop\UIShopItem.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Scripts\GameObject\NPCController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Scripts\Scene\SceneManager.cs" />
+    <Compile Include="Assets\Scripts\UI\Bag\UIBag.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
-    <Compile Include="Assets\Scripts\UI\UIMiniMap\UIMiniMap.cs" />
+    <Compile Include="Assets\Scripts\UI\Shop\UIShop.cs" />
+    <Compile Include="Assets\Scripts\UI\UIMiniMap\UIMinimap.cs" />
+    <Compile Include="Assets\Scripts\Managers\BagManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
@@ -93,7 +97,9 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Scripts\Entities\Entity.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\Scripts\Models\Item.cs" />
     <Compile Include="Assets\Scripts\UI\UICharacterView.cs" />
+    <Compile Include="Assets\Scripts\Managers\ItemManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\Scripts\UI\UIRegister.cs" />
     <Compile Include="Assets\Scripts\Managers\MiniMapManager.cs" />
@@ -104,9 +110,11 @@
     <Compile Include="Assets\Scripts\Log\UnityLogger.cs" />
     <Compile Include="Assets\FX\Scripts\uv_l.cs" />
     <Compile Include="Assets\Scripts\GameObject\EntityController.cs" />
+    <Compile Include="Assets\Scripts\Managers\ShopManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\Scripts\GameObject\GameObjectTool.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\Scripts\UI\TabView\TabView.cs" />
     <Compile Include="Assets\Scripts\UI\MessageBox.cs" />
     <Compile Include="Assets\Scripts\Assets\Resloader.cs" />
     <Compile Include="Assets\Scripts\UI\UINameBar.cs" />
@@ -116,17 +124,21 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Scripts\Services\MapService.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\Scripts\Services\StatusService.cs" />
     <Compile Include="Assets\Scripts\UI\UILogin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
-    <Compile Include="Assets\Scripts\Managers\UIWindow.cs" />
+    <Compile Include="Assets\Scripts\UI\TabView\TabButton.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\Scripts\Services\UserService.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\Scripts\Models\User.cs" />
+    <Compile Include="Assets\Scripts\UI\UIIconItem.cs" />
+    <Compile Include="Assets\Scripts\GameObject\GameObjectManager.cs" />
+    <Compile Include="Assets\Scripts\Services\ItemService.cs" />
     <Compile Include="Assets\Scripts\Managers\EntityManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
-    <Compile Include="Assets\Scripts\Managers\TestManager.cs" />
+    <Compile Include="Assets\Scripts\UI\UIWindow.cs" />
     <Compile Include="Assets\Scripts\Utilities\MonoSingleton.cs" />
     <Compile Include="Assets\Scripts\UI\UIMiniMap\MapController.cs" />
     <Compile Include="Assets\Scripts\LoadingManager.cs" />

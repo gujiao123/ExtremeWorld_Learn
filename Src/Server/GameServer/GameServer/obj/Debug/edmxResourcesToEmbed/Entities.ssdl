@@ -4,6 +4,11 @@
     <EntitySet Name="Users" EntityType="ExtremeWorldModel.Store.Users" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="Players" EntityType="ExtremeWorldModel.Store.Players" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="Characters" EntityType="ExtremeWorldModel.Store.Characters" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TCharacterItems" EntityType="ExtremeWorldModel.Store.TCharacterItems" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GuildApplies" EntityType="ExtremeWorldModel.Store.GuildApplies" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GuildMembers" EntityType="ExtremeWorldModel.Store.GuildMembers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Guilds" EntityType="ExtremeWorldModel.Store.Guilds" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CharacterBags" EntityType="ExtremeWorldModel.Store.CharacterBags" store:Type="Tables" Schema="dbo" />
     <AssociationSet Name="UserPlayer" Association="ExtremeWorldModel.Store.UserPlayer">
       <End Role="User" EntitySet="Users" />
       <End Role="Player" EntitySet="Players" />
@@ -11,6 +16,22 @@
     <AssociationSet Name="PlayerCharacter" Association="ExtremeWorldModel.Store.PlayerCharacter">
       <End Role="Player" EntitySet="Players" />
       <End Role="Character" EntitySet="Characters" />
+    </AssociationSet>
+    <AssociationSet Name="CharacterItem" Association="ExtremeWorldModel.Store.CharacterItem">
+      <End Role="TCharacter" EntitySet="Characters" />
+      <End Role="TCharacterItem" EntitySet="TCharacterItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TGuildTGuildApply" Association="ExtremeWorldModel.Store.FK_TGuildTGuildApply">
+      <End Role="Guild" EntitySet="Guilds" />
+      <End Role="GuildApply" EntitySet="GuildApplies" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TGuildTGuildMember" Association="ExtremeWorldModel.Store.FK_TGuildTGuildMember">
+      <End Role="Guild" EntitySet="Guilds" />
+      <End Role="GuildMember" EntitySet="GuildMembers" />
+    </AssociationSet>
+    <AssociationSet Name="CharacterBag" Association="ExtremeWorldModel.Store.CharacterBag">
+      <End Role="TCharacter" EntitySet="Characters" />
+      <End Role="TCharacterBag" EntitySet="CharacterBags" />
     </AssociationSet>
   </EntityContainer>
   <EntityType Name="Users">
@@ -41,7 +62,64 @@
     <Property Name="MapPosX" Type="int" Nullable="false" />
     <Property Name="MapPosY" Type="int" Nullable="false" />
     <Property Name="MapPosZ" Type="int" Nullable="false" />
+    <Property Name="Gold" Type="bigint" Nullable="false" />
     <Property Name="Player_ID" Type="int" Nullable="false" />
+    <Property Name="Bag_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TCharacterItems">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CharacterID" Type="int" Nullable="false" />
+    <Property Name="ItemID" Type="int" Nullable="false" />
+    <Property Name="ItemCount" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GuildApplies">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CharacterId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Class" Type="int" Nullable="false" />
+    <Property Name="Level" Type="int" Nullable="false" />
+    <Property Name="Result" Type="int" Nullable="false" />
+    <Property Name="ApplyTime" Type="datetime" Nullable="false" />
+    <Property Name="Guild_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GuildMembers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CharacterId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Class" Type="int" Nullable="false" />
+    <Property Name="Level" Type="int" Nullable="false" />
+    <Property Name="Title" Type="int" Nullable="false" />
+    <Property Name="JoinTime" Type="datetime" Nullable="false" />
+    <Property Name="LastTime" Type="datetime" Nullable="false" />
+    <Property Name="Guild_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Guilds">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="LeaderID" Type="int" Nullable="false" />
+    <Property Name="LeaderName" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="Notice" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CharacterBags">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Items" Type="varbinary(max)" Nullable="false" />
+    <Property Name="Unlocked" Type="int" Nullable="false" />
   </EntityType>
   <Association Name="UserPlayer">
     <End Role="User" Type="ExtremeWorldModel.Store.Users" Multiplicity="*" />
@@ -64,6 +142,54 @@
       </Principal>
       <Dependent Role="Character">
         <PropertyRef Name="Player_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CharacterItem">
+    <End Role="TCharacter" Type="ExtremeWorldModel.Store.Characters" Multiplicity="1" />
+    <End Role="TCharacterItem" Type="ExtremeWorldModel.Store.TCharacterItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TCharacter">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TCharacterItem">
+        <PropertyRef Name="CharacterID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TGuildTGuildApply">
+    <End Role="Guild" Type="ExtremeWorldModel.Store.Guilds" Multiplicity="1" />
+    <End Role="GuildApply" Type="ExtremeWorldModel.Store.GuildApplies" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Guild">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="GuildApply">
+        <PropertyRef Name="Guild_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TGuildTGuildMember">
+    <End Role="Guild" Type="ExtremeWorldModel.Store.Guilds" Multiplicity="1" />
+    <End Role="GuildMember" Type="ExtremeWorldModel.Store.GuildMembers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Guild">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="GuildMember">
+        <PropertyRef Name="Guild_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CharacterBag">
+    <End Role="TCharacter" Type="ExtremeWorldModel.Store.Characters" Multiplicity="*" />
+    <End Role="TCharacterBag" Type="ExtremeWorldModel.Store.CharacterBags" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="TCharacterBag">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TCharacter">
+        <PropertyRef Name="Bag_Id" />
       </Dependent>
     </ReferentialConstraint>
   </Association>

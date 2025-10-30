@@ -18,12 +18,9 @@ namespace GameServer
 
             DBService.Instance.Init();
             UserService.Instance.Init();//初始化一个用于处理用户注册的服务
-
-
             //加载管理器
             DataManager.Instance.Load();//这个要最先加载
-
-
+            ItemService.Instance.Init();
             MapService.Instance.Init();
 
             thread = new Thread(new ThreadStart(this.Update));

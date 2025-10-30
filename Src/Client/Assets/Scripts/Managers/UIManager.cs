@@ -23,14 +23,17 @@ public class UIManager : Singleton<UIManager>
 
     public UIManager()
     {
-        UIelements.Add(typeof(UITest), new UIElement() { ResourcePath = "UI/UITest", cached = true });
+        //UIelements.Add(typeof(UITest), new UIElement() { ResourcePath = "UI/UITest", cached = true });
+        //this.UIResources.Add(typeof(UITest), new UIElement() { Resources = "UI/UITest", Cache = true});
+        this.UIelements.Add(typeof(UIBag), new UIElement() { ResourcePath = "UI/UIBag", cached = false });
+        this.UIelements.Add(typeof(UIShop), new UIElement() { ResourcePath = "UI/UIShop", cached = false });
     }
     /// <summary>
     /// 显示UI 创建实例
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <returns></returns>
-    public T show<T>()
+    public T Show<T>()
     {
         Type type = typeof(T);
         if (UIelements.ContainsKey(type))
@@ -51,7 +54,7 @@ public class UIManager : Singleton<UIManager>
         return default(T);
     }
 
-    public void close(Type type)
+    public void Close(Type type)
     {
         if (UIelements.ContainsKey(type))
         {

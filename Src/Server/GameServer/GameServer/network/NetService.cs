@@ -71,7 +71,7 @@ namespace Network
             //!!开始防护 客户端断开链接后的一系列处理
             //Performance.ServerConnect = Interlocked.Decrement(ref Performance.ServerConnect);
             Log.WarningFormat("Client[{0}] Disconnected", e.RemoteEndPoint);
-            sender.Session.Disconneted();//
+            sender.Session.Disconnected();//
 
         }
 

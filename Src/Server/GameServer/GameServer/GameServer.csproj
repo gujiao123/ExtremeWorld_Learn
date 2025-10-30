@@ -107,12 +107,26 @@
     <Compile Include="Entities\CharacterBase.cs" />
     <Compile Include="Entities\Entity.cs" />
     <Compile Include="Entities\Monster.cs" />
+    <Compile Include="Guild.cs">
+      <DependentUpon>Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GuildApply.cs">
+      <DependentUpon>Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GuildMember.cs">
+      <DependentUpon>Entities.tt</DependentUpon>
+    </Compile>
     <Compile Include="Manager\DataManager.cs" />
     <Compile Include="Manager\CharacterManager.cs" />
+    <Compile Include="Manager\ItemManager.cs" />
     <Compile Include="Manager\MapManager.cs" />
+    <Compile Include="Manager\ShopManager.cs" />
+    <Compile Include="Manager\StatusManager.cs" />
+    <Compile Include="Model\Item.cs" />
     <Compile Include="Model\Map.cs" />
     <Compile Include="Network\ExtensionMethods.cs" />
     <Compile Include="GameServer.cs" />
+    <Compile Include="Network\INetSession.cs" />
     <Compile Include="Network\NetConnection.cs" />
     <Compile Include="Network\NetEventArgs.cs" />
     <Compile Include="Network\NetService.cs" />
@@ -125,15 +139,23 @@
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
     <Compile Include="Manager\EntityManager.cs" />
+    <Compile Include="Services\BagService.cs" />
+    <Compile Include="Services\ItemService.cs" />
     <Compile Include="Services\MapService.cs" />
     <Compile Include="Services\DBService.cs" />
     <Compile Include="Services\UserService.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="Core\Vector3Int.cs" />
+    <Compile Include="Network\TcpSocketListener.cs" />
     <Compile Include="TCharacter.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
-    <Compile Include="Network\TcpSocketListener.cs" />
+    <Compile Include="TCharacterBag.cs">
+      <DependentUpon>Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TCharacterItem.cs">
+      <DependentUpon>Entities.tt</DependentUpon>
+    </Compile>
     <Compile Include="TPlayer.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>

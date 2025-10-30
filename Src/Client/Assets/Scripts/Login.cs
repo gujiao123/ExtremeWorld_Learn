@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 
@@ -17,8 +15,8 @@ public class Login : MonoBehaviour
         msg.Request = new SkillBridge.Message.NetMessageRequest();
 
 
-        msg.Request.firstRequest = new SkillBridge.Message.FirstTestRequest();
-        msg.Request.firstRequest.Helloworld = "Hello World";
+        //msg.Request.firstRequest = new SkillBridge.Message.FirstTestRequest();
+        //msg.Request.firstRequest.Helloworld = "Hello World";
 
         Network.NetClient.Instance.SendMessage(msg);
     }

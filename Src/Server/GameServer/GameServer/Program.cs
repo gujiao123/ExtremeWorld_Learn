@@ -20,7 +20,7 @@ namespace GameServer
             server.Start();
 
             TCharacter dbchar = DBService.Instance.Entities.Characters.Where(c => c.ID == 1).FirstOrDefault();
-            Log.InfoFormat("X;{0}Y:{1}Z:{2}", dbchar.MapPosX, dbchar.MapPosY, dbchar.MapPosZ);
+            //Log.InfoFormat("X;{0}Y:{1}Z:{2}", dbchar.MapPosX, dbchar.MapPosY, dbchar.MapPosZ);
 
             Console.WriteLine("Game Server Running......");
             CommandHelper.Run();

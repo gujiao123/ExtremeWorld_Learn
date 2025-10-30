@@ -1,4 +1,5 @@
 ﻿using Common;
+using Managers;
 using Models;
 using Network;
 using SkillBridge.Message;
@@ -328,6 +329,11 @@ namespace Services
             if (response.Result == Result.Success)
             {
                 //这个只需要知道是否成功就行,对应的运行全部交给mapservice去处理
+                if (response.Character != null)
+                {
+                    ItemManager.Instance.Init(response.Character.Items);
+                    BagManager.Instance.Init(response.Character.Bag);
+                }
             }
         }
         /// <summary>

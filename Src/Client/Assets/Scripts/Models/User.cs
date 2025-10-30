@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Common.Data;
-using Entities;
+﻿using Common.Data;
 using UnityEngine;
 
 namespace Models
@@ -35,6 +30,9 @@ namespace Models
         /// 我去这个还没有初始化的地方,服务器把角色信息发过来了 你才能知道啊
         /// </summary>
         public SkillBridge.Message.NCharacterInfo CurrentCharacter { get; set; }
-
+        public void AddGold(int gold)
+        {
+            this.CurrentCharacter.Gold += gold;
+        }
     }
 }
