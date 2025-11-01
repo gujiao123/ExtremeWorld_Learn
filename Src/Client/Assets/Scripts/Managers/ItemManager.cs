@@ -1,12 +1,9 @@
-﻿using Models;
-using SkillBridge.Message;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using UnityEngine;
-using Common.Data;
+﻿using Common.Data;
+using Models;
 using Services;
+using SkillBridge.Message;
+using System.Collections.Generic;
+using UnityEngine;
 
 namespace Managers
 {
@@ -18,29 +15,29 @@ namespace Managers
         {
             this.Items.Clear();
 
-            foreach(var info in items)
+            foreach (var info in items)
             {
                 Item item = new Item(info);
                 this.Items.Add(item.Id, item);
 
                 Debug.LogFormat("ItemManager:Init[{0}]", item);
             }
-
+            //?为什么在这里注册哎 ,哦哦哦 需要ItemManager里面的函数 而且需要近早一点注册
             StatusService.Instance.RegisterStatusNotify(StatusType.Item, OnItemNotify);
         }
 
-        public ItemDefine GetItem (int itemId)
+        public ItemDefine GetItem(int itemId)
         {
             return null;
         }
 
         bool OnItemNotify(NStatus status)
         {
-            if(status.Action == StatusAction.Add)
+            if (status.Action == StatusAction.Add)
             {
                 this.AddItem(status.Id, status.Value);
             }
-            if(status.Action == StatusAction.Delete)
+            if (status.Action == StatusAction.Delete)
             {
                 this.RemoveItem(status.Id, status.Value);
             }
@@ -50,7 +47,7 @@ namespace Managers
         void AddItem(int itemId, int count)
         {
             Item item = null;
-            if(this.Items.TryGetValue(itemId, out item))
+            if (this.Items.TryGetValue(itemId, out item))
             {
                 item.Count += count;
             }
@@ -81,7 +78,7 @@ namespace Managers
 
         public bool UseItem(int itemId)
         {
-            return false; 
+            return false;
         }
 
         public bool UseItem(ItemDefine item)

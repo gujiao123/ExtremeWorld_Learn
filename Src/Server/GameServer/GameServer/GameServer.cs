@@ -22,6 +22,7 @@ namespace GameServer
             DataManager.Instance.Load();//这个要最先加载
             ItemService.Instance.Init();
             MapService.Instance.Init();
+            QuestService.Instance.Init();
 
             thread = new Thread(new ThreadStart(this.Update));
             return true;
@@ -54,6 +55,8 @@ namespace GameServer
                 Time.Tick();
                 Thread.Sleep(100);
                 //Console.WriteLine("{0} {1} {2} {3} {4}", Time.deltaTime, Time.frameCount, Time.ticks, Time.time, Time.realtimeSinceStartup);
+                MapManager.Instance.Update();
+
             }
         }
     }

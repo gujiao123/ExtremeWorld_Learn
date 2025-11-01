@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class UIWorldElement : MonoBehaviour
@@ -23,6 +21,11 @@ public class UIWorldElement : MonoBehaviour
         if (owner != null)
         {
             this.transform.position = owner.position + Vector3.up * height;
+        }
+        //这下将属于世界UI的元素始终面向摄像机
+        if (Camera.main != null)
+        {
+            this.transform.forward = Camera.main.transform.forward;
         }
     }
 }

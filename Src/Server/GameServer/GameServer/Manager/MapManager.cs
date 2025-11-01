@@ -38,7 +38,7 @@ namespace GameServer.Managers
         }
 
         public void Update()
-        {
+        {//每个地图都更新一下
             foreach (var maps in this.Maps.Values)
             {
                 maps.Update();

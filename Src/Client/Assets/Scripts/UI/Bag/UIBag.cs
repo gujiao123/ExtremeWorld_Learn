@@ -5,7 +5,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIBag : MonoBehaviour {
+public class UIBag : MonoBehaviour
+{
 
     public Text money;
     public Transform[] pages;
@@ -15,10 +16,10 @@ public class UIBag : MonoBehaviour {
 
     void Start()
     {
-        if(slots == null)
+        if (slots == null)
         {
             slots = new List<Image>();
-            for(int page = 0; page < pages.Length; page++)
+            for (int page = 0; page < pages.Length; page++)
             {
                 slots.AddRange(this.pages[page].GetComponentsInChildren<Image>(true));
             }
@@ -28,10 +29,10 @@ public class UIBag : MonoBehaviour {
 
     IEnumerator InitBags()
     {
-        for(int i = 0; i < BagManager.Instance.Items.Length; i++)
+        for (int i = 0; i < BagManager.Instance.Items.Length; i++)
         {
             var item = BagManager.Instance.Items[i];
-            if(item.ItemId > 0)
+            if (item.ItemId > 0)
             {
                 GameObject go = Instantiate(bagItem, slots[i].transform);
                 var ui = go.GetComponent<UIIconItem>();
@@ -39,8 +40,8 @@ public class UIBag : MonoBehaviour {
                 ui.SetMainIcon(def.Icon, item.Count.ToString());
             }
         }
-
-        for(int i = BagManager.Instance.Items.Length; i < slots.Count; i++)
+        //对于未解锁格子变灰色
+        for (int i = BagManager.Instance.Items.Length; i < slots.Count; i++)
         {
             slots[i].color = Color.gray;
         }
@@ -52,9 +53,27 @@ public class UIBag : MonoBehaviour {
         this.money.text = User.Instance.CurrentCharacter.Id.ToString();
     }
 
+
+    void clear()
+    {
+        for (int i = 0; i < slots.Count; i++)
+        {
+            if (slots[i].transform.childCount > 0)
+            {
+                Destroy(slots[i].transform.GetChild(0).gameObject);
+            }
+        }
+    }
+
+    /// <summary>
+    /// 记得绑定在重置按钮上
+    /// </summary>
     public void OnReset()
     {
+        //就是先对内存里面数据重置然后刷新UI
         BagManager.Instance.Reset();
+        this.clear();
+        StartCoroutine(InitBags());
     }
 
     public void OnClickClose()

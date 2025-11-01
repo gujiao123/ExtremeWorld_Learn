@@ -27,6 +27,11 @@ public class UIManager : Singleton<UIManager>
         //this.UIResources.Add(typeof(UITest), new UIElement() { Resources = "UI/UITest", Cache = true});
         this.UIelements.Add(typeof(UIBag), new UIElement() { ResourcePath = "UI/UIBag", cached = false });
         this.UIelements.Add(typeof(UIShop), new UIElement() { ResourcePath = "UI/UIShop", cached = false });
+        this.UIelements.Add(typeof(UICharEquip), new UIElement() { ResourcePath = "UI/UICharEquip", cached = false });
+        this.UIelements.Add(typeof(UIQuestSystem), new UIElement() { ResourcePath = "UI/UIQuestSystem", cached = false });
+        this.UIelements.Add(typeof(UIQuestDialog), new UIElement() { ResourcePath = "UI/UIQuestDialog", cached = false });
+
+
     }
     /// <summary>
     /// 显示UI 创建实例

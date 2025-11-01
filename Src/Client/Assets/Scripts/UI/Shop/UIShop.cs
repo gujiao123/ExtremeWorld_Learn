@@ -21,13 +21,25 @@ public class UIShop : MonoBehaviour
 
     IEnumerator InitItems()
     {
+        //考虑分页
+        int count = 0;
+        int page = 0;
         foreach (var kv in DataManager.Instance.ShopItems[shop.ID])
         {
             if (kv.Value.Status > 0)
             {
-                GameObject go = Instantiate(shopItem, itemRoot[0]);
+                //商店里出售的物品 是直接实例化在content里面的自动排序不需要格子绑定
+                //所以10个就换页是可以的
+                GameObject go = Instantiate(shopItem, itemRoot[page]);
                 UIShopItem ui = go.GetComponent<UIShopItem>();
                 ui.SetShopItem(kv.Key, kv.Value, this);
+                count++;
+                if (count >= 10)
+                {
+                    count = 0;
+                    page++;
+                    itemRoot[page].gameObject.SetActive(true);
+                }
             }
         }
         yield return null;

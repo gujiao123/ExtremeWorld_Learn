@@ -1,6 +1,7 @@
 ﻿using Common;
 using Common.Data;
 using GameServer.Entities;
+using GameServer.Managers;
 using GameServer.Services;
 using Network;
 using SkillBridge.Message;
@@ -13,8 +14,8 @@ namespace GameServer.Models
     {
         internal class MapCharacter
         {
-            public NetConnection<NetSession> connection;
-            public Character character;
+            public NetConnection<NetSession> connection;//其他人的session信息
+            public Character character;//对应的角色
 
             public MapCharacter(NetConnection<NetSession> conn, Character cha)
             {
@@ -30,27 +31,32 @@ namespace GameServer.Models
         internal MapDefine Define;
 
         /// <summary>
-        /// 地图中的角色，以CharacterID为Key
+        /// 这一个地图中的角色，以CharacterID为Key
         /// </summary>
         public Dictionary<int, MapCharacter> MapCharacters = new Dictionary<int, MapCharacter>();
+        /// <summary>
+        /// 刷怪管理器
+        /// </summary>
+        SpawnManager SpawnManager = new SpawnManager();
 
+        public MonsterManager MonsterManager = new MonsterManager();
 
         internal Map(MapDefine define)
         {
             this.Define = define;
-
-
+            //
+            this.SpawnManager.Init(this);
+            this.MonsterManager.Init(this);
         }
 
         internal void Update()
         {
-
-
+            SpawnManager.Update();
         }
 
 
         /// <summary>
-        /// 角色进入地图 同时告诉其他地图所有人 有人进地图了
+        /// 角色进入地图 同时告诉这个地图的所有人 有人进地图了
         /// </summary>
         /// <param name="character"></param>
         internal void CharacterEnter(NetConnection<NetSession> conn, Character character)
@@ -59,26 +65,37 @@ namespace GameServer.Models
 
             character.Info.mapId = this.ID;
 
-            NetMessage message = new NetMessage();
-            message.Response = new NetMessageResponse();
-            message.Response.mapCharacterEnter = new MapCharacterEnterResponse();
+            conn.Session.Response.mapCharacterEnter = new MapCharacterEnterResponse();
 
 
-            message.Response.mapCharacterEnter.mapId = this.Define.ID;
-            message.Response.mapCharacterEnter.Characters.Add(character.Info);
-            //me 把你进入的信息发给其他角色
-            //对地图中所有人发一份
+            conn.Session.Response.mapCharacterEnter.mapId = this.Define.ID;
+            // 1. 把进入者自己的信息添加到给他的响应中
+            conn.Session.Response.mapCharacterEnter.Characters.Add(character.Info);
+
+            // 2. 遍历地图上的其他玩家
             foreach (var kv in this.MapCharacters)
             {
-                message.Response.mapCharacterEnter.Characters.Add(kv.Value.character.Info);
-                this.SendCharacterEnterMap(kv.Value.connection, character.Info);
+                // 2a. 把其他玩家的信息告诉进入者
+                conn.Session.Response.mapCharacterEnter.Characters.Add(kv.Value.character.Info);
+                // 2b. 把进入者的信息告诉其他玩家
+                this.AddCharacterEnterMap(kv.Value.connection, character.Info);
             }
+            //这个没有尊重时间
+            //// 3. ***** 这是新增的修复逻辑 *****
+            //// 遍历地图上所有现存的怪物
+            //foreach (var monster in this.MonsterManager.Monsters.Values)
+            //{
+            //    //每次进入地图 都把怪物信息发过去
+            //    // 3a. 把现存怪物的信息告诉进入者
+            //    conn.Session.Response.mapCharacterEnter.Characters.Add(monster.Info);
+            //}
+            //// ***** 修复逻辑结束 *****
+
             //先告诉别人 然后再把你加入进去 就是一个遍历问题
             //!! 可以避免有竞争
             //characterid重复了
             this.MapCharacters[character.Id] = new MapCharacter(conn, character);
-            byte[] data = PackageHandler.PackMessage(message);
-            conn.SendData(data, 0, data.Length);
+            conn.SendResponse();
 
         }
 
@@ -89,17 +106,19 @@ namespace GameServer.Models
         /// <param name="character"></param>
         /// 
         //me由于是先对新角色添加到角色管理器 所以info.ID也已经与entityID一致了
-        void SendCharacterEnterMap(NetConnection<NetSession> conn, NCharacterInfo character)
+        void AddCharacterEnterMap(NetConnection<NetSession> conn, NCharacterInfo character)
         {
-            NetMessage message = new NetMessage();
-            message.Response = new NetMessageResponse();
-
-            message.Response.mapCharacterEnter = new MapCharacterEnterResponse();
-            message.Response.mapCharacterEnter.mapId = this.Define.ID;
-            message.Response.mapCharacterEnter.Characters.Add(character);
-
-            byte[] data = PackageHandler.PackMessage(message);
-            conn.SendData(data, 0, data.Length);
+            //这里也把怪物信息发过去
+            if (conn.Session.Response.mapCharacterEnter == null)
+            {
+                conn.Session.Response.mapCharacterEnter = new MapCharacterEnterResponse();
+                conn.Session.Response.mapCharacterEnter.mapId = this.Define.ID;
+            }
+            conn.Session.Response.mapCharacterEnter.Characters.Add(character);
+            //发送一遍
+            //这里的send可以去掉 反正信息都在response里了 晚点发也没有关系
+            //主要还是因为如果进入5000人 对于一个人来说 还是一次发5000人的数据快一些
+            conn.SendResponse();
         }
         /// <summary>
         /// 这里删除地图管理器中的角色 并且告诉其他人 有人离开了地图
@@ -110,13 +129,10 @@ namespace GameServer.Models
             Log.InfoFormat("CharacterLeave: Map:{0} characterId:{1}", this.Define.ID, cha.Id);
 
 
-            //先把自己移除 然后再告诉别人
             foreach (var kv in this.MapCharacters)
             {
-                //??这样你不就通知不了自己了吗,只通知其他人吗
                 this.SendCharacterLeaveMap(kv.Value.connection, cha);
             }
-            //所以最后才删除自己
             this.MapCharacters.Remove(cha.Id);
         }
 
@@ -129,12 +145,10 @@ namespace GameServer.Models
         /// <param name="character"></param>
         void SendCharacterLeaveMap(NetConnection<NetSession> conn, Character character)
         {
-            NetMessage message = new NetMessage();
-            message.Response = new NetMessageResponse();
-            message.Response.mapCharacterLeave = new MapCharacterLeaveResponse();
-            message.Response.mapCharacterLeave.characterId = character.Id;
-            byte[] data = PackageHandler.PackMessage(message);
-            conn.SendData(data, 0, data.Length);
+            Log.InfoFormat("SendCharacterLeaveMap To {0}:{1} : Map:{2} Character:{3}:{4}", conn.Session.Character.Id, conn.Session.Character.Info.Name, this.Define.ID, character.Id, character.Info.Name);
+            conn.Session.Response.mapCharacterLeave = new MapCharacterLeaveResponse();
+            conn.Session.Response.mapCharacterLeave.characterId = character.Id;
+            conn.SendResponse();
         }
         /// <summary>
         /// 实现了实体位置的更新和广播
@@ -160,8 +174,22 @@ namespace GameServer.Models
             }
         }
 
-
-
+        /// <summary>
+        /// 怪物进入地图
+        /// </summary>
+        /// <param name="monster"></param>
+        internal void MonsterEnter(Monster monster)
+        {
+            Log.InfoFormat("MonsterEnter: Map:{0} monsterId:{1}", this.Define.ID, monster.Id);
+            //通知角色有怪物进来了
+            //你生成怪的地方 要有人才通知 嗯正常
+            //不对不对 这里怪物是人的逻辑 意味着 即便地图不一样 你也应该通知
+            //目前是地图不一样你就通知不了
+            foreach (var kv in this.MapCharacters)
+            {
+                this.AddCharacterEnterMap(kv.Value.connection, monster.Info);
+            }
+        }
 
     }
 }

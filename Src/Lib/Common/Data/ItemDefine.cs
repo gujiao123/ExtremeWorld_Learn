@@ -1,8 +1,5 @@
 ﻿using SkillBridge.Message;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace Common.Data
 {
@@ -19,7 +16,7 @@ namespace Common.Data
 
     public class ItemDefine
     {
-        public int ID {  get; set; }
+        public int ID { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public ItemType Type { get; set; }
@@ -33,5 +30,8 @@ namespace Common.Data
         public ItemFunction Function { get; set; }
         public int Param { get; set; }
         public List<int> Parme { get; set; }
+
+        public int Level { get; set; }//限制等级
+        public CharacterClass LimitClass { get; set; }//限制职业
     }
 }

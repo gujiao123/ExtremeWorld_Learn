@@ -1,5 +1,6 @@
 ﻿using Common.Data;
 using GameServer.Core;
+using GameServer.Managers;
 using SkillBridge.Message;
 
 namespace GameServer.Entities
@@ -20,6 +21,7 @@ namespace GameServer.Entities
         /// <summary>
         /// 配置信息
         /// </summary>
+        /// character专用 monster们没有
         public CharacterDefine Define;
 
         public CharacterBase(Vector3Int pos, Vector3Int dir) : base(pos, dir)
@@ -33,9 +35,10 @@ namespace GameServer.Entities
             this.Info = new NCharacterInfo();
             this.Info.Type = type;
             this.Info.Level = level;
-            this.Info.Tid = tid;
+            this.Info.Tid = tid;//这里tid代表怪物的类型ID
             this.Info.Entity = this.EntityData;
-            //this.Define = DataManager.Instance.Characters[this.Info.Tid];
+            //怪物的配置数据 是在这里初始化的 与人物的地点不同
+            this.Define = DataManager.Instance.Characters[this.Info.Tid];
             this.Info.Name = this.Define.Name;
         }
     }

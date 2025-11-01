@@ -10,6 +10,7 @@ namespace GameServer.Entities
 
         public ItemManager ItemManager;
         public StatusManager StatusManager;
+        public QuestManager QuestManager;
         //这里只有Data 是数据库中拿出来的 其他都是根据Data初始化的Info内容用于网络传输
         public Character(CharacterType type, TCharacter cha) :
             base(new Core.Vector3Int(cha.MapPosX, cha.MapPosY, cha.MapPosZ), new Core.Vector3Int(100, 0, 0))
@@ -20,7 +21,7 @@ namespace GameServer.Entities
             this.Info.Type = type;
             this.Info.Id = cha.ID;//这里ID是初始化成功了的啊
             this.Info.Name = cha.Name;
-            this.Info.Level = 1;//cha.Level;
+            this.Info.Level = 10;//cha.Level;
             this.Info.Tid = cha.TID;
             this.Info.Class = (CharacterClass)cha.Class;
             this.Info.mapId = cha.MapID;
@@ -34,6 +35,13 @@ namespace GameServer.Entities
             this.Info.Bag.Unlocked = this.Data.Bag.Unlocked;
             this.Info.Bag.Items = this.Data.Bag.Items;
             this.StatusManager = new StatusManager(this);
+
+
+            this.Info.Equips = this.Data.Equips;
+
+            this.QuestManager = new QuestManager(this);
+            this.QuestManager.GetQuestInfos(this.Info.Quests);
+
         }
 
         public long Gold

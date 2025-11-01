@@ -1,5 +1,6 @@
 
 using Entities;
+using Managers;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,12 +9,14 @@ using UnityEngine;
 //这个就是管理对外开放的接口 ,内部细致管理还是UIWorldElement类来管理
 public class UIWorldElementManager : MonoSingleton<UIWorldElementManager>
 {
+    public GameObject npcStatusPrefab;
     public GameObject nameBarPrefab;
     /// <summary>
     /// 管理所有的UI元素
     /// 这个字典的key是物体的Transform 这样就可以知道这个UI元素属于哪个物体
     /// </summary>
     private Dictionary<Transform, GameObject> elements = new Dictionary<Transform, GameObject>();
+    private Dictionary<Transform, GameObject> elementSuatus = new Dictionary<Transform, GameObject>();
 
     // Use this for initialization
     //!!!!!啊啊啊啊啊啊啊啊啊啊啊啊啊啊这个覆盖了原来的Start啊啊啊啊啊
@@ -53,6 +56,37 @@ public class UIWorldElementManager : MonoSingleton<UIWorldElementManager>
         {
             Destroy(this.elements[owner]);
             this.elements.Remove(owner);
+        }
+    }
+    /// <summary>
+    /// 添加NPC任务状态
+    /// </summary>
+    /// <param name="owner"></param>
+    /// <param name="status"></param>
+    public void AddNpcQuestStatus(Transform owner, NpcQuestStatus status)
+    {
+        //有了就更新没有就创建
+        if (this.elementSuatus.ContainsKey(owner))
+        {
+            elementSuatus[owner].GetComponent<UIQuestStatus>().SetQuestStatus(status);
+        }
+        else
+        {
+            GameObject go = Instantiate(npcStatusPrefab, this.transform);
+            go.name = "NPCQuestStatus" + owner.name;
+            go.GetComponent<UIWorldElement>().owner = owner;
+            go.GetComponent<UIQuestStatus>().SetQuestStatus(status);
+            go.SetActive(true);
+            this.elementSuatus[owner] = go;
+        }
+    }
+
+    public void RemoveNpcQuestStatus(Transform owner)
+    {
+        if (this.elementSuatus.ContainsKey(owner))
+        {
+            Destroy(this.elementSuatus[owner]);
+            this.elementSuatus.Remove(owner);
         }
     }
 }

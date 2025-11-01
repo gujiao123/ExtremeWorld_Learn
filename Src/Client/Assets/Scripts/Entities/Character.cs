@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Common.Data;
-using SkillBridge.Message;
+﻿using SkillBridge.Message;
 using UnityEngine;
 
 namespace Entities
@@ -55,30 +50,30 @@ namespace Entities
         /// </summary>
         public void MoveForward()
         {
-            Debug.LogFormat("MoveForward");
+            // Debug.LogFormat("MoveForward");
             this.speed = this.Define.Speed;
         }
 
         public void MoveBack()
         {
-            Debug.LogFormat("MoveBack");
+            // Debug.LogFormat("MoveBack");
             this.speed = -this.Define.Speed;
         }
 
         public void Stop()
         {
-            Debug.LogFormat("Stop");
+            //  Debug.LogFormat("Stop");
             this.speed = 0;
         }
         public void SetDirection(Vector3Int direction)
         {
-            Debug.LogFormat("SetDirection:{0}", direction);
+            //  Debug.LogFormat("SetDirection:{0}", direction);
             this.direction = direction;
         }
 
         public void SetPosition(Vector3Int position)
         {
-            Debug.LogFormat("SetPosition:{0}", position);
+            // Debug.LogFormat("SetPosition:{0}", position);
             this.position = position;
         }
     }

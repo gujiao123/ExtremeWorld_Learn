@@ -39,7 +39,7 @@ public class LoadingManager : MonoBehaviour
         MapService.Instance.Init();
         StatusService.Instance.Init();
         ShopManager.Instance.Init();
-
+        QuestService.Instance.Init();
         //me 用于测试 Init Test Manager
         //TestManager.Instance.Init();
 

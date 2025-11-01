@@ -1,11 +1,9 @@
 ﻿using Common.Data;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class UIShopItem : MonoBehaviour, ISelectHandler 
+public class UIShopItem : MonoBehaviour, ISelectHandler
 {
 
     public Image icon;
@@ -15,7 +13,7 @@ public class UIShopItem : MonoBehaviour, ISelectHandler
     public Image background;
     public Sprite normalBg;
     public Sprite selectedBg;
-
+    public Text limitClass;//用于限制职业显示
     private bool selected;
 
     public bool Selected
@@ -35,7 +33,7 @@ public class UIShopItem : MonoBehaviour, ISelectHandler
 
     private UIShop shop;
     private ItemDefine item;
-    private ShopItemDefine ShopItem {  get; set; }
+    private ShopItemDefine ShopItem { get; set; }
 
     public void SetShopItem(int id, ShopItemDefine shopItem, UIShop owner)
     {
@@ -48,6 +46,8 @@ public class UIShopItem : MonoBehaviour, ISelectHandler
         this.price.text = ShopItem.Price.ToString();
         this.count.text = ShopItem.Count.ToString();
         this.icon.overrideSprite = Resloader.Load<Sprite>(item.Icon);
+
+        this.limitClass.text = this.item.LimitClass.ToString();
     }
 
     public void OnSelect(BaseEventData eventData)

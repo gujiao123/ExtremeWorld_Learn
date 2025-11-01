@@ -331,8 +331,11 @@ namespace Services
                 //这个只需要知道是否成功就行,对应的运行全部交给mapservice去处理
                 if (response.Character != null)
                 {
+                    User.Instance.CurrentCharacter = response.Character;
                     ItemManager.Instance.Init(response.Character.Items);
                     BagManager.Instance.Init(response.Character.Bag);
+                    EquipManager.Instance.Init(response.Character.Equips);
+                    QuestManager.Instance.Init(response.Character.Quests);
                 }
             }
         }

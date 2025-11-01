@@ -1,7 +1,5 @@
 
 using Entities;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 //世界地图中的角色头顶信息
@@ -32,7 +30,7 @@ public class UINameBar : MonoBehaviour
         //me 这个属于浮动UI 所以要面向摄像机 实时更新
 
         //me 这里意思就是 摄像机正方向和物体正方向保持一致 对的
-        this.transform.forward = Camera.main.transform.forward;
+        //this.transform.forward = Camera.main.transform.forward;
     }
     /// <summary>
     /// 更新显示信息

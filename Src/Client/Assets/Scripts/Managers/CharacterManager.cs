@@ -52,7 +52,8 @@ namespace Managers
         public void AddCharacter(SkillBridge.Message.NCharacterInfo cha)
         {
 
-
+            //!!注意如果服务器发过来的角色ID已经存在 则说明是重复添加了
+            //但你没有去重
             Debug.LogFormat("AddCharacter:{0}:{1} Map:{2} Entity:{3}", cha.Id, cha.Name, cha.mapId, cha.Entity.String());
             Character character = new Character(cha);
             this.characters[cha.Id] = character;

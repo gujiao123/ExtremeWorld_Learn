@@ -25,6 +25,8 @@ public class DataManager : Singleton<DataManager>
     public Dictionary<int, ItemDefine> Items = null;
     public Dictionary<int, ShopDefine> Shops = null;
     public Dictionary<int, Dictionary<int, ShopItemDefine>> ShopItems = null;
+    public Dictionary<int, EquipDefine> Equips = null;
+    public Dictionary<int, QuestDefine> Quests = null;
 
 
     //me 注意这里面的数据都是写死在本地文件Data里面的
@@ -64,6 +66,12 @@ public class DataManager : Singleton<DataManager>
 
         json = File.ReadAllText(this.DataPath + "ShopItemDefine.txt");
         this.ShopItems = JsonConvert.DeserializeObject<Dictionary<int, Dictionary<int, ShopItemDefine>>>(json);
+
+        json = File.ReadAllText(this.DataPath + "EquipDefine.txt");
+        this.Equips = JsonConvert.DeserializeObject<Dictionary<int, EquipDefine>>(json);
+
+        json = File.ReadAllText(this.DataPath + "QuestDefine.txt");
+        this.Quests = JsonConvert.DeserializeObject<Dictionary<int, QuestDefine>>(json);
     }
 
     /// <summary>
@@ -106,6 +114,14 @@ public class DataManager : Singleton<DataManager>
 
         json = File.ReadAllText(this.DataPath + "ShopItemDefine.txt");
         this.ShopItems = JsonConvert.DeserializeObject<Dictionary<int, Dictionary<int, ShopItemDefine>>>(json);
+
+        json = File.ReadAllText(this.DataPath + "EquipDefine.txt");
+        this.Equips = JsonConvert.DeserializeObject<Dictionary<int, EquipDefine>>(json);
+
+
+        json = File.ReadAllText(this.DataPath + "QuestDefine.txt");
+        this.Quests = JsonConvert.DeserializeObject<Dictionary<int, QuestDefine>>(json);
+
     }
 
     // 这是一个预处理指令，#if 和 #endif 之间的代码只会在 Unity 编辑器模式下被编译。

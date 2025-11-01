@@ -16,6 +16,7 @@ public class NPCController : MonoBehaviour
     NpcDefine npc;
     Color orignColor;//原始颜色 用于高亮后的还原
     private bool inInteractive = false;
+    NpcQuestStatus questStatus;
 
     void Start()
     {
@@ -24,7 +25,34 @@ public class NPCController : MonoBehaviour
         npc = NPCManager.Instance.GetNpcDefine(npcID);
         orignColor = render.sharedMaterial.color;
         this.StartCoroutine(Actions());
+        RefreshNpcStatus();
+        //接受任务状态变化的通知
+        QuestManager.Instance.onQuestStatusChanged += OnQuestStatusChanged;
+
+
     }
+    void OnQuestStatusChanged(Quest quest)
+    {
+        this.RefreshNpcStatus();
+    }
+    /// <summary>
+    /// 刷新NPC任务状态 更改UI显示
+    /// </summary>
+    void RefreshNpcStatus()
+    {
+        questStatus = QuestManager.Instance.GetQuestStatusByNpc(this.npcID);
+        UIWorldElementManager.Instance.AddNpcQuestStatus(this.transform, questStatus);
+    }
+    //!!注意销毁时取消事件订阅
+    void OnDestroy()
+    {
+        QuestManager.Instance.onQuestStatusChanged -= OnQuestStatusChanged;
+        if (UIWorldElementManager.Instance != null)
+            UIWorldElementManager.Instance.RemoveNpcQuestStatus(this.transform);
+    }
+
+
+
 
     IEnumerator Actions()
     {
@@ -116,7 +144,7 @@ public class NPCController : MonoBehaviour
     void Highlight(bool highlight)
     {
 
-        Debug.Log("鼠标进入了");
+        //Debug.Log("鼠标进入了");
         if (highlight)
         {
             if (render.sharedMaterial.color != Color.white)

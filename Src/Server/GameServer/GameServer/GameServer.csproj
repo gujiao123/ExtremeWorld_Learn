@@ -38,6 +38,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -48,6 +49,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -118,9 +120,14 @@
     </Compile>
     <Compile Include="Manager\DataManager.cs" />
     <Compile Include="Manager\CharacterManager.cs" />
+    <Compile Include="Manager\EquipManager.cs" />
     <Compile Include="Manager\ItemManager.cs" />
     <Compile Include="Manager\MapManager.cs" />
+    <Compile Include="Manager\MonsterManager.cs" />
+    <Compile Include="Manager\QuestManager.cs" />
     <Compile Include="Manager\ShopManager.cs" />
+    <Compile Include="Manager\Spawner.cs" />
+    <Compile Include="Manager\SpawnManager.cs" />
     <Compile Include="Manager\StatusManager.cs" />
     <Compile Include="Model\Item.cs" />
     <Compile Include="Model\Map.cs" />
@@ -143,6 +150,7 @@
     <Compile Include="Services\ItemService.cs" />
     <Compile Include="Services\MapService.cs" />
     <Compile Include="Services\DBService.cs" />
+    <Compile Include="Services\QuestService.cs" />
     <Compile Include="Services\UserService.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="Core\Vector3Int.cs" />
@@ -154,6 +162,9 @@
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
     <Compile Include="TCharacterItem.cs">
+      <DependentUpon>Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TCharacterQuest.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
     <Compile Include="TPlayer.cs">

@@ -6,8 +6,6 @@
 //type + element 字典
 //23 分钟
 
-using System;
-using System.Collections.Generic;
 using UnityEngine;
 
 //规定一些UI窗口的基本行为
@@ -39,6 +37,10 @@ public abstract class UIWindow : MonoBehaviour
     public virtual void OnYesClick()
     {
         this.Close(WindowResult.Yes);
+    }
+    public virtual void OnNoClick()
+    {
+        this.Close(WindowResult.No);
     }
     void OMouseDown()
     {

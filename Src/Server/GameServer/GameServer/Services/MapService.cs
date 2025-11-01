@@ -47,14 +47,12 @@ namespace GameServer.Services
         /// <exception cref="NotImplementedException"></exception>
         internal void SendEntityUpdate(NetConnection<NetSession> connection, NEntitySync entity)
         {
-            NetMessage message = new NetMessage();
-            message.Response = new NetMessageResponse();
-            message.Response.mapEntitySync = new MapEntitySyncResponse();
+
+            connection.Session.Response.mapEntitySync = new MapEntitySyncResponse();
             //? 你协议还能写方法啊entitySyncs是一个列表
             //?为什么用列表明明是一个个发送的
-            message.Response.mapEntitySync.entitySyncs.Add(entity);
-            byte[] data = PackageHandler.PackMessage(message);
-            connection.SendData(data, 0, data.Length);
+            connection.Session.Response.mapEntitySync.entitySyncs.Add(entity);
+            connection.SendResponse();
         }
         /// <summary>
         /// 客户端传入的是 自己离开的传送点ID  

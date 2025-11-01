@@ -3,12 +3,6 @@ using GameServer.Entities;
 using GameServer.Managers;
 using Network;
 using SkillBridge.Message;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.ServiceModel.Channels;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GameServer.Services
 {
@@ -17,7 +11,13 @@ namespace GameServer.Services
         public ItemService()
         {
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<ItemBuyRequest>(this.OnItemBuy);
+
+            MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<ItemEquipRequest>(this.OnItemEquip);
+
+
         }
+
+
 
         public void Init()
         {
@@ -31,6 +31,15 @@ namespace GameServer.Services
             var result = ShopManager.Instance.BuyItem(sender, request.shopId, request.shopItemId);
             sender.Session.Response.itemBuy = new ItemBuyResponse();
             sender.Session.Response.itemBuy.Result = result;
+            sender.SendResponse();
+        }
+        private void OnItemEquip(NetConnection<NetSession> sender, ItemEquipRequest request)
+        {
+            Character character = sender.Session.Character;
+            Log.InfoFormat("OnItemEquip: :character:{0}:Shhop:{1}ShopItem:{2}", character.Id, request.Slot, request.itemId);
+            var result = EquipManager.Instance.EquipItem(sender, request.Slot, request.itemId, request.isEquip);
+            sender.Session.Response.itemEquip = new ItemEquipResponse();
+            sender.Session.Response.itemEquip.Result = result;
             sender.SendResponse();
         }
     }

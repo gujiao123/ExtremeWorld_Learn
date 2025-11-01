@@ -70,6 +70,7 @@ namespace Services
 
                 Debug.LogFormat("切换地图逻辑CurrentMapId:{0} ResponseMapId:{1}", CurrentMapId, response.mapId);
                 //你再这里添加角色 但是地图还没有加载呢
+                //me 这里添加怪物逻辑,保存到本地,这样本地可以加载怪物
                 CharacterManager.Instance.AddCharacter(cha);
 
 
@@ -181,6 +182,7 @@ namespace Services
             message.Request.mapTeleport.teleporterId = ID;
             NetClient.Instance.SendMessage(message);
         }
+        //me 发送的是传送点ID 服务器发过来的是进入地图的响应
     }
 }
 

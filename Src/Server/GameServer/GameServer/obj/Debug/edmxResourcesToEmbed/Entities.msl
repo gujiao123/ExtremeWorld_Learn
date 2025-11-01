@@ -30,6 +30,7 @@
           <ScalarProperty Name="MapPosY" ColumnName="MapPosY" />
           <ScalarProperty Name="MapPosZ" ColumnName="MapPosZ" />
           <ScalarProperty Name="Gold" ColumnName="Gold" />
+          <ScalarProperty Name="Equips" ColumnName="Equips" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -88,6 +89,19 @@
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Items" ColumnName="Items" />
           <ScalarProperty Name="Unlocked" ColumnName="Unlocked" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CharacterQuests">
+      <EntityTypeMapping TypeName="IsTypeOf(ExtremeWorldModel.TCharacterQuest)">
+        <MappingFragment StoreEntitySet="CharacterQuests">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TCharacterID" ColumnName="TCharacterID" />
+          <ScalarProperty Name="QuestId" ColumnName="QuestId" />
+          <ScalarProperty Name="Target1" ColumnName="Target1" />
+          <ScalarProperty Name="Target2" ColumnName="Target2" />
+          <ScalarProperty Name="Target3" ColumnName="Target3" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

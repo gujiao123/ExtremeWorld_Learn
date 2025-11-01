@@ -1,10 +1,8 @@
-﻿using Network;
+﻿using Models;
+using Network;
 using SkillBridge.Message;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Models;
 using UnityEngine;
 
 
@@ -15,6 +13,7 @@ namespace Services
         public delegate bool StatusNotifyHandler(NStatus status);
 
         Dictionary<StatusType, StatusNotifyHandler> eventMap = new Dictionary<StatusType, StatusNotifyHandler>();
+        HashSet<StatusNotifyHandler> handles = new HashSet<StatusNotifyHandler>();
 
         public void Init()
         {
@@ -23,6 +22,12 @@ namespace Services
 
         public void RegisterStatusNotify(StatusType function, StatusNotifyHandler action)
         {
+            //因为这个是在道具初始化注册的 所以有可能会重复注册
+            //所以要做一个判断 防止重复注册 这个服务应该值初始化一次
+            if (handles.Contains(action))
+            {
+                return;
+            }
             if (!this.eventMap.ContainsKey(function))
             {
                 this.eventMap[function] = action;
@@ -31,6 +36,7 @@ namespace Services
             {
                 this.eventMap[function] += action;
             }
+            handles.Add(action);
         }
 
         public StatusService()
@@ -45,7 +51,7 @@ namespace Services
 
         private void OnStatusNotify(object sender, StatusNotify notify)
         {
-            foreach(NStatus status in notify.Status)
+            foreach (NStatus status in notify.Status)
             {
                 Notify(status);
             }
