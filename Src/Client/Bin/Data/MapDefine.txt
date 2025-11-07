@@ -1,12 +1,12 @@
 {
   "1": {
     "ID": 1,
-    "Name": "布布镇",
+    "Name": "布林镇",
     "Type": "Normal",
     "SubType": "Normal",
     "PKMode": false,
     "Resource": "MainCity",
-    "MiniMap": "buluzhen"
+    "Minimap": "buluzheng"
   },
   "2": {
     "ID": 2,
@@ -15,7 +15,7 @@
     "SubType": "Normal",
     "PKMode": false,
     "Resource": "Map01",
-    "MiniMap": "luorisenl"
+    "Minimap": "luorisenl"
   },
   "3": {
     "ID": 3,
@@ -24,15 +24,15 @@
     "SubType": "Normal",
     "PKMode": false,
     "Resource": "Map02",
-    "MiniMap": "luorisenl"
+    "Minimap": "luorisenl"
   },
   "4": {
     "ID": 4,
-    "Name": "落日余晖",
+    "Name": "落日空间",
     "Type": "Normal",
     "SubType": "Normal",
     "PKMode": false,
     "Resource": "Map03",
-    "MiniMap": "luoriyuhui"
+    "Minimap": "luoriyuhui"
   }
 }

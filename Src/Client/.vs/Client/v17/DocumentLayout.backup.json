@@ -3,80 +3,252 @@
   "WorkspaceRootPath": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\client\\assets\\scripts\\services\\mapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\ui\\guild\\uiguildapplylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\guild\\uiguildapplylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\services\\guildservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\services\\guildservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\managers\\guildmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\guildmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\services\\mapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\services\\mapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\client\\assets\\scripts\\gameobject\\gameobjectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameobject\\gameobjectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\services\\teamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\services\\teamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\client\\assets\\scripts\\managers\\minimapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\minimapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\services\\statusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\services\\statusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\client\\assets\\scripts\\managers\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\client\\assets\\scripts\\gameobject\\mainplayercamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameobject\\mainplayercamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\client\\assets\\scripts\\ui\\guild\\uiguildlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\guild\\uiguildlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\client\\assets\\scripts\\gameobject\\npccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameobject\\npccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\managers\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\client\\assets\\scripts\\gameobject\\spawnpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameobject\\spawnpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\ui\\uiwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uiwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5544F79C-5306-909F-C855-53D6959D5DFD}|Assembly-CSharp-Editor.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\client\\assets\\editor\\maptools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5544F79C-5306-909F-C855-53D6959D5DFD}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\maptools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\client\\assets\\scripts\\ui\\guild\\uiguildinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\guild\\uiguildinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\client\\assets\\scripts\\gameobject\\teleporterobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameobject\\teleporterobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\client\\assets\\scripts\\network\\netclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\network\\netclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\client\\assets\\scripts\\ui\\listview\\listview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\listview\\listview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\ui\\guild\\uiguildpopnoguild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\guild\\uiguildpopnoguild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\client\\assets\\scripts\\ui\\questsystem\\uiquestsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\questsystem\\uiquestsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\ui\\guild\\uiguildpopcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\guild\\uiguildpopcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\client\\assets\\scripts\\ui\\questsystem\\uiquestitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\questsystem\\uiquestitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\ui\\guild\\uiguild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\guild\\uiguild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\client\\assets\\scripts\\ui\\tabview\\tabview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\tabview\\tabview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\ui\\uimain\\uimain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uimain\\uimain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\client\\assets\\scripts\\ui\\tabview\\tabbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\tabview\\tabbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Library\\PackageCache\\com.unity.purchasing@4.11.0\\Editor\\UnityPurchasingEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.purchasing@4.11.0\\Editor\\UnityPurchasingEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\client\\assets\\scripts\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\managers\\npcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\npcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\client\\assets\\scripts\\ui\\questsystem\\uiquestinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\questsystem\\uiquestinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\client\\assets\\scripts\\ui\\uiworldelementmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uiworldelementmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\client\\assets\\scripts\\gameobject\\playerinputcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\gameobject\\playerinputcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameobject\\playerinputcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\client\\assets\\scripts\\ui\\uimain\\uimain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uimain\\uimain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\managers\\teammanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\teammanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\client\\assets\\scripts\\ui\\teamsystem\\uiteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\teamsystem\\uiteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\services\\questservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\services\\questservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\ui\\uimessagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uimessagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\ui\\messagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\messagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|e:\\extremeworld\\mmorpg\\extremeworld_learn\\src\\client\\assets\\scripts\\assets\\resloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\assets\\resloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\scene\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\gameobject\\npccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameobject\\npccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\loadingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\loadingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\services\\friendservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\services\\friendservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\ui\\friends\\uifriends.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\friends\\uifriends.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\managers\\minimapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\minimapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\managers\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\managers\\friendmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\friendmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\ui\\uicharinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uicharinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\ui\\uicharacterview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uicharacterview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\gameobject\\gameobjectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameobject\\gameobjectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\managers\\charactermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\charactermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\managers\\entitymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\entitymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\gameobject\\teleporterobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameobject\\teleporterobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\managers\\questmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\questmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\ui\\uicharacterselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uicharacterselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\gameobject\\mainplayercamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameobject\\mainplayercamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\ui\\guild\\uiguildapplyitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\guild\\uiguildapplyitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\ui\\listview\\listview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\listview\\listview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\ui\\teamsystem\\uiteamitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\teamsystem\\uiteamitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\ui\\spritemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\spritemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\ui\\inputbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\inputbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\ui\\friends\\uifrienditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\friends\\uifrienditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\managers\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\gameobject\\spawnpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameobject\\spawnpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5544F79C-5306-909F-C855-53D6959D5DFD}|Assembly-CSharp-Editor.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\editor\\maptools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5544F79C-5306-909F-C855-53D6959D5DFD}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\maptools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\ui\\questsystem\\uiquestsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\questsystem\\uiquestsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\ui\\questsystem\\uiquestitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\questsystem\\uiquestitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\ui\\tabview\\tabview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\tabview\\tabview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\ui\\tabview\\tabbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\tabview\\tabbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\ui\\questsystem\\uiquestinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\questsystem\\uiquestinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\assets\\scripts\\ui\\uiworldelementmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F44184-A422-5F27-22E6-507969043F15}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uiworldelementmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -85,25 +257,424 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 538,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 391,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "GuildService.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Services\\GuildService.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Services\\GuildService.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Services\\GuildService.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Services\\GuildService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T12:26:43.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GuildManager.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Managers\\GuildManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\GuildManager.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Managers\\GuildManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\GuildManager.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAjwBEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T12:28:32.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MapService.cs",
               "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Services\\MapService.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Services\\MapService.cs",
               "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Services\\MapService.cs",
               "RelativeToolTip": "Assets\\Scripts\\Services\\MapService.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAAwDcAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAiwH4AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-01T14:00:16.888Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "ItemService.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Services\\ItemService.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Services\\ItemService.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Services\\ItemService.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Services\\ItemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T09:42:22.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StatusService.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Services\\StatusService.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Services\\StatusService.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Services\\StatusService.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Services\\StatusService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T09:51:47.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TeamService.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Services\\TeamService.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Services\\TeamService.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Services\\TeamService.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Services\\TeamService.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAQwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:49:45.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UIGuildApplyList.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\Guild\\UIGuildApplyList.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Guild\\UIGuildApplyList.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\Guild\\UIGuildApplyList.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Guild\\UIGuildApplyList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T01:34:39.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Services\\UserService.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Services\\UserService.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Services\\UserService.cs",
+              "ViewState": "AgIAAEgBAAAAAAAAAAAUwFwBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T13:01:48.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UIGuildList.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\Guild\\UIGuildList.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Guild\\UIGuildList.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\Guild\\UIGuildList.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Guild\\UIGuildList.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwEUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T13:48:29.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Managers\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\UIManager.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Managers\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\UIManager.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAuwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T09:47:14.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UIWindow.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\UIWindow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIWindow.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\UIWindow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UIWindow.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowC8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T12:39:38.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UIGuildInfo.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\Guild\\UIGuildInfo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Guild\\UIGuildInfo.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\Guild\\UIGuildInfo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Guild\\UIGuildInfo.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvwwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T13:45:44.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NetClient.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Network\\NetClient.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Network\\NetClient.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Network\\NetClient.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Network\\NetClient.cs",
+              "ViewState": "AgIAAIYBAAAAAAAAAAAqwKMBAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T13:50:35.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UIGuildPopNoGuild.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\Guild\\UIGuildPopNoGuild.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Guild\\UIGuildPopNoGuild.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\Guild\\UIGuildPopNoGuild.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Guild\\UIGuildPopNoGuild.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T01:24:14.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UIMain.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\UIMain\\UIMain.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIMain\\UIMain.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\UIMain\\UIMain.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UIMain\\UIMain.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAgwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T08:54:32.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UIGuildPopCreate.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\Guild\\UIGuildPopCreate.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Guild\\UIGuildPopCreate.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\Guild\\UIGuildPopCreate.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Guild\\UIGuildPopCreate.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwAQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T14:28:27.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UIGuild.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\Guild\\UIGuild.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Guild\\UIGuild.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\Guild\\UIGuild.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Guild\\UIGuild.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T14:24:58.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UnityPurchasingEditor.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Library\\PackageCache\\com.unity.purchasing@4.11.0\\Editor\\UnityPurchasingEditor.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.purchasing@4.11.0\\Editor\\UnityPurchasingEditor.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Library\\PackageCache\\com.unity.purchasing@4.11.0\\Editor\\UnityPurchasingEditor.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.purchasing@4.11.0\\Editor\\UnityPurchasingEditor.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAmwGIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T07:46:23.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NPCManager.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Managers\\NPCManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\NPCManager.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Managers\\NPCManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\NPCManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T14:57:16.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "QuestService.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Services\\QuestService.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Services\\QuestService.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Services\\QuestService.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Services\\QuestService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T14:57:01.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PlayerInputController.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\GameObject\\PlayerInputController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameObject\\PlayerInputController.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\GameObject\\PlayerInputController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameObject\\PlayerInputController.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAADgv4QAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T09:13:44.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TeamManager.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Managers\\TeamManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\TeamManager.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Managers\\TeamManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\TeamManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T11:15:29.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UITeam.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\teamsystem\\UITeam.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\teamsystem\\UITeam.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\teamsystem\\UITeam.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\teamsystem\\UITeam.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAqwCgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:46:14.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MessageBox.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\MessageBox.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MessageBox.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\MessageBox.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\MessageBox.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAIAxwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T09:26:53.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Models\\User.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Models\\User.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Models\\User.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAD4vyMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:48:41.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UIMessageBox.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\UIMessageBox.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIMessageBox.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\UIMessageBox.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UIMessageBox.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAvwDAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T09:27:47.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoadingManager.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\LoadingManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LoadingManager.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\LoadingManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LoadingManager.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:56:43.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "NPCController.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\GameObject\\NPCController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameObject\\NPCController.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\GameObject\\NPCController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameObject\\NPCController.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAgwHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T08:55:18.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Resloader.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Assets\\Resloader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Assets\\Resloader.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Assets\\Resloader.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Assets\\Resloader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T13:07:57.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SceneManager.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Scene\\SceneManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scene\\SceneManager.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Scene\\SceneManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scene\\SceneManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T01:32:41.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FriendService.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Services\\FriendService.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Services\\FriendService.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Services\\FriendService.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Services\\FriendService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwBcAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T12:47:32.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UIFriends.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\Friends\\UIFriends.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Friends\\UIFriends.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\Friends\\UIFriends.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Friends\\UIFriends.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAEkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T12:42:32.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "MiniMapManager.cs",
               "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Managers\\MiniMapManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\MiniMapManager.cs",
@@ -111,64 +682,83 @@
               "RelativeToolTip": "Assets\\Scripts\\Managers\\MiniMapManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T14:00:03.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T14:00:03.185Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ShopManager.cs",
-              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Managers\\ShopManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\ShopManager.cs",
-              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Managers\\ShopManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\ShopManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 33,
+              "Title": "DataManager.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Managers\\DataManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\DataManager.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Managers\\DataManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\DataManager.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCMAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T13:26:18.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T06:50:09.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainPlayerCamera.cs",
-              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\GameObject\\MainPlayerCamera.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameObject\\MainPlayerCamera.cs",
-              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\GameObject\\MainPlayerCamera.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameObject\\MainPlayerCamera.cs",
+              "DocumentIndex": 36,
+              "Title": "UICharacterView.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\UICharacterView.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UICharacterView.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\UICharacterView.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UICharacterView.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T13:26:10.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T09:41:40.849Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 34,
+              "Title": "FriendManager.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Managers\\FriendManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\FriendManager.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Managers\\FriendManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\FriendManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T12:51:57.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UICharInfo.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\UICharInfo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UICharInfo.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\UICharInfo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UICharInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T09:41:41.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
               "Title": "GameObjectManager.cs",
               "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\GameObject\\GameObjectManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameObject\\GameObjectManager.cs",
               "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\GameObject\\GameObjectManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameObject\\GameObjectManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T13:02:27.669Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T13:02:27.669Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SpawnPoint.cs",
-              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\GameObject\\SpawnPoint.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameObject\\SpawnPoint.cs",
-              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\GameObject\\SpawnPoint.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameObject\\SpawnPoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 38,
+              "Title": "CharacterManager.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Managers\\CharacterManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\CharacterManager.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Managers\\CharacterManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\CharacterManager.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAnwEYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T10:24:36.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T14:57:36.573Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 40,
               "Title": "TeleporterObject.cs",
               "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\GameObject\\TeleporterObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameObject\\TeleporterObject.cs",
@@ -176,12 +766,191 @@
               "RelativeToolTip": "Assets\\Scripts\\GameObject\\TeleporterObject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T10:24:18.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T10:24:18.177Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 41,
+              "Title": "Login.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Login.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Login.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Login.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T08:45:13.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "EntityManager.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Managers\\EntityManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\EntityManager.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Managers\\EntityManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\EntityManager.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAjwBYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T07:50:59.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "QuestManager.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Managers\\QuestManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\QuestManager.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Managers\\QuestManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\QuestManager.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAArwFIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T14:57:16.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Character.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Entities\\Character.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Entities\\Character.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Entities\\Character.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Entities\\Character.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAtwCQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T09:26:31.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "UICharacterSelect.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\UICharacterSelect.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UICharacterSelect.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\UICharacterSelect.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UICharacterSelect.cs",
+              "ViewState": "AgIAANIAAAAAAAAAAAAAAOoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T07:53:23.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "MainPlayerCamera.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\GameObject\\MainPlayerCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameObject\\MainPlayerCamera.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\GameObject\\MainPlayerCamera.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameObject\\MainPlayerCamera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T13:26:10.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UIGuildApplyItem.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\Guild\\UIGuildApplyItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Guild\\UIGuildApplyItem.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\Guild\\UIGuildApplyItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Guild\\UIGuildApplyItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T01:34:38.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ListView.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\listview\\ListView.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\listview\\ListView.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\listview\\ListView.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\listview\\ListView.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAADgv14AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T09:21:44.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UITeamItem.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\teamsystem\\UITeamItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\teamsystem\\UITeamItem.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\teamsystem\\UITeamItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\teamsystem\\UITeamItem.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:46:17.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "SpriteManager.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\SpriteManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\SpriteManager.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\SpriteManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\SpriteManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:41:21.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "UIFriendItem.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\Friends\\UIFriendItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Friends\\UIFriendItem.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\Friends\\UIFriendItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Friends\\UIFriendItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T12:41:51.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "InputBox.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\InputBox.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\InputBox.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\InputBox.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\InputBox.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T09:54:25.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Item.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Models\\Item.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Models\\Item.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Models\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T14:57:15.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ShopManager.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Managers\\ShopManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\ShopManager.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Managers\\ShopManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\ShopManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T13:26:18.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "SpawnPoint.cs",
+              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\GameObject\\SpawnPoint.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameObject\\SpawnPoint.cs",
+              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\GameObject\\SpawnPoint.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameObject\\SpawnPoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T10:24:36.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
               "Title": "UIQuestItem.cs",
               "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\questsystem\\UIQuestItem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\questsystem\\UIQuestItem.cs",
@@ -189,51 +958,11 @@
               "RelativeToolTip": "Assets\\Scripts\\UI\\questsystem\\UIQuestItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvxUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T09:33:13.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T09:33:13.968Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Character.cs",
-              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Entities\\Character.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Entities\\Character.cs",
-              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\Entities\\Character.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Entities\\Character.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAtwDQAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T09:26:31.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ListView.cs",
-              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\listview\\ListView.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\listview\\ListView.cs",
-              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\listview\\ListView.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\listview\\ListView.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAqwFUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T09:21:44.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NPCController.cs",
-              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\GameObject\\NPCController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameObject\\NPCController.cs",
-              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\GameObject\\NPCController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameObject\\NPCController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAYwFMAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T08:55:18.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 55,
               "Title": "MapTools.cs",
               "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Editor\\MapTools.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\MapTools.cs",
@@ -241,25 +970,11 @@
               "RelativeToolTip": "Assets\\Editor\\MapTools.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAAwEEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T12:06:22.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T12:06:22.806Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UIMain.cs",
-              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\UIMain\\UIMain.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIMain\\UIMain.cs",
-              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\UIMain\\UIMain.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\UIMain\\UIMain.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAUwDwAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T08:54:32.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 56,
               "Title": "UIQuestSystem.cs",
               "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\questsystem\\UIQuestSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\questsystem\\UIQuestSystem.cs",
@@ -267,12 +982,11 @@
               "RelativeToolTip": "Assets\\Scripts\\UI\\questsystem\\UIQuestSystem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T08:52:40.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T08:52:40.632Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 60,
               "Title": "UIQuestInfo.cs",
               "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\questsystem\\UIQuestInfo.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\questsystem\\UIQuestInfo.cs",
@@ -280,12 +994,11 @@
               "RelativeToolTip": "Assets\\Scripts\\UI\\questsystem\\UIQuestInfo.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAtwBUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T09:07:37.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T09:07:37.276Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 59,
               "Title": "TabButton.cs",
               "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\TabView\\TabButton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\TabView\\TabButton.cs",
@@ -293,12 +1006,11 @@
               "RelativeToolTip": "Assets\\Scripts\\UI\\TabView\\TabButton.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAADwvywAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T08:52:37.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T08:52:37.819Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 58,
               "Title": "TabView.cs",
               "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\TabView\\TabView.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\TabView\\TabView.cs",
@@ -306,12 +1018,11 @@
               "RelativeToolTip": "Assets\\Scripts\\UI\\TabView\\TabView.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAWwCAAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T08:52:10.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T08:52:10.863Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 61,
               "Title": "UIWorldElementManager.cs",
               "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\UI\\UIWorldElementManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIWorldElementManager.cs",
@@ -319,21 +1030,7 @@
               "RelativeToolTip": "Assets\\Scripts\\UI\\UIWorldElementManager.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAjwEwAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T09:02:17.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "PlayerInputController.cs",
-              "DocumentMoniker": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\GameObject\\PlayerInputController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameObject\\PlayerInputController.cs",
-              "ToolTip": "E:\\ExtremeWorld\\mmorpg\\ExtremeWorld_Learn\\Src\\Client\\Assets\\Scripts\\GameObject\\PlayerInputController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameObject\\PlayerInputController.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAtwHYAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T09:13:44.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T09:02:17.403Z"
             }
           ]
         },
@@ -348,7 +1045,7 @@
           ]
         },
         {
-          "DockedWidth": 90,
+          "DockedWidth": 237,
           "SelectedChildIndex": -1,
           "Children": [
             {

@@ -1,0 +1,33 @@
+
+2025-11-05 18:15:17,545 [1] [INFO ] [GameServer] ：Game Server Init
+2025-11-05 18:15:17,599 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-11-05 18:15:17,708 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2025-11-05 18:15:17,709 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2025-11-05 18:15:17,709 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2025-11-05 18:15:17,709 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2025-11-05 18:15:17,710 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-11-05 18:15:17,713 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-11-05 18:15:17,713 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-11-05 18:15:17,713 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-11-05 18:15:17,713 [16] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-11-05 18:15:17,713 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-11-05 18:15:17,713 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-11-05 18:15:17,713 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-11-05 18:15:17,714 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-11-05 18:15:17,817 [1] [WARN ] [GameServer] ：NetService Started
+2025-11-05 18:16:06,988 [1] [INFO ] [GameServer] ：Game Server Init
+2025-11-05 18:16:07,031 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-11-05 18:16:07,135 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2025-11-05 18:16:07,136 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落日森林
+2025-11-05 18:16:07,136 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:落日森林
+2025-11-05 18:16:07,136 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:落日空间
+2025-11-05 18:16:07,136 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-11-05 18:16:07,138 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-11-05 18:16:07,138 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-11-05 18:16:07,138 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-11-05 18:16:07,138 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-11-05 18:16:07,138 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-11-05 18:16:07,139 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-11-05 18:16:07,139 [18] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-11-05 18:16:07,139 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-11-05 18:16:07,253 [1] [WARN ] [GameServer] ：NetService Started

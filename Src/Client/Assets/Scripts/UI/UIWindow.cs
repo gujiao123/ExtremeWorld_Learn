@@ -9,6 +9,8 @@
 using UnityEngine;
 
 //规定一些UI窗口的基本行为
+
+//就是 提取出来 yes no close的 行为
 public abstract class UIWindow : MonoBehaviour
 {
     public enum WindowResult

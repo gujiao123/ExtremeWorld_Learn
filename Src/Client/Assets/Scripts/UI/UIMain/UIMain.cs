@@ -7,6 +7,7 @@ public class UIMain : MonoSingleton<UIMain>
     public Text textName;
     public Text textLevel;
     //虽然是单例 但是内部组件数据没有更新
+    public UITeam TeamWindow;//这个比较特殊
 
     protected override void OnStart()
     {
@@ -14,10 +15,10 @@ public class UIMain : MonoSingleton<UIMain>
     }
     void Init()
     {
-        if (Models.User.Instance.CurrentCharacter != null)
+        if (Models.User.Instance.CurrentCharacterInfo != null)
         {
-            textName.text = Models.User.Instance.CurrentCharacter.Name + " - " + Models.User.Instance.CurrentCharacter.Id;
-            textLevel.text = "Lv." + Models.User.Instance.CurrentCharacter.Level.ToString();
+            textName.text = Models.User.Instance.CurrentCharacterInfo.Name + " - " + Models.User.Instance.CurrentCharacterInfo.Id;
+            textLevel.text = "Lv." + Models.User.Instance.CurrentCharacterInfo.Level.ToString();
         }
     }
     void Update()
@@ -60,4 +61,32 @@ public class UIMain : MonoSingleton<UIMain>
     {
         UIManager.Instance.Show<UIQuestSystem>();
     }
+    public void OnClickFriends()
+    {
+        UIManager.Instance.Show<UIFriends>();
+    }
+    public void ShowTeamUI(bool show)
+    {
+        TeamWindow.ShowTeam(show);
+    }
+
+    public void OnClickGuild()
+    {//工会管理
+        GuildManager.Instance.ShowGuild();
+    }
+
+    public void OnClickRide()
+    {
+        //   UIManager.Instance.Show<UIRide>();
+    }
+
+    //public void OnClickSetting()
+    //{
+    //    UIManager.Instance.Show<UISetting>();
+    //}
+
+    //public void OnClickSkill()
+    //{
+    //    UIManager.Instance.Show<UISkill>();
+    //}
 }

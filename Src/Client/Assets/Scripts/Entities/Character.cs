@@ -34,7 +34,7 @@ namespace Entities
         public bool IsPlayer
         {
             //这个创建角色的ID 与当前User里面存储的当前使用角色ID对比
-            get { return this.Info.Id == Models.User.Instance.CurrentCharacter.Id; }
+            get { return this.Info.Id == Models.User.Instance.CurrentCharacterInfo.Id; }
         }
 
 
@@ -42,7 +42,7 @@ namespace Entities
         {
             this.Info = info;
 
-            this.Define = DataManager.Instance.Characters[info.Tid];
+            this.Define = DataManager.Instance.Characters[info.Id];
 
         }
         /// <summary>

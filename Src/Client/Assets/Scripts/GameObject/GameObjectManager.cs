@@ -12,7 +12,12 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
 
 
     //管理所有游戏对象
-    Dictionary<int, GameObject> Characters = new Dictionary<int, GameObject>();
+
+    /// <summary>
+    /// entityID -> GameObject
+    /// </summary>
+    Dictionary<int, GameObject> gameObjects = new Dictionary<int, GameObject>();
+
     // Use this for initialization
 
     //me 这里采用Onstart 是与MonoSingleton的设计有关
@@ -80,7 +85,7 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
     private void CreateCharacterObject(Character character)
     {
         //1.创建一个角色游戏对象 但没有初始化
-        if (!Characters.ContainsKey(character.entityId) || Characters[character.entityId] == null)
+        if (!gameObjects.ContainsKey(character.entityId) || gameObjects[character.entityId] == null)
         {
             //这个就是游戏资源下的预制体地址
             Object obj = Resloader.Load<Object>(character.Define.Resource);
@@ -92,7 +97,7 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
             //创建的角色挂载在GameObjectManager下面
             GameObject go = (GameObject)Instantiate(obj, this.transform);
             go.name = "Character_" + character.Info.Id + "_" + character.Info.Name;
-            Characters[character.entityId] = go;
+            gameObjects[character.entityId] = go;
             //初始化游戏对象
 
             //角色创建同时创建名字栏
@@ -100,7 +105,7 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
 
         }
         //2.初始化游戏对象
-        this.InitGameObjects(Characters[character.entityId], character);
+        this.InitGameObjects(gameObjects[character.entityId], character);
     }
     void InitGameObjects(GameObject go, Character character)
     {
@@ -124,7 +129,7 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
         if (pc != null)
         {
 
-            if (character.Info.Id == Models.User.Instance.CurrentCharacter.Id)
+            if (character.Info.Id == Models.User.Instance.CurrentCharacterInfo.Id)
             {
                 //设置当前角色对象
                 User.Instance.CurrentCharacterObject = go;
@@ -148,11 +153,11 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
     void OnCharacterLeave(Character character)
     {
         //存在且不为空
-        if (Characters.ContainsKey(character.entityId) && Characters[character.entityId] != null)
+        if (gameObjects.ContainsKey(character.entityId) && gameObjects[character.entityId] != null)
         {
             //这里清空GameObject 不应该有残留啊
-            Destroy(Characters[character.entityId]);
-            Characters.Remove(character.entityId);
+            Destroy(gameObjects[character.entityId]);
+            gameObjects.Remove(character.entityId);
         }
     }
 

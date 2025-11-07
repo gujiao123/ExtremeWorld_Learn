@@ -3,10 +3,18 @@
 class MessageBox
 {
     static Object cacheObject = null;
-
-    public static UIMessageBox Show(string message, string title="", MessageBoxType type = MessageBoxType.Information, string btnOK = "", string btnCancel = "")
+    /// <summary>
+    /// 显示消息对话框
+    /// </summary>
+    /// <param name="message">内容一般为errormessage</param>
+    /// <param name="title">标题</param>
+    /// <param name="type"></param>
+    /// <param name="btnOK"></param>
+    /// <param name="btnCancel"></param>
+    /// <returns></returns>
+    public static UIMessageBox Show(string message, string title = "", MessageBoxType type = MessageBoxType.Information, string btnOK = "", string btnCancel = "")
     {
-        if(cacheObject==null)
+        if (cacheObject == null)
         {
             // 对messagebox进行缓存
             cacheObject = Resloader.Load<Object>("UI/UIMessageBox");

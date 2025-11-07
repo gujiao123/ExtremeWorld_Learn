@@ -12,6 +12,9 @@ namespace Managers
     class CharacterManager : Singleton<CharacterManager>, IDisposable
     {
         //根据角色ID存储map里面的角色
+        /// <summary>
+        /// entityID->Character
+        /// </summary>
         public Dictionary<int, Character> characters = new Dictionary<int, Character>();
 
         public UnityAction<Character> OnCharacterEnter;
@@ -56,7 +59,7 @@ namespace Managers
             //但你没有去重
             Debug.LogFormat("AddCharacter:{0}:{1} Map:{2} Entity:{3}", cha.Id, cha.Name, cha.mapId, cha.Entity.String());
             Character character = new Character(cha);
-            this.characters[cha.Id] = character;
+            this.characters[cha.EntityId] = character;
             EntityManager.Instance.AddEntity(character);
 
             //哎呀这个事件虽然是在进入场景后触发,但是之前存起来的角色由专门的触发
@@ -67,19 +70,22 @@ namespace Managers
                 this.OnCharacterEnter(character);
             }
         }
-
-        public void RemoveCharacter(int characterId)
+        /// <summary>
+        /// 先删除gameobject 再删除character
+        /// </summary>
+        /// <param name="entityId"></param>
+        public void RemoveCharacter(int entityId)
         {
-            Debug.LogFormat("RemoveCharacter:{0}", characterId);
-            if (this.characters.ContainsKey(characterId))
+            Debug.LogFormat("RemoveCharacter:{0}", entityId);
+            if (this.characters.ContainsKey(entityId))
             {
-                EntityManager.Instance.RemoveEntity(this.characters[characterId].Info.Entity.Id);
+                EntityManager.Instance.RemoveEntity(this.characters[entityId].Info.Entity.Id);
                 if (this.OnCharacterLeave != null)
                 {
-                    this.OnCharacterLeave(this.characters[characterId]);
+                    this.OnCharacterLeave(this.characters[entityId]);
                 }
             }
-            this.characters.Remove(characterId);
+            this.characters.Remove(entityId);
         }
     }
 }

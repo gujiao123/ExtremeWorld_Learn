@@ -40,6 +40,10 @@ public class LoadingManager : MonoBehaviour
         StatusService.Instance.Init();
         ShopManager.Instance.Init();
         QuestService.Instance.Init();
+        TeamService.Instance.Init();
+        GuildService.Instance.Init();
+        FriendService.Instance.Init();
+
         //me 用于测试 Init Test Manager
         //TestManager.Instance.Init();
 

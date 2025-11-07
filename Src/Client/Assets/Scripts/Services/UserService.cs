@@ -331,11 +331,13 @@ namespace Services
                 //这个只需要知道是否成功就行,对应的运行全部交给mapservice去处理
                 if (response.Character != null)
                 {
-                    User.Instance.CurrentCharacter = response.Character;
+                    User.Instance.CurrentCharacterInfo = response.Character;//角色进游戏都改了
                     ItemManager.Instance.Init(response.Character.Items);
                     BagManager.Instance.Init(response.Character.Bag);
                     EquipManager.Instance.Init(response.Character.Equips);
                     QuestManager.Instance.Init(response.Character.Quests);
+                    FriendManager.Instance.Init(response.Character.Friends);
+                    GuildManager.Instance.Init(response.Character.Guild);
                 }
             }
         }
@@ -365,7 +367,7 @@ namespace Services
             //当前角色设为空
             //选择角色的时候不会给你entityId 进入游戏才会给你id
             //所以在进入游戏前的Id很随便
-            User.Instance.CurrentCharacter = null;
+            User.Instance.CurrentCharacterInfo = null;
         }
 
 

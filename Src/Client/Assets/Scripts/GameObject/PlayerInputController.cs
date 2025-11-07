@@ -2,7 +2,7 @@
 using Services;
 using SkillBridge.Message;
 using UnityEngine;
-
+//只用于玩家输入控制 其他人都用entitycontroller 啊啊
 public class PlayerInputController : MonoBehaviour
 {
 
@@ -24,6 +24,7 @@ public class PlayerInputController : MonoBehaviour
     void Start()
     {
         state = SkillBridge.Message.CharacterState.Idle;
+        //这里完全没有用啊 因为character是外部赋值的
         if (this.character == null)
         {
             //这里的load有用吗 应该是没有用的
@@ -31,7 +32,7 @@ public class PlayerInputController : MonoBehaviour
             NCharacterInfo cinfo = new NCharacterInfo();
             cinfo.Id = 1;
             cinfo.Name = "Test";
-            cinfo.Tid = 1;
+            cinfo.ConfigId = 1;//这个ID没有用 隔壁服务器没有用数据库Id的
             cinfo.Entity = new NEntity();
             cinfo.Entity.Position = new NVector3();
             cinfo.Entity.Direction = new NVector3();

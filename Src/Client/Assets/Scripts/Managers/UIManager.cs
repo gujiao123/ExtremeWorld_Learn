@@ -14,22 +14,29 @@ public class UIManager : Singleton<UIManager>
 {
     class UIElement
     {
-        public string ResourcePath;//资源路径
+        public string Resources;//资源路径
         public GameObject instance;//实例化对象
-        public bool cached;//是否缓存
+        public bool Cache;//是否缓存
     }
 
-    Dictionary<Type, UIElement> UIelements = new Dictionary<Type, UIElement>();
+    Dictionary<Type, UIElement> UIResources = new Dictionary<Type, UIElement>();
 
     public UIManager()
     {
         //UIelements.Add(typeof(UITest), new UIElement() { ResourcePath = "UI/UITest", cached = true });
         //this.UIResources.Add(typeof(UITest), new UIElement() { Resources = "UI/UITest", Cache = true});
-        this.UIelements.Add(typeof(UIBag), new UIElement() { ResourcePath = "UI/UIBag", cached = false });
-        this.UIelements.Add(typeof(UIShop), new UIElement() { ResourcePath = "UI/UIShop", cached = false });
-        this.UIelements.Add(typeof(UICharEquip), new UIElement() { ResourcePath = "UI/UICharEquip", cached = false });
-        this.UIelements.Add(typeof(UIQuestSystem), new UIElement() { ResourcePath = "UI/UIQuestSystem", cached = false });
-        this.UIelements.Add(typeof(UIQuestDialog), new UIElement() { ResourcePath = "UI/UIQuestDialog", cached = false });
+        this.UIResources.Add(typeof(UIBag), new UIElement() { Resources = "UI/UIBag", Cache = false });
+        this.UIResources.Add(typeof(UIShop), new UIElement() { Resources = "UI/UIShop", Cache = false });
+        this.UIResources.Add(typeof(UICharEquip), new UIElement() { Resources = "UI/UICharEquip", Cache = false });
+        this.UIResources.Add(typeof(UIQuestSystem), new UIElement() { Resources = "UI/UIQuestSystem", Cache = false });
+        this.UIResources.Add(typeof(UIQuestDialog), new UIElement() { Resources = "UI/UIQuestDialog", Cache = false });
+        this.UIResources.Add(typeof(UIFriends), new UIElement() { Resources = "UI/UIFriends", Cache = false });
+        this.UIResources.Add(typeof(UIGuild), new UIElement() { Resources = "UI/Guild/UIGuild", Cache = false });
+        this.UIResources.Add(typeof(UIGuildList), new UIElement() { Resources = "UI/Guild/UIGuildList", Cache = false });
+        this.UIResources.Add(typeof(UIGuildPopNoGuild), new UIElement() { Resources = "UI/Guild/UIGuildPopNoGuild", Cache = false });
+        this.UIResources.Add(typeof(UIGuildPopCreate), new UIElement() { Resources = "UI/Guild/UIGuildPopCreate", Cache = false });
+        this.UIResources.Add(typeof(UIGuildApplyList), new UIElement() { Resources = "UI/Guild/UIGuildApplyList", Cache = false });
+
 
 
     }
@@ -41,17 +48,17 @@ public class UIManager : Singleton<UIManager>
     public T Show<T>()
     {
         Type type = typeof(T);
-        if (UIelements.ContainsKey(type))
+        if (UIResources.ContainsKey(type))
         {
-            UIElement element = UIelements[type];
+            UIElement element = UIResources[type];
             if (element.instance == null)
             {
                 // 预加载资源
-                UnityEngine.Object prefab = Resources.Load(element.ResourcePath);
+                UnityEngine.Object prefab = Resources.Load(element.Resources);
                 //实例化
                 GameObject go = GameObject.Instantiate(prefab) as GameObject;
                 element.instance = go;
-                Debug.LogFormat("创建UI实例: {0}", element.ResourcePath);
+                Debug.LogFormat("创建UI实例: {0}", element.Resources);
             }
             element.instance.SetActive(true);
             return element.instance.GetComponent<T>();
@@ -61,12 +68,12 @@ public class UIManager : Singleton<UIManager>
 
     public void Close(Type type)
     {
-        if (UIelements.ContainsKey(type))
+        if (UIResources.ContainsKey(type))
         {
-            UIElement element = UIelements[type];
+            UIElement element = UIResources[type];
             if (element.instance != null)
             {
-                if (element.cached)
+                if (element.Cache)
                 {
                     element.instance.SetActive(false);
                 }

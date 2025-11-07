@@ -19,6 +19,9 @@ namespace Services
 
     class EntityManager : Singleton<EntityManager>, IDisposable
     {
+        /// <summary>
+        /// entityID
+        /// </summary>
         Dictionary<int, Entity> entities = new Dictionary<int, Entity>();
         Dictionary<int, IEntityNotify> notifies = new Dictionary<int, IEntityNotify>();
 

@@ -50,7 +50,7 @@ public class UIBag : MonoBehaviour
 
     public void SetTitle(string title)
     {
-        this.money.text = User.Instance.CurrentCharacter.Id.ToString();
+        this.money.text = User.Instance.CurrentCharacterInfo.Id.ToString();
     }
 
 

@@ -61,9 +61,9 @@ namespace Services
                 //要么退出进入游戏或者第一次进入游戏设置当前角色 ,
                 //?cha.Id == User.Instance.CurrentCharacter.Id 这个逻辑是什么
                 //@难道是别人进入时候进一步确认自己是自己吗
-                if (User.Instance.CurrentCharacter == null || cha.Id == User.Instance.CurrentCharacter.Id)
+                if (User.Instance.CurrentCharacterInfo == null || cha.Id == User.Instance.CurrentCharacterInfo.Id)
                 {
-                    User.Instance.CurrentCharacter = cha;
+                    User.Instance.CurrentCharacterInfo = cha;
                 }
                 //切换地图逻辑
                 //当前地图 与服务器返回的地图ID不一致
@@ -113,9 +113,9 @@ namespace Services
 
             //如果是当前角色离开地图 说明是切换地图了
             //清除当前角色的游戏对象
-            Debug.LogFormat("OnMapCharacterLeave: CharacterId:{0}", response.characterId);
-            Debug.LogFormat("CurrentCharacter Id:{0}", User.Instance.CurrentCharacter != null ? User.Instance.CurrentCharacter.Id.ToString() : "null");
-            if (response.characterId == User.Instance.CurrentCharacter.Id)
+            Debug.LogFormat("OnMapCharacterLeave: entityId:{0}", response.entityId);
+            Debug.LogFormat("CurrentCharacter Id:{0}", User.Instance.CurrentCharacterInfo != null ? User.Instance.CurrentCharacterInfo.Id.ToString() : "null");
+            if (response.entityId == User.Instance.CurrentCharacterInfo.EntityId)
             {
                 //是自己的话就直接毁掉所有
                 //!!注意这个不会删除GameObjectManager里面的角色游戏对象 啊啊啊
@@ -124,7 +124,7 @@ namespace Services
             else
             {
                 //其他角色离开地图 直接从角色管理器删除
-                CharacterManager.Instance.RemoveCharacter(response.characterId);
+                CharacterManager.Instance.RemoveCharacter(response.entityId);
             }
 
 
